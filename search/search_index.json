@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"],"fields":{"title":{"boost":1000.0},"text":{"boost":1.0},"tags":{"boost":1000000.0}}},"docs":[{"location":"","title":"Test","text":"<p>This is a test</p>"},{"location":"gameplay/crafting/","title":"Crafting","text":"<p>Crafting goes here i guess :/</p>"}]}
