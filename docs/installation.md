@@ -34,4 +34,4 @@ On Linux you may need to make `Cubyz` executable:
 chmod +x Cubyz # Linux only!
 ```
 
-If Cubyz crashes or doesn't run, you can ask the community for help by joining the [Cubyz Discord Server](/links/discord).
+If Cubyz crashes or doesn't run, you can ask the community for help by joining the [Cubyz Discord Server](/links/discord) or creating an issue on the [Cubyz issue board](https://github.com/pixelguys/cubyz/issues).

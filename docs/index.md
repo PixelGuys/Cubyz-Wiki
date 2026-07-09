@@ -39,7 +39,7 @@ tags:
 
 </div>
 
-![Astr0_Steve's World Screenshot](/images/screenshot1.png)
+![Astr0_Steve's World Screenshot](/images/screenshots/screenshot1.png)
 
 <style>
     p:has(.download-button) {
