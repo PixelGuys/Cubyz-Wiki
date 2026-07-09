@@ -1,0 +1,104 @@
+0.2.0 was a minor update that introduced the authentication system, added sky islands, and improved cave generation. It also had several bug fixes implemented and minor quality of life updates. 
+
+{{Release_Infobox
+|image=0.2.0.png
+|release_date=April 3rd, 2026
+|previous=[[0.1.1]]
+|next=[[0.3.0]]
+|github_page=https://github.com/PixelGuys/Cubyz/releases/tag/0.2.0
+}}
+
+== Official Changelog ==
+
+=== Gameplay ===
+* Torches and various plants break if their support block is broken
+* Authentication (decentralized)
+* New ore progression: silver now spawns less deep, iron spawns deeper, gold spawns much deeper
+* Branches and amber were rebalanced as tool materials
+* Block break speed no longer depends on the previously broken block
+
+=== Terrain ===
+
+* SDF-based terrain generation
+* Biome independent structure tables (includes some lore structures)
+* World presets (flat and structure world), support for custom presets through addons
+* Stalagmite structures can be configured with more parameters
+* Flower patches now accept multiple blocks
+* Plateau section on tall mountains were improved
+
+====New Biomes====
+
+* Huge hills
+* Plateau subbiomes
+* Phantasmal biomes
+* Lush forest
+* Sky islands
+* Starlit caves
+
+=== Blocks and Items ===
+
+* Jade ore (mountains and sky)
+* Metal bars (craftable)
+* Glimmer worms (glimmergill caves)
+* Dew grass (lush forest)
+
+=== UI/UX Improvements ===
+
+* Improved hide GUI button behavior
+* Inventory items no longer have shadows
+* Window hover and press resolution was improved, you can now throw items through the crosshair window
+* Numpad keys have better names in the keybinds menu
+* Ctrl+Backspace and Ctrl+Delete now delete an entire word
+* Better values for the FPS limits
+* Default render distance is now 12
+* Version is now visible in the window title
+* Many inventory UX improvements and bugfixes
+* Added an option to see the user index for addressing users in commands
+
+=== Commands ===
+
+* <code>/clear chat</code> command
+* <code>/spawn</code> command to get/set your spawn point
+* <code>/tp</code> now allows relative coordinates with ~
+* <code>/tp @<playerId></code> to teleport to player
+* <code>/kick @<playerId></code> to kick a player
+* <code>/perm</code> to configure player permissions
+* <code>/particles</code> command improvements
+
+=== Engine ===
+
+* Particle improvements
+* Start of a permission system
+* Addon files must now follow a stricter naming convention to avoid compatibility issues and user interface problems
+* Several block and item ids were renamed
+* More errors when you make a mistake in your addon
+* First steps towards an ECS
+
+=== Performance Improvements ===
+
+* Improved mesh update speeds on block update
+* Crafting no longer needs a server round trip, displaying recipes instantly
+* Server-side work scheduling no longer runs generation tasks if the network queue of the player is full, reducing latency
+* LOD regeneration is faster (happens when you enter a world from an old version)
+
+=== Bug Fixes ===
+
+* Root biome chances were wrong, making voidstone more hard to find
+* Ore spawn locations no longer depend on the ore properties, ores with the same properties now spawn in separate locations
+* Precision of biome display (and fog) was improved for cave biomes
+* Bold text problems were fixed
+* Large asset folders (above 64 KiB) now transfer correctly again
+* You no longer crouch when you press shift while the chat is open
+* Items no longer glitch into walls or the ceiling
+* A certain movement issue with diagonal controller input was fixed
+* Some fixes for amber with its light modifier
+* Fixed bugs with non-square textures
+* Tool material colors now allow any number of colors 
+* Fixed several crash causing bugs
+* Fixed ice lakes in LOD
+* Fallen trees no longer float on caves
+* Mouse movement is now less jagged
+* A bug affecting ores in blueprints was fixed
+
+[[Category:Release Versions]]
+[[Category:Minor Versions]]

@@ -1,0 +1,120 @@
+0.1.0 was a minor update that added a variety of content as well as some gameplay changes.
+
+{{Release_Infobox
+|image=0.1.0.png
+|release_date=December 31st, 2025
+|previous=[[0.0.1]]
+|next=[[0.1.1]]
+|github_page=https://github.com/PixelGuys/Cubyz/releases/tag/0.1.0
+}}
+
+== Official Changelog ==
+===Gameplay Features===
+* leaf and branch decay
+* chisel is now craftable as a normal tool
+* touch damage and improvements to random ticks
+* more blocks can be chiseled
+* tools now behave more natural when adding materials
+
+===Terrain Features===
+
+====New Biomes====
+
+* snowy tundra
+* winter wonderland
+* hoodoos
+* oasis
+* bluebell woods
+* basalt caves
+* cold beaches
+* palm beaches
+* curl forest
+* tuften fields
+* small mushroom caves
+* hill biomes
+* bog biome
+
+====Overhauled Biomes====
+
+* prairie
+* grasslands
+* beaches
+* savannah
+* desert
+
+===Blocks and Items===
+
+====New Blocks====
+
+* chain
+* marigold
+* bluebells
+* palm tree blocks
+* lanterns
+* candy cane
+
+====Improved Textures====
+
+* ice and frost
+* oak log
+* grass and dirt
+* slate blocks
+* baobab leaves
+* gravel
+* glass
+* gold ore
+* fern
+
+===UI/UX Improvements===
+
+* distance-based name rendering
+* streamer mode to hide IP
+* the seed can be changed when creating a world
+* Q to drop items
+* block contrast can be configured
+* toggle sprint option
+* you can break blocks with the wrong tool
+* improved lava and water physics
+* brighter nights and night brightness slider
+
+===Engine Features===
+
+* headless server support through the launch config
+* more and better errors when making config errors in addons
+* particles (currently only spawnable with a command)
+* easier recipe creation for similarly structured recipes
+* combined the world config, gamerules and generatorSettings files
+
+===Bug Fixes===
+
+* many crashes were fixed, including many ways to crash the server
+
+====Terrain====
+
+* the seed for the biome noise map was the same for all worlds
+* LOD chunk generation is more accurate
+
+====Graphics====
+
+* fog was fixed behind transparent faces
+* sign rendering no longer causes rendering bugs at lower resolution scale
+
+====UI/UX====
+
+* inventory scrolling was broken on some hardware
+* HP display is rounded better
+* chat rendering is more efficient
+* controller issues related to deadzone are fixed, if you played in version 0.0.0 you may need to manually adjust the deadzone setting
+
+====Engine====
+
+* blueprint configuration errors no longer crash the game
+* some physics fixes
+* memory usage was reduced (now at < 7 GB for headless)
+* the zon parser now supports comments
+* prevented file corruption on crashes
+* network timeout now works correctly for half-open connections
+* players no longer teleport to 0,0,0 shortly after joining
+
+[[Category:Release Versions]]
+[[Category:Minor Versions]]

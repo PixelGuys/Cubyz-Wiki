@@ -1,0 +1,94 @@
+0.3.0 was a minor update that added the Mantle cave layer, the bag, and many new decorative blocks.
+
+{{Release_Infobox
+|image=0.3.0.webp
+|release_date=July 4th, 2026
+|previous=[[0.2.0]]
+|github_page=https://github.com/PixelGuys/Cubyz/releases/tag/0.3.0}}
+
+== Official Changelog ==
+
+=== Gameplay ===
+* The Bag (throw all your trash loot in there and unpack it at your base)
+* item drops have the same physics as the player (including bouncyness, surface friction and buoyancy)
+* block selection and drops depends on tool type, you can only select and collect foliage with a sickle
+* grass blocks are now craftable through grass seeds
+* vine decay
+* block selection is now based on the model, allowing you to select through holes in chiseled blocks
+* tool stats are now rounded to their visual values in the background
+* foliage is replaceable
+* craftable swords (they are totally useless)
+
+=== Terrain ===
+* cave layers (addons can define their own layer without getting layers with mixed biomes from other addons)
+* cave density can be configured per layer
+* improved SDF system (rotation and cluster SDFs)
+* parentEdgeDistance for subbiomes, makes islands more consistent
+* biomes are now placed on a hexagonal grid, reducing the impact of grid artifacts
+* surface caves are more connected, and it should be easier to find a cave that is worth exploring
+* Borders between new and old surface terrain after version updates look more natural
+* fixed subbiomes spawning outside their parent biome
+
+====New Biomes====
+
+* crying caves
+* palm forest
+* highlands biome (with stone circles)
+* slate cave variants with different SDFs
+* more island types (and they contain amber)
+* archipelagos
+* the mantle layer
+
+====Updated Biomes====
+* sky islands (unique tress, caves)
+* jungle (new trees, subbiomes)
+* tall mountains
+* mixed forest clearing
+* glass forest
+
+=== Blocks and Items ===
+
+* stone pillars (craftable)
+* rough/smooth stone variants (craftable)
+* cirrus wood blocks (sky islands)
+* lumiflora (sky islands)
+* lumi torches (craftable)
+* pyrolite stone blocks (the mantle)
+* ash block (volcanos, the mantle)
+* voidstone blocks were overhauled (the root)
+* many item and block ids changed
+
+=== UI/UX ===
+
+* new menu music
+* new songs for existing biomes, Kevin MacLeod's music was removed
+* An account is no longer needed for singleplayer
+* account creation and login was improved
+* Player list with kick option (if you have the permission for it)
+* The terminal now displays colors in chat using ANSI color codes (if available)
+* improved text navigation with Ctrl
+
+=== Commands ===
+* <code>/toggledecay</code> to make branches/leaves decayable
+* <code>/avatar</code> to set your player model (due to limitations in the permission system this only works in worlds with cheats enabled for now)
+* <code>/spawn</code> world to display the world spawn
+* <code>/seed</code> to get the world seed
+* <code>/server</code> to stop or restart the server
+* <code>/blueprint</code> list now lists all items including subfolders
+* Bobik can't help you
+
+=== Engine ===
+
+* progress on the ECS (Entity Component System)
+* gltf support for entity models
+* aarch 64 windows support is back (it is not actively tested for though)
+* linux versions with older glibc are supported by the release binary
+* progress on the Vulkan rewrite
+* fixed client lag spikes on bulk block updates
+* block entities now use mod:name ids
+* item migrations were fixed, iron ingots from before version 0.2.0 can be stacked with the migrated chisel iron
+* fixed random teleportation issue in the physics code
+
+
+[[Category:Release Versions]]
+[[Category:Minor Versions]]

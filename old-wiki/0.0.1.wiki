@@ -1,0 +1,25 @@
+0.0.1 was a patch version released to fix a variety of bugs from [[0.0.0]].
+
+{{Release_Infobox
+|release_date=November 8th, 2025
+|next=[[0.1.0]]
+|previous=[[0.0.0]]
+|github_page=https://github.com/PixelGuys/Cubyz/releases/tag/0.0.1
+}}
+
+== Official Changelog ==
+
+
+* no more crashes on incorrect structure configuration when making structures for addons
+* less memory usage for long-running servers
+* some small graphical fixes
+* the server is more resilient to crashes, including attempts to crash it through invalid network packets
+* some inventory improvements (better shift clicking, improved tooltips, you can no longer obtain 65k of something, and more)
+* some fixes to settings not being saved (FOV no longer resets on join, window configurations are now loaded properly)
+* the default name color is now set the same way in chat and in game
+* you can now place blocks below you if you are on the edge of a block
+* better compatibility with Zig tooling
+* the open folder button should now work on more Linux distros
+
+[[Category:Release Versions]]
+[[Category:Patch Versions]]

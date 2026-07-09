@@ -1,0 +1,84 @@
+0.0.0 was the first release version of the game.
+
+{{Release_Infobox
+|image=0.0.0.png
+|release_date=October 5th, 2025
+|next=[[0.0.1]]
+|github_page=https://github.com/PixelGuys/Cubyz/releases/tag/0.0.0
+}}
+
+== Official Changelog ==
+
+=== Common Features ===
+
+* many block states (logs, branches, fences, chiseled stairs, torches, carpets, ores, piles)
+* multiplayer
+** hole punching or port forwarding
+* player model (snale)
+
+=== Survival Features ===
+
+* block placing and breaking (with item drops)
+* health and fall damage
+* procedural tool crafting (with material modifiers)
+* movement, collision, fall damage, friction, buoyancy, swimming, bouncing
+* chests
+* signs
+* ore progression with 8 unique ores
+
+=== Creative Features ===
+
+* creative inventory (with search bar)
+* fly/ghost/hyperspeed
+* world edit (copy, paste, replace, save/load and more)
+
+=== Terrain Features ===
+
+* unique music per biome
+* cave biomes
+* 2 cave types
+* subbiomes
+* transition biomes
+* many biomes
+* weird (rare) biomes
+* striped terrain
+* random structures
+** trees
+** stalagmites
+** flower patches
+** ground
+** custom randomized structures (using structure building blocks)
+
+=== Graphics Features ===
+
+* bloom
+* text coloring
+* mipmapping/anisotropic filtering
+* movable UI windows
+* fake reflection, transparency, absorptive transparency, fog
+* emissive block textures
+* animated block textures
+* floodfill lighting
+* amazing textures
+* stars
+
+=== Engine Features ===
+
+* no height limit (3D chunks)
+* insane render distance with LODs
+* addons:
+** blocks
+** items
+** biomes
+** structures
+** textures (with hot reloading)
+** models
+** music
+* per-world addons
+* debug menus F3-F7
+* Commands
+** see /help
+* backwards compatibility for worlds
+* Controller support
+
+[[Category:Release Versions]]

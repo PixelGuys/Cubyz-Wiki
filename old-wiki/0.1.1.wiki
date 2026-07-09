@@ -1,0 +1,16 @@
+0.1.1 was a patch version released to fix a bug that prevented players from creating survival mode worlds.
+
+{{Release_Infobox
+|release_date=January 1st, 2026
+|previous=[[0.1.0]]
+|next=[[0.2.0]]
+|github_page=https://github.com/PixelGuys/Cubyz/releases/tag/0.1.1
+}}
+
+== Official Changelog ==
+
+* Fixed world creation bug that wrote the incorrect values for allowing cheats and the default gamemode
+When updating from a world created in version 0.1.0, you may also need to manually go through the players folder and change .gamemode = .creative, to .gamemode = .survival, in every player file to set the correct gamemode for everyone who joined while the world was in the incorrect state.
+
+[[Category:Release Versions]]
+[[Category:Patch Versions]]
