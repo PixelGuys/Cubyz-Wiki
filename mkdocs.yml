@@ -12,7 +12,6 @@ theme:
     - navigation.path
     - toc.integrate
     - navigation.tracking
-    - navigation.prune
     - navigation.indexes
     - content.action.edit
 
