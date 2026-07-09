@@ -1,7 +1,7 @@
 site_name: Cubyz Wiki
 use_directory_urls: false
-repo_url: https://github.com/iNiKKo/Cubyz-Wiki
-repo_name: iNiKKo/Cubyz-Wiki
+repo_url: https://github.com/PixelGuys/Cubyz-Wiki
+repo_name: PixelGuys/Cubyz-Wiki
 edit_uri: edit/main/docs/
 
 theme:
