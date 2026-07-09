@@ -50,6 +50,8 @@ If you need to change the server port from its default (47649):
 To allow external players to connect to your Cubyz server, you need to port forward. This requires logging into your home router's admin panel using your router's local IP address and login details.
 
 #### 1. Find Your Router's IP Address (Default Gateway)
+Open your system's command line or terminal and run the appropriate command for your operating system:
+
 === "Windows"
 
     Open **Command Prompt** or **PowerShell** and run:
