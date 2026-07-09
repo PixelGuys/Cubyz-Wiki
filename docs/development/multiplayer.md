@@ -12,7 +12,7 @@ The game requires a GPU with [OpenGL 4.6](https://www.khronos.org/conformance/ad
 
 Start by downloading the version of Cubyz you want to host [here](https://github.com/PixelGuys/Cubyz/releases). After downloading, extract the files to your preferred directory.
 
-### Method 1: Normal Setup (In-Game Hosting)
+### Method 1: In-Game Hosting
 
 This method is used if you are planning to also play on the same system:
 
