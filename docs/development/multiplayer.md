@@ -133,9 +133,9 @@ You can download add-ons directly from the official Discord server in the [#addo
 
 ---
 
-## Discord Bot (Mercur Relay)
+### Discord Bot ([Mercur](https://github.com/AMerkuri))
 Mercur provides bi-directional chat communication between your Discord server and your Cubyz server, and transmits server status data to the Cubyz Server List.
-## Installation
+### Installation
 
 Install the required dependencies.
 ### Debian / Ubuntu
@@ -148,7 +148,7 @@ sudo apt install nodejs npm
 ```bash
 sudo pacman -S nodejs npm
 ```
-## Setup
+### Setup
 1. Create a folder for the bot (for example, `Mercur_Bot`).
 2. Open a terminal inside that folder.
 3. Run:
@@ -156,9 +156,9 @@ sudo pacman -S nodejs npm
 npx cubyz-discord-relay@latest
 ```
 If no `config.json` file is found, the bot will automatically generate one and then exit.
-## Configuration
+### Configuration
 1. Open the generated `config.json` file.
-2. Update all required fields. See the **Cubyz Server List** section for information about the server list configuration.
+2. Update all required fields. See the [Cubyz Server List](#cubyz-server-list-inikko) section for information about the server list configuration.
 3. After saving your changes, run the bot again:
 ```bash
 npx cubyz-discord-relay@latest
@@ -167,7 +167,7 @@ npx cubyz-discord-relay@latest
 ```bash
 npx cubyz-discord-relay@2.4.3
 ```
-## Updating
+### Updating
 
 To update the bot, simply run:
 
@@ -191,9 +191,9 @@ Your bot is now updated and ready to use.
 ---
 
 
-## Cubyz Server List (iNiKKo)
+### Cubyz Server List ([iNiKKo](https://github.com/iNiKKo))
 
-Mercur can automatically submit your server information to the Cubyz Server List.
+Mercur can automatically submit your server information to the [Cubyz Server List](https://servers.ashframe.net/).
 
 ### Configuration
 
@@ -203,7 +203,7 @@ Enable or disable server list integration:
 enabled: true
 ```
 
-- `true` – Broadcast your server information to the Cubyz Server List.
+- `true` – Broadcast your server information to the [Cubyz Server List](https://servers.ashframe.net/).
 - `false` – Disable server list integration.
 
 Configure the remaining fields in your `config.json`:
@@ -221,6 +221,6 @@ customClientDownloadUrl: "CUSTOM_CLIENT_DOWNLOAD_LINK"
 
 ### Server Icon
 
-Upload your server icon to an image hosting service such as **ImgBB**, then copy the **direct image URL** into the `iconUrl` field.
+Upload your server icon to an image hosting service such as [ImgBB](https://imgbb.com/), then copy the **direct image URL** into the `iconUrl` field.
 
 > **Note:** `discordServer` and `customClientDownloadUrl` are currently not displayed on the Cubyz Server List website, but they are reserved for future use.
