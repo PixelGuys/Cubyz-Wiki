@@ -7,7 +7,7 @@ There have been a lot of questions recently about how things work in the game. H
 
 # Gameplay Questions 
 ## How do I play the game?
-Go to [Cubyz Releases](https://github.com/PixelGuys/Cubyz/releases/latest) here and download the release build for your operating system. [Installation Guide](../installation.html)
+Go to [Cubyz Releases](https://github.com/PixelGuys/Cubyz/releases/latest) here and download the release build for your operating system. [Installation Guide](/installation.html)
 
 ## Game doesn't start, what do I do?
 Join Cubyz Discord server and look through questions in the [Help Section](https://discord.com/channels/443805812390100992/1183393935331176458).
@@ -29,10 +29,10 @@ Try turning your "LOD Distance" down. You will only see a difference in details 
 # Development Questions 
 
 ## How do I install an addon? 
-Take a look at the [Addon Installation Guide](../addon_installation.html).
+Take a look at the [Addon Installation Guide](/addon_installation.html).
 
 ## How do I make an addon? 
-Take a look at the [Addon Creation Guide](../addon_creation.html).
+Take a look at the [Addon Creation Guide](/addon_creation.html).
 
 ## Can X feature be added to the game? 
 Wow! X feature sounds really cool! See if it follows the [Game Design and Principles](https://github.com/PixelGuys/Cubyz/blob/0.0.0/docs/GAME_DESIGN_PRINCIPLES.md) and try implementing it!
