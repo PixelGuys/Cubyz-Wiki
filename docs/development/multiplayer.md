@@ -19,7 +19,10 @@ While hosting a server in this way you can play the game in the same window with
 
 > **NOTE:** To allow external players to connect, you must port forward the displayed port. See the [Networking Section](#networking) for details.
 
-> **NOTE:** To run the game your computer must meet requirements which you can view [here](../installation.html)
+!!! note
+
+    To run the game your computer must meet [minimal requirements](../installation.html)
+
 
 ### Method 2: Headless Setup (Dedicated Server)
 
