@@ -14,7 +14,8 @@ Start by downloading the version of Cubyz you want to host [here](https://github
 
 ### Method 1: In-Game Hosting
 
-This method is used if you are planning to also play on the same system:
+This method allows you to start hosting really quickly, but requires that you keep your game running. The moment you leave the world, or close the game, all other players will be disconnected. 
+While hosting a server in this way you can play the game in the same window with no issues.
 
 1. Run the game, click the **Multiplayer** button, and select **Host World**.
 2. Here Create & Configure your world settings (game mode, world seed, etc.) and launch the world.
