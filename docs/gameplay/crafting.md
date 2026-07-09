@@ -1,4 +1,5 @@
 ---
+icon: material/hammer-screwdriver
 tags:
   - crafting
 ---
