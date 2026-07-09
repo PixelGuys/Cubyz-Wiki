@@ -17,7 +17,10 @@ While hosting a server in this way you can play the game in the same window with
 4. Then click on **Invite** to let players outside your local network connect.
 5. Note your public IP address and port displayed on this screen; external players will need this to join.
 
-> **NOTE:** To allow external players to connect, you must port forward the displayed port. See the [Networking Section](#networking) for details.
+!!! note
+
+
+    To allow external players to connect, you must port forward the displayed port. See the [Networking Section](#networking) for details.
 
 !!! note
 
@@ -32,7 +35,9 @@ Headless servers are preferred when you want to host a server as a background ta
 2. Set `.headlessServer =` to `true`.
 3. Change `.autoEnterWorld =` to the exact name of your world.
 
-> **NOTE:** A world must already exist on your system before completing this step. Run the game in normal mode to create one if you haven't already, then enter its name here.
+!!! note
+
+    A world must already exist on your system before completing this step. Run the game in normal mode to create one if you haven't already, then enter its name here.
 
 #### Changing the Default Port (Optional)
 If you need to change the server port from its default (47649):
@@ -134,7 +139,9 @@ Port forwarding and sharing your public IP address exposes your local network to
 * **Use a Domain Name & Proxy:** Services like Cloudflare can mask your real IP address and provide DDoS mitigation. This requires purchasing a cheap custom domain name (typically around £10/year from providers like Namecheap) so players connect via an address like `ashframe.net`.
 * **Use a Relay (VPS Proxy):** You can route traffic through a cheap VPS proxy to hide your home IP, it may slightly increase player latency.
 
->  **Additional Precautions:** Always keep your host machine's firewall active, limit open ports to only what is strictly necessary, and run the server application in an isolated environment if possible.
+!!! note
+
+    Always keep your host machine's firewall active, limit open ports to only what is strictly necessary, and run the server application in an isolated environment if possible.
 
 ---
 
@@ -165,7 +172,9 @@ You can download add-ons directly from the official Discord server in the [#addo
 
 **Step 3:** Place the extracted folder directly into the `assets` folder inside your specific world folder.
 
-> **NOTE:** If you install add-ons on a dedicated server, they will automatically sync and download for connecting players.
+!!! note
+
+    If you install add-ons on a dedicated server, they will automatically sync and download for connecting players.
 
 ---
 
@@ -199,10 +208,10 @@ If no `config.json` file is found, the bot will automatically generate one and t
 ```bash
 npx cubyz-discord-relay@latest
 ```
-> **Note:** If you are running **Cubyz 0.0.0**, use `@2.4.3` instead of `@latest`.
-```bash
-npx cubyz-discord-relay@2.4.3
-```
+!!! note
+
+       If you are running **Cubyz 0.0.0**, use `@2.4.3` instead of `@latest`.
+
 ### Updating
 
 To update the bot, simply run:
@@ -259,4 +268,6 @@ customClientDownloadUrl: "CUSTOM_CLIENT_DOWNLOAD_LINK"
 
 Upload your server icon to an image hosting service such as [ImgBB](https://imgbb.com/), then copy the **direct image URL** into the `iconUrl` field.
 
-> **Note:** `discordServer` and `customClientDownloadUrl` are currently not displayed on the Cubyz Server List website, but they are reserved for future use.
+!!! note
+
+    `discordServer` and `customClientDownloadUrl` are currently not displayed on the Cubyz Server List website, but they are reserved for future use.
