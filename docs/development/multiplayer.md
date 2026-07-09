@@ -23,7 +23,7 @@ While hosting a server in this way you can play the game in the same window with
 
 ### Method 2: Headless Setup (Dedicated Server)
 
-This method is used if you have a 24/7 VPS or personal hardware on which you can host the server:
+Headless servers are preferred when you want to host a server as a background task. Usually this is how you would host a full time server with use of [VPS](https://en.wikipedia.org/wiki/Virtual_private_server) or dedicated hardware. Healdess servers do not have an UI you can use to play the game, however if you wish to play Cubyz on same machine you use for hosting, you can open a separate Cubyz window and connect to the server this way.
 
 1. Open the Cubyz directory and locate the `launchConfig.zig` file.
 2. Set `.headlessServer =` to `true`.
