@@ -50,10 +50,27 @@ If you need to change the server port from its default (47649):
 To allow external players to connect to your Cubyz server, you need to port forward. This requires logging into your home router's admin panel using your router's local IP address and login details.
 
 #### 1. Find Your Router's IP Address (Default Gateway)
-Open your system's command line or terminal and run the appropriate command for your operating system:
+=== "Windows"
 
-* **Windows:** Open CMD or PowerShell and type `ipconfig`. Look for **Default Gateway**.
-* **Linux:** Open a terminal and type `ip route | grep default` (or `ip a`) and look for the **Gateway IP**.
+    Open **Command Prompt** or **PowerShell** and run:
+
+    ```powershell
+    ipconfig
+    ```
+    Look for **Default Gateway**.
+
+=== "Linux"
+
+    Open a terminal and run:
+
+    ```bash
+    ip route | grep default
+    ```
+    Alternatively:
+    ```bash
+    ip a
+    ```
+    Look for the **Gateway IP**.
 
 Once you have this IP address (usually something like `192.168.1.1` or `192.168.0.1`), paste it directly into your web browser's address bar and press **Enter** to open the router's login page.
 
@@ -97,9 +114,17 @@ Updates are currently manual. Download the latest release, extract the files, an
 ### World Backup
 Currently, backups must be done manually. To back up your progress, create a copy of your specific world folder found here:
 
-* **Windows:** `C:\Users\USERNAME\Saved Games\Cubyz\saves\WORLD_NAME`
-* **Linux:** `/home/USERNAME/.cubyz/saves/WORLD_NAME`
+=== "Windows"
 
+    ```
+    C:\Users\USERNAME\Saved Games\Cubyz\saves\WORLD_NAME
+    ```
+
+=== "Linux"
+
+    ```
+    /home/USERNAME/.cubyz/saves/WORLD_NAME
+    ```
 ### Server Security
 Port forwarding and sharing your public IP address exposes your local network to the internet, making you vulnerable to DDoS attacks and unauthorized network access. Consider the following methods to protect your server:
 
@@ -122,8 +147,17 @@ You can download add-ons directly from the official Discord server in the [#addo
 #### 2. Installing Add-ons
 
 **Step 1:** Navigate to your world save directory:
-<br>• **Windows:** `C:\Users\USERNAME\Saved Games\Cubyz\saves\WORLD_NAME`
-<br>• **Linux:** `/home/USERNAME/.cubyz/saves/WORLD_NAME`
+=== "Windows"
+
+    ```
+    C:\Users\USERNAME\Saved Games\Cubyz\saves\WORLD_NAME
+    ```
+
+=== "Linux"
+
+    ```
+    /home/USERNAME/.cubyz/saves/WORLD_NAME
+    ```
 
 **Step 2:** Extract the downloaded add-on archive.
 
