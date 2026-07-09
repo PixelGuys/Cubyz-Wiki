@@ -2,12 +2,6 @@ This page provides information on server setup, maintenance, updates, and permis
 
 ---
 
-## Requirements
-
-The game requires a GPU with [OpenGL 4.6](https://www.khronos.org/conformance/adopters/conformant-products/opengl) graphics feature. Supported operating systems include Windows and Linux.
-
----
-
 ## Installation & Setup
 
 Start by downloading the version of Cubyz you want to host [here](https://github.com/PixelGuys/Cubyz/releases). After downloading, extract the files to your preferred directory.
@@ -24,6 +18,8 @@ While hosting a server in this way you can play the game in the same window with
 5. Note your public IP address and port displayed on this screen; external players will need this to join.
 
 > **NOTE:** To allow external players to connect, you must port forward the displayed port. See the [Networking Section](#networking) for details.
+
+> **NOTE:** To run the game your computer must meet requirements which you can view [here](../installation.html)
 
 ### Method 2: Headless Setup (Dedicated Server)
 
