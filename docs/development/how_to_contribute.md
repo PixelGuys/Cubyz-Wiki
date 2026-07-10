@@ -5,7 +5,7 @@ Cubyz at its core heavily relies on open-source community contributions, so any 
 If you are interested in helping by providing code or creating addons, you can check these resources:
 
 * **Getting Started:** Review the [Cubyz Contributions Guide](https://github.com/PixelGuys/Cubyz/blob/master/CONTRIBUTING.md) on GitHub for code standards and repository rules.
-* **Issue Tracking:** Browse the [GitHub Issues](https://github.com/PixelGuys/Cubyz/issues) page to find open bugs, feature requests, or tasks labeled for beginners.
+* **Issue Tracking:** Browse the [GitHub Issues](https://github.com/PixelGuys/Cubyz/issues) page to find open bugs, feature requests, or tasks labeled contributor friendly.
 * **Addon Development:** Create addons that the community will love playing with and enjoy!
 ---
 ## Community Volunteering
