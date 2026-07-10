@@ -33,4 +33,8 @@ Above the inventory is the crafting button and bag slot. Clicking the crafting b
 ## Building and Destruction
 The player may (by default) press right-click to place a selected block in their hotbar, and the player may also (by default) press left-click to start destroying a block that is on their crosshair.
 
-Different tools have faster destroying times for specific blocks, such as pickaxe tools having better effect on slate blocks, or shover tools having better effect on soil blocks.
+Blocks have health and resistance stats. Health determines how much damage is needed to destroy a block, and your damage will be subtracted by the resistance. If a block has more resistance than the damage you can deal, you will be unable to damage the block.
+
+Tools will allow you to deal more damage to blocks. Tools are specialized for certain types of blocks: Pickaxes deal damage to stone, metal and gem blocks, Shovers deal damage to soil blocks, Axes deal damage to wooden blocks. Sickles damage plants, leaves and cloth, and allow you to collect plants and leaves, which is not possible with your bare hands.
+
+If you use a tool on the wrong type of block, it will deal the same amount of damage you would if just using your bare hands.
