@@ -4,11 +4,11 @@ tags:
   - crafting
 ---
 
-In Cubyz, Crafting can be done in two ways: **via Workbench** or **via Crafting Menu**.
+In Cubyz, Crafting can be done in two ways: **via a Workbench** or **via the Crafting Menu**.
 
 ## Crafting Menu
 
-The **Crafting Menu** is the most basic form of crafting in Cubyz. It will automatically show you possible blocks you can craft.
+The **Crafting Menu** is the most basic form of crafting in Cubyz. It will automatically show you all possible items you can craft.
 
 ![Crafting Menu Example](/images/gameplay/crafting_menu.png)
 

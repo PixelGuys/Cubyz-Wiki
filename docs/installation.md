@@ -8,6 +8,10 @@ tags:
 
 To play Cubyz, you can either **download a release** or **compile a development version yourself**.
 
+## Requirements
+
+TODO: Add requirements here
+
 ## Downloading a release version
 
 To download a release version, head to the [Cubyz release page on Github](http://github.com/PixelGuys/Cubyz/releases/latest) and download the latest release for your platform.

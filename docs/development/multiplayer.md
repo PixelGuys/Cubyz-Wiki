@@ -2,19 +2,14 @@ This page provides information on server setup, maintenance, updates, and permis
 
 ---
 
-## Requirements
-
-The game requires a GPU with drivers supporting [OpenGL 4.6](https://www.khronos.org/conformance/adopters/conformant-products/opengl). Supported operating systems include Windows and Linux (macOS is not currently supported).
-
----
-
 ## Installation & Setup
 
-Start by downloading the game files for the version of Cubyz you want to host [here](https://github.com/PixelGuys/Cubyz/releases). After downloading, extract the files to your preferred directory.
+Start by downloading the version of Cubyz you want to host [here](https://github.com/PixelGuys/Cubyz/releases). After downloading, extract the files to your preferred directory.
 
-### Method 1: Normal Setup (In-Game Hosting)
+### Method 1: In-Game Hosting
 
-This is the easiest way to host a server directly through the game interface:
+This method allows you to start hosting really quickly, but requires that you keep your game running. The moment you leave the world, or close the game, all other players will be disconnected. 
+While hosting a server in this way you can play the game in the same window with no issues.
 
 1. Run the game, click the **Multiplayer** button, and select **Host World**.
 2. Here Create & Configure your world settings (game mode, world seed, etc.) and launch the world.
@@ -22,17 +17,27 @@ This is the easiest way to host a server directly through the game interface:
 4. Then click on **Invite** to let players outside your local network connect.
 5. Note your public IP address and port displayed on this screen; external players will need this to join.
 
-> **NOTE:** To allow external players to connect, you must port forward the displayed port. See the **Networking Section** for details.
+!!! note
+
+
+    To allow external players to connect, you must port forward the displayed port. See the [Networking Section](#networking) for details.
+
+!!! note
+
+    To run the game your computer must meet [minimal requirements](../installation.html)
+
 
 ### Method 2: Headless Setup (Dedicated Server)
 
-If you are running a dedicated server without a graphical interface, you can configure Cubyz to launch directly into a headless server:
+Headless servers are preferred when you want to host a server as a background task. Usually this is how you would host a full time server with use of [VPS](https://en.wikipedia.org/wiki/Virtual_private_server) or dedicated hardware. Healdess servers do not have an UI you can use to play the game, however if you wish to play Cubyz on same machine you use for hosting, you can open a separate Cubyz window and connect to the server this way.
 
 1. Open the Cubyz directory and locate the `launchConfig.zig` file.
 2. Set `.headlessServer =` to `true`.
 3. Change `.autoEnterWorld =` to the exact name of your world.
 
-> **NOTE:** A world must already exist on your system before completing this step. Run the game in normal mode to create one if you haven't already, then enter its name here.
+!!! note
+
+    A world must already exist on your system before completing this step. Run the game in normal mode to create one if you haven't already, then enter its name here.
 
 #### Changing the Default Port (Optional)
 If you need to change the server port from its default (47649):
@@ -52,8 +57,27 @@ To allow external players to connect to your Cubyz server, you need to port forw
 #### 1. Find Your Router's IP Address (Default Gateway)
 Open your system's command line or terminal and run the appropriate command for your operating system:
 
-* **Windows:** Open CMD or PowerShell and type `ipconfig`. Look for **Default Gateway**.
-* **Linux:** Open a terminal and type `ip route | grep default` (or `ip a`) and look for the gateway IP.
+=== "Windows"
+
+    Open **Command Prompt** or **PowerShell** and run:
+
+    ```powershell
+    ipconfig
+    ```
+    Look for **Default Gateway**.
+
+=== "Linux"
+
+    Open a terminal and run:
+
+    ```bash
+    ip route | grep default
+    ```
+    Alternatively:
+    ```bash
+    ip a
+    ```
+    Look for the **Gateway IP**.
 
 Once you have this IP address (usually something like `192.168.1.1` or `192.168.0.1`), paste it directly into your web browser's address bar and press **Enter** to open the router's login page.
 
@@ -95,46 +119,67 @@ To manage player permissions using the permission layer, use the following comma
 Updates are currently manual. Download the latest release, extract the files, and manually copy over any custom configurations from your previous server directory.
 
 ### World Backup
-Currently, backups must be done manually (though third-party scripts can be used to automate this). To back up your progress, create a copy of your specific world folder found here:
+Currently, backups must be done manually. To back up your progress, create a copy of your specific world folder found here:
 
-* **Windows:** `C:\Users\USERNAME\Saved Games\Cubyz\saves\WORLD_NAME`
-* **Linux:** `/home/USERNAME/.cubyz/saves/WORLD_NAME`
+=== "Windows"
 
+    ```
+    C:\Users\USERNAME\Saved Games\Cubyz\saves\WORLD_NAME
+    ```
+
+=== "Linux"
+
+    ```
+    /home/USERNAME/.cubyz/saves/WORLD_NAME
+    ```
 ### Server Security
 Port forwarding and sharing your public IP address exposes your local network to the internet, making you vulnerable to DDoS attacks and unauthorized network access. Consider the following methods to protect your server:
 
 * **Use a VPS (Virtual Private Server):** Hosting your server on a VPS keeps your home IP private and isolates the server from your personal devices. *Note: VPS hosting requires a monthly or annual subscription fee.*
 * **Use a Domain Name & Proxy:** Services like Cloudflare can mask your real IP address and provide DDoS mitigation. This requires purchasing a cheap custom domain name (typically around £10/year from providers like Namecheap) so players connect via an address like `ashframe.net`.
-* **Use a Relay (VPS Proxy):** You can route traffic through a cheap VPS proxy to hide your home IP. This setup only works if direct public access to your home network is completely blocked, and it may slightly increase player latency.
+* **Use a Relay (VPS Proxy):** You can route traffic through a cheap VPS proxy to hide your home IP, it may slightly increase player latency.
 
->  **Additional Precautions:** Always keep your host machine's firewall active, limit open ports to only what is strictly necessary, and run the server application in an isolated environment if possible.
+!!! note
+
+    Always keep your host machine's firewall active, limit open ports to only what is strictly necessary, and run the server application in an isolated environment if possible.
 
 ---
 
 ## Third-Party Services & Add-ons
 
 ### Add-ons
-Add-ons are community-made extensions that modify or introduce new content to Cubyz, such as items, biomes, and gameplay mechanics.
+Add-ons are community-made extensions that modify or introduce new content to Cubyz, such as items, biomes, recipes and other.
 
 #### 1. Downloading Add-ons
-You can download add-ons directly from the official Discord server in the [#addons-mods](https://discord.com/invite/jM96g8pr25) channel, or browse the online asset marketplace [here](https://addons.ashframe.net/).
+You can download add-ons directly from the official Discord server in the [#addons-mods](https://discord.com/invite/jM96g8pr25) channel, or browse the online community asset marketplace [here](https://addons.ashframe.net/).
 
 #### 2. Installing Add-ons
 
 **Step 1:** Navigate to your world save directory:
-<br>• **Windows:** `C:\Users\USERNAME\Saved Games\Cubyz\saves\WORLD_NAME`
-<br>• **Linux:** `/home/USERNAME/.cubyz/saves/WORLD_NAME`
+=== "Windows"
+
+    ```
+    C:\Users\USERNAME\Saved Games\Cubyz\saves\WORLD_NAME
+    ```
+
+=== "Linux"
+
+    ```
+    /home/USERNAME/.cubyz/saves/WORLD_NAME
+    ```
 
 **Step 2:** Extract the downloaded add-on archive.
 
 **Step 3:** Place the extracted folder directly into the `assets` folder inside your specific world folder.
 
-> **NOTE:** If you install add-ons on a dedicated server, they will automatically sync and download for connecting players.
+!!! note
+
+    If you install add-ons on a dedicated server, they will automatically sync and download for connecting players.
 
 ---
 
 ### Discord Bot ([Mercur](https://github.com/AMerkuri))
-Mercur provides bi-directional chat communication between your Discord server and your Cubyz server, and transmits server status data to the Cubyz Server List.
+Mercur provides bi-directional chat communication between your Discord server and your Cubyz server, and also can transmits server status data to the [Cubyz Server List](#cubyz-server-list-inikko).
 ### Installation
 
 Install the required dependencies.
@@ -163,10 +208,10 @@ If no `config.json` file is found, the bot will automatically generate one and t
 ```bash
 npx cubyz-discord-relay@latest
 ```
-> **Note:** If you are running **Cubyz 0.0.0**, use `@2.4.3` instead of `@latest`.
-```bash
-npx cubyz-discord-relay@2.4.3
-```
+!!! note
+
+       If you are running **Cubyz 0.0.0**, use `@2.4.3` instead of `@latest`.
+
 ### Updating
 
 To update the bot, simply run:
@@ -223,4 +268,6 @@ customClientDownloadUrl: "CUSTOM_CLIENT_DOWNLOAD_LINK"
 
 Upload your server icon to an image hosting service such as [ImgBB](https://imgbb.com/), then copy the **direct image URL** into the `iconUrl` field.
 
-> **Note:** `discordServer` and `customClientDownloadUrl` are currently not displayed on the Cubyz Server List website, but they are reserved for future use.
+!!! note
+
+    `discordServer` and `customClientDownloadUrl` are currently not displayed on the Cubyz Server List website, but they are reserved for future use.
