@@ -8,10 +8,10 @@ To begin changing the wiki, you have to first get yourself a local copy. You can
 either through commands, with use of `git`:
 
 ```
-git clone https://github.com/iNiKKo/Cubyz-Wiki
+git clone https://github.com/PixelGuys/Cubyz-Wiki
 ```
 
-Or by [downloading zip archive from Github](https://github.com/iNiKKo/Cubyz-Wiki/archive/refs/heads/main.zip) and unpacking it.
+Or by [downloading zip archive from Github](https://github.com/PixelGuys/Cubyz-Wiki/archive/refs/heads/main.zip) and unpacking it.
 Regardless of the route you choose, you should have your own local folder called `Cubyz-Wiki`.
 
 If you haven't yet opened a terminal, please open one and navigate to `Cubyz-Wiki` directory.
