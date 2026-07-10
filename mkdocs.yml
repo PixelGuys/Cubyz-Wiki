@@ -14,6 +14,7 @@ theme:
     - navigation.tracking
     - navigation.indexes
     - content.action.edit
+    - content.tabs.link
   palette:
     - media: "(prefers-color-scheme: light)"
       primary: green

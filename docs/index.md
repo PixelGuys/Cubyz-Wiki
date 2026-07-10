@@ -7,6 +7,8 @@ tags:
 
 # Cubyz Wiki
 
+![Cubyz 0.3.0 Release Logo](/images/releases/0.3.0.png)
+
 ## About Cubyz
 
 **Cubyz** is a 3D voxel sandbox game game, featuring innovative mechanics and limitless possibilities.
@@ -43,6 +45,8 @@ tags:
 
 
 </div>
+
+![Astr0_Steve's World Screenshot](/images/screenshots/screenshot1.png)
 
 <style>
     p:has(.download-button) {
