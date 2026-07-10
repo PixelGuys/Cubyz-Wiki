@@ -27,7 +27,7 @@ Once you have donwloaded the file for your computer architecture, extract it. Yo
 === "Windows"
 
     ```cmd
-    tar -xvzf Windows-x86_64.tar.gz
+    tar -xvzf Windows-x86_64.zip
     ```
 
 Once extracted, go into the extracted directory. In this directory you can find **three files**:<br>
