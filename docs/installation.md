@@ -140,3 +140,6 @@ Whenever you want to pull the latest updates, you don't need to download anythin
 ```sh
 git pull
 ```
+### Crashes
+
+If Cubyz crashes or doesn't run, you can ask the community for help by joining the [Cubyz Discord Server](https://discord.com/invite/stBh54hF7U) or creating an issue on the [Cubyz issue board](https://github.com/pixelguys/cubyz/issues).
