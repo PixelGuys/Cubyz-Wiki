@@ -18,6 +18,8 @@ You don't need to know how to code to make an impact. Keeping the community acti
 * **Reddit Team:** Keep community spaces safe, organized, and active by moderating the official [Cubyz Reddit](https://www.reddit.com/r/CubyzGame/). To apply for a moderation role on the subreddit, check out the [Reddit Team Form](https://forms.gle/Zg4oizr48UJY6yro9).
 ---
 ## Donations
-If you love the project but don't have the time to contribute code or community hours, you can support the long-term development of Cubyz financially. 
+If you love the project but don't have the time to contribute code or community hours, you can support development via a donation. You can choose exactly who or what your funds support from the options below.
 
-* **Monthly Backing:** Support continuous development via the [Cubyz Patreon](https://www.patreon.com/cw/Cubyz).
+* **Project Lead**: If you want to support the core game mechanics, engine updates, and overall project management, you can back the project leader [Quantum Developer](https://github.com/IntegratedQuantum), via the Cubyz Patreon.[Cubyz Patreon](https://www.patreon.com/cw/Cubyz).
+
+* **Art & Visuals**: If you love the game's art direction, custom textures, and 3D models / designs, you can back our artist [Carrie](https://github.com/careeoki), via [Ko-Fi](https://ko-fi.com/careeoki)
