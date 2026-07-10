@@ -16,11 +16,15 @@ theme:
     - content.action.edit
   palette:
     - media: "(prefers-color-scheme: light)"
+      primary: green
+      accent: green
       scheme: default
       toggle:
         icon: lucide/sun
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
+      primary: green
+      accent: green
       scheme: slate
       toggle:
         icon: lucide/moon
@@ -48,3 +52,14 @@ markdown_extensions:
 
 extra_css:
   - css/infobox.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@quantumdeveloper2733
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/stBh54hF7U
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/r/CubyzGame/
+    - icon: fontawesome/brands/github
+      link: https://github.com/PixelGuys/Cubyz
