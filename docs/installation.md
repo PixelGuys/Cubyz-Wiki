@@ -10,7 +10,7 @@ To play Cubyz, you can either **download a release** or **compile a development 
 
 ## Requirements
 
-The minimum system specs required to run Cubyz smoothly.
+Cubyz is a very well optimized game, but there is still a limit to what hardware it can run on. As a safe baseline we recommend minimal specification listed below. That hardware and software should be enough to play Cubyz reasonably smoothly in Full HD resolution. If you satisfy hardware requirements listed bellow, yet your game runs poorly or doesn't start at all, consider asking a question on out Discord.
 
 * **OS:** Windows / Linux
 * **GPU** Graphics cards such as [Radeon Vega 8](https://www.techpowerup.com/gpu-specs/radeon-vega-8.c3042) / [Intel HD Graphics 530](https://www.techpowerup.com/gpu-specs/hd-graphics-530.c2789) or [NVIDIA GTX 750](https://www.techpowerup.com/gpu-specs/geforce-gtx-750.c1986)
