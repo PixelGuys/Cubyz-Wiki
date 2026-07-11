@@ -73,12 +73,21 @@ out-of-the-box since he could build for Windows and test it with
 [Wine](https://winehq.org) without having to worry about the Windows-related OS-
 specific stuff.
 
-## Zig 0.0.0!
+## Cubyz 0.0.0!
+
 On October the 5th 2025, Cubyz version `0.0.0` is released.
 You can find the release announcement [here (Github)](https://github.com/PixelGuys/Cubyz/releases/tag/0.0.0) and [here (Discord)](https://discord.com/channels/443805812390100992/481475033621856266/1424480988960129178). Screenshot of the Discord message [here](/images/history/quantum-message-1.png).
 
 QuantumDeveloper also released a youtube video which as of July 11th 2026 has `199k views` on youtube.
 You can whatch the video [here](https://youtu.be/jm_0nRQEn_o?si=skWJxRfMtx7hJxxp), Enjoy!
+
+## After 0.0.0
+
+Currently Cubyz remains in the alpha development stage, under active development, with stable releases coming every three months.
+
+As of now, it is not known when 1.0.0 version will be released, as the engine still lacks many features.
+
+Despire great effort from the community, there is still a great deal of work to be done. If you want to contribute to Cubyz, check out the [Cubyz Contribution Guide](https://github.com/PixelGuys/Cubyz?tab=contributing-ov-file).
 
 ## Sources
 ---
