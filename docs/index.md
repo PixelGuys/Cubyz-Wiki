@@ -1,15 +1,13 @@
 ---
 icon: material/home
-tags:
-  - features
-  - download
 ---
 
 # Cubyz Wiki
 
+![Cubyz 0.3.0 Release Logo](images/releases/0.3.0.png)
 ## About Cubyz
 
-**Cubyz** is a 3D voxel sandbox game inspired by Minecraft, featuring innovative mechanics and limitless possibilities.
+**Cubyz** is a 3D voxel sandbox game, featuring innovative mechanics and limitless possibilities.
 
 ---
 
@@ -21,7 +19,7 @@ tags:
 
     Play with huge render distances without the huge performance cost.
 
-    See up to 3000 blocks ahead of you!
+    See up to 2400 blocks ahead of you!
 
 - :material-package:{ .lg .middle } 3D Chunks
 
@@ -35,7 +33,15 @@ tags:
 
     Discover effects, interactions and find the best tool for the job!
 
+- :material-lightning-bolt:{ .lg .middle } Highly Optimized
+
+    Optimized for your computer, not for a ridiculously priced workstation.
+
+    Playable even on low-end hardware without looking like a badly aged potato!
+
+
 </div>
+
 
 <style>
     p:has(.download-button) {
@@ -49,4 +55,5 @@ tags:
     }
 </style>
 
-[📥 Download Cubyz](https://github.com/PixelGuys/Cubyz/releases/latest){ .md-button .md-button--primary .download-button }
+[:material-arrow-down-bold-box-outline: Download Cubyz](https://github.com/PixelGuys/Cubyz/releases/latest){ .md-button .md-button--primary .download-button }
+

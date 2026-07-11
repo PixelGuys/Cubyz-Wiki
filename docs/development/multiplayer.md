@@ -1,3 +1,8 @@
+---
+icon: material/network
+---
+
+
 This page provides information on server setup, maintenance, updates, and permissions.
 
 ---
