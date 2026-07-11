@@ -11,7 +11,7 @@ tags:
 
 ## About Cubyz
 
-**Cubyz** is a 3D voxel sandbox game inspired by Minecraft, featuring innovative mechanics and limitless possibilities.
+**Cubyz** is a 3D voxel sandbox game game, featuring innovative mechanics and limitless possibilities.
 
 ---
 
@@ -37,6 +37,13 @@ tags:
 
     Discover effects, interactions and find the best tool for the job!
 
+- :material-lightning-bolt:{ .lg .middle } Highly Optimized
+
+    Optimized for your computer, not for a ridiculously priced workstation.
+
+    Playable even on low-end hardware without looking like a badly aged potato!
+
+
 </div>
 
 ![Astr0_Steve's World Screenshot](/images/screenshots/screenshot1.png)
@@ -53,4 +60,5 @@ tags:
     }
 </style>
 
-[📥 Download Cubyz](https://github.com/PixelGuys/Cubyz/releases/latest){ .md-button .md-button--primary .download-button }
+[:material-arrow-down-bold-box-outline: Download Cubyz](https://github.com/PixelGuys/Cubyz/releases/latest){ .md-button .md-button--primary .download-button }
+

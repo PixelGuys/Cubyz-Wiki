@@ -38,4 +38,9 @@ Take a look at the [Addon Creation Guide](/addon_creation.html).
 Wow! X feature sounds really cool! See if it follows the [Game Design and Principles](https://github.com/PixelGuys/Cubyz/blob/0.0.0/docs/GAME_DESIGN_PRINCIPLES.md) and try implementing it!
 
 ## I really want to contribute, where do I start? 
-Read [Contribution Guidelines](https://github.com/PixelGuys/Cubyz/blob/master/docs/CONTRIBUTING.md), then look for issues marked as [contributor friendly](https://github.com/PixelGuys/Cubyz/issues?qis%3Aissue%20state%3Aopen%20label%3A%22contributor%20friendly%22). Feel free to ask questions on [Discord](https://discord.gg/8HhcnDUV).
+Cubyz relies heavily on community support, and there are many ways to help! You can check out our dedicated [How to Contribute](development/how_to_contribute.md) page for full details. 
+
+* **For Code & Addons:** Read the [Contribution Guidelines](https://github.com/PixelGuys/Cubyz/blob/master/docs/CONTRIBUTING.md) and look for open issues on GitHub.
+* **For Community Roles:** You can apply to join our YouTube, Discord, Wiki, GitHub, or Reddit teams.
+
+If you have any questions or just want to chat with the team, feel free to ask in our [Discord](https://discord.gg/8HhcnDUV).
