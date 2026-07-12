@@ -3,15 +3,14 @@ from __future__ import annotations
 import argparse
 from copy import deepcopy
 import sys
-from functools import cached_property
+from functools import cached_property, lru_cache
 from pathlib import Path
 from typing import Any, ClassVar, Dict, Self, cast
 
 import jinja2
 import pydantic
-import yaml
+from scripts import zon
 
-from . import zon
 
 THIS_DIRECTORY = Path(__file__).parent.resolve()
 TEMPLATE_DIRECTORY = THIS_DIRECTORY / "templates"
@@ -32,36 +31,23 @@ def main(args: list[str]) -> None:
     if config.repo and config.repo.exists():
         db = rebuild_metadata(config)
         if config.db:
-            config.db.write_text(
-                db.dump_yaml(model_dump_params=dict(exclude_defaults=True, exclude_none=True))
-            )
+            config.db.write_text(db.dump_zon())
 
     if db is None:
         if config.db and config.db.exists():
-            db = AssetDatabase.load_yaml(config.db.read_text(encoding="utf-8"))
+            db = AssetDatabase.load_zon(config.db.read_text(encoding="utf-8"))
         else:
             raise SystemExit(1)
 
-    item_template = ENV.get_template("item.jinja2.md")
-
-    for id, item in db.items.items():
-        _render_and_write(item_template, id, dict(item=item), "items")
-
-    block_template = ENV.get_template("block.jinja2.md")
-
-    for id, block in db.blocks.items():
-        _render_and_write(block_template, id, dict(block=block), "blocks")
+    if config.generate:
+        generate_files(db)
 
 
-def _render_and_write(template: jinja2.Template, id: Id, params: dict, category: str) -> None:
-    destination = DOCS_FOLDER / category / f"{id.path}.md"
-    if destination.exists():
-        return
-
-    output = template.render(**params)
-
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    destination.write_text(output, encoding="utf-8")
+def generate_files(db: AssetDatabase) -> None:
+    for assets in [db.items, db.blocks]:
+        for asset in assets.values():
+            output = asset.render()
+            asset.destination_path.write_text(output, encoding="utf-8")
 
 
 def parse_args(args: list[str]) -> CliArgs:
@@ -81,16 +67,22 @@ def parse_args(args: list[str]) -> CliArgs:
 
 
 class AssetGenModel(pydantic.BaseModel):
-    def dump_yaml(
-        self, model_dump_params: dict | None = None, yaml_params: dict | None = None
+    def dump_zon(
+        self, model_dump_params: dict | None = None, zon_params: dict | None = None
     ) -> str:
-        model_dict = self.model_dump(**model_dump_params or {})
-        return yaml.safe_dump(model_dict, **yaml_params or {})
+        model_dump_params = (
+            model_dump_params
+            if model_dump_params
+            else dict(exclude_defaults=True, exclude_none=True)
+        )
+        model_dict = self.model_dump(**model_dump_params)
+        zon_params = zon_params if zon_params else dict(indent="\t")
+        return zon.dumps(model_dict, **zon_params)
 
     @classmethod
-    def load_yaml(cls, data: str) -> Self:
-        """Load a model instance from YAML string data."""
-        loaded_data = yaml.safe_load(data)
+    def load_zon(cls, data: str) -> Self:
+        """Load a model instance from zon string data."""
+        loaded_data = zon.loads(data)
         return cls.model_validate(loaded_data)
 
 
@@ -164,6 +156,9 @@ def rebuild_blocks(args: CliArgs, assets: AssetDatabase) -> None:
 
     for file_path in items_directory.rglob("**/*.zon", case_sensitive=False):
         if "_migrations" in file_path.name:
+            continue
+
+        if "/textures/" in file_path.as_posix():
             continue
 
         if "defaults" in file_path.name:
@@ -261,17 +256,51 @@ class Id(AssetGenModel):
         return self.id
 
 
-class Item(AssetGenModel):
+class Asset(AssetGenModel):
+    TEMPLATE: ClassVar[jinja2.Template]
+
+    self_id: Id = pydantic.Field(exclude=True)
+    assets_link: AssetDatabase = pydantic.Field(exclude=True)
+
+    @property
+    def id(self) -> str:
+        return str(self.self_id)
+
+    @property
+    def name(self) -> str:
+        return str.join(
+            " ", map(str.capitalize, self.file_name.replace("_", " ").replace("-", " ").split(" "))
+        )
+
+    @property
+    def category(self) -> str:
+        return self.__class__.__name__.lower() + "s"
+
+    def render(self) -> str:
+        return self.TEMPLATE.render(**{self.__class__.__name__.lower(): self})
+
+    @property
+    def file_name(self) -> str:
+        return self.self_id.path.replace("/", "_")
+
+    @property
+    def destination_path(self) -> Path:
+        return DOCS_FOLDER / self.category / f"{self.file_name}.md"
+
+    @property
+    def wiki_link(self) -> str:
+        return f"/{self.category}/{self.file_name}.html"
+
+
+class Item(Asset):
     ASSET_PATH: ClassVar[str] = "assets/cubyz/items"
     TEXTURE_PATH: ClassVar[str] = "assets/cubyz/items/textures"
+    TEMPLATE: ClassVar[jinja2.Template] = ENV.get_template("item.jinja2.md")
 
     tags: list[str] = pydantic.Field(default_factory=list)
     material: Material | None = None
     texture: str | None = None
     block_id: Id | None = None
-
-    self_id: Id = pydantic.Field(exclude=True)
-    assets_link: AssetDatabase = pydantic.Field(exclude=True)
 
     @property
     def icon(self) -> str:
@@ -282,20 +311,8 @@ class Item(AssetGenModel):
         )
 
     @property
-    def id(self) -> str:
-        return str(self.self_id)
-
-    @property
-    def name(self) -> str:
-        return Path(self.self_id.path).name.replace("_", " ").replace("-", " ").capitalize()
-
-    @property
     def block(self) -> Block | None:
         return self.assets_link.blocks.get(self.self_id)
-
-    @property
-    def wiki_link(self) -> str:
-        return f"/items/{self.self_id.path}.html"
 
     @property
     def image_url(self) -> str:
@@ -311,9 +328,10 @@ class Material(AssetGenModel):
     swingSpeed: float
 
 
-class Block(AssetGenModel):
+class Block(Asset):
     ASSET_PATH: ClassVar[str] = "assets/cubyz/blocks"
     TEXTURE_PATH: ClassVar[str] = "assets/cubyz/blocks/textures"
+    TEMPLATE: ClassVar[jinja2.Template] = ENV.get_template("block.jinja2.md")
 
     tags: list[str] = pydantic.Field(default_factory=list)
     block_health: float = pydantic.Field(default=1.0)
@@ -329,9 +347,6 @@ class Block(AssetGenModel):
     texture_left: str | None = None
     texture_right: str | None = None
     isInteracive: bool = False
-
-    self_id: Id = pydantic.Field(exclude=True)
-    assets_link: AssetDatabase = pydantic.Field(exclude=True)
 
     @property
     def icon(self) -> str:
@@ -351,18 +366,6 @@ class Block(AssetGenModel):
     @property
     def item(self) -> Item | None:
         return self.assets_link.items.get(self.self_id)
-
-    @property
-    def id(self) -> str:
-        return str(self.self_id)
-
-    @property
-    def name(self) -> str:
-        return Path(self.self_id.path).name.replace("_", " ").replace("-", " ").capitalize()
-
-    @property
-    def wiki_link(self) -> str:
-        return f"/blocks/{self.self_id.path}.html"
 
     @property
     def image_url(self) -> str:
@@ -394,8 +397,8 @@ class AssetDatabase(AssetGenModel):
     blocks: Dict[Id, Block] = pydantic.Field(default_factory=dict)
 
     @classmethod
-    def load_yaml(cls, data: str) -> Self:
-        raw_data = yaml.safe_load(data)
+    def load_zon(cls, data: str) -> Self:
+        raw_data = cast(dict, zon.loads(data))
 
         self = cls()
         for string_id, raw_obj in raw_data.get("items", {}).items():
@@ -424,6 +427,13 @@ class AssetDatabase(AssetGenModel):
 
     def __repr__(self) -> str:
         return "AssetDatabase"
+
+
+@lru_cache(16)
+def load_db_cached(src: str) -> AssetDatabase:
+    db = AssetDatabase.load_zon(Path(src).read_text(encoding="utf-8"))
+    print(f"Loaded {len(db.items)} items, {len(db.blocks)} blocks")
+    return db
 
 
 if __name__ == "__main__":

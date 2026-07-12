@@ -13,14 +13,10 @@ open_bracket = pp.Literal(".{").set_name(".{").suppress()
 close_bracket = pp.Literal("}").set_name("}").suppress()
 
 simple_identifier = (
-    pp.Regex(r"\.\w+")
-    .set_parse_action(lambda t: t[0][1:])
-    .set_name("simple_identifier")
+    pp.Regex(r"\.\w+").set_parse_action(lambda t: t[0][1:]).set_name("simple_identifier")
 )
 arbitrary_identifier = (
-    pp.Regex(r"@\"[^\"@]*\"")
-    .set_parse_action(lambda t: t[0][2:-1])
-    .set_name("complex_identifier")
+    pp.Regex(r".@\"[^\"@]*\"").set_parse_action(lambda t: t[0][3:-1]).set_name("complex_identifier")
 )
 identifier = (simple_identifier | arbitrary_identifier).set_name("any_identifier")
 
@@ -41,20 +37,16 @@ null = (
 string = (quote + pp.Regex(r'[^"]*') + quote).set_name("string_literal")
 
 number = (
-    (
-        pp.Regex(r"0x[a-fA-F0-9]+").set_parse_action(lambda t: int(str(t[0]), 16))
-    ).set_name("hexadecimal_integer_literal")
+    (pp.Regex(r"0x[a-fA-F0-9]+").set_parse_action(lambda t: int(str(t[0]), 16))).set_name(
+        "hexadecimal_integer_literal"
+    )
     | (
         #               x.            .x      x.y
         pp.Regex(r"-?(([0-9]+\.[0-9]+)|([0-9]+\.)|(\.[0-9]+))(?:[eE][+-]?[1-9]+)?")
         .set_parse_action(lambda t: float(str(t[0])))
         .set_name("float_literal")
     )
-    | (
-        pp.Regex(r"-?[0-9]+")
-        .set_parse_action(lambda t: int(str(t[0])))
-        .set_name("integer_literal")
-    )
+    | (pp.Regex(r"-?[0-9]+").set_parse_action(lambda t: int(str(t[0]))).set_name("integer_literal"))
 )
 
 array = pp.Forward()
@@ -105,7 +97,7 @@ class ZonSerializer:
         self.io = io
         self.do_escape_strings = do_escape_strings
         self.indent = indent
-        self.simple_identifier = re.compile(r"[a-zA-Z_][a-zA-Z0-9_]*")
+        self.simple_identifier = re.compile(r"^\w+$")
 
         self._current_indent_level = 0
         self._current_indent_string = ""
@@ -164,8 +156,9 @@ class ZonSerializer:
         self.io.write('"')
 
     def on_identifier(self, node: str) -> None:
+        self.io.write(".")
+
         if self.simple_identifier.match(node):
-            self.io.write(".")
             self.io.write(node)
             return
 
