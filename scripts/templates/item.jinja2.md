@@ -8,6 +8,15 @@ icon: {{ item.icon }}
 
 {{ '{{ item_infobox(' -}}"{{ item.id }}"{{- ') }}' }}
 
+{% if item.block %}
+
+!!! infobox "{{ item.block.name }}"
+
+{{ '{{ block_infobox(' -}}"{{ item.block.id }}"{{- ') }}' }}
+
+{% endif %}
+
+
 ## About
 
 > This section is a stub. You can help the Cubyz Wiki by expanding it.

@@ -1,5 +1,6 @@
 .admonition.infobox {
     float: right;
+    clear: right;
     width: 300px;
     max-width: 100%;
 }
@@ -22,4 +23,16 @@
     border-top: 0 !important;
     padding: 2px !important;
     width: 100%;
+}
+@media (width <= 600px) {
+    .admonition.infobox {
+        width: 100%;
+    }
+    .admonition.infobox p {
+        display: flex;
+        justify-content: center;
+    }
+    .admonition.infobox .md-typeset__scrollwrap {
+        min-width: 100%;
+    }
 }

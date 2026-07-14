@@ -2,6 +2,14 @@
 icon: {{ block.icon }}
 ---
 
+{% if block.item %}
+
+<script>
+    window.location.replace("{{ block.item.wiki_link }}");
+</script>
+
+{% endif %}
+
 # {{ block.name }}
 
 !!! infobox "{{ block.name }}"

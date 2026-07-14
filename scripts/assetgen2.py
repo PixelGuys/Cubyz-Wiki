@@ -318,7 +318,7 @@ class Item(Asset):
     def image_url(self) -> str:
         if self.texture:
             return f"{CUBYZ_REPO_RAW_CONTENT_BASE_URL}/{self.TEXTURE_PATH}/{self.texture}"
-        return "/images/missing.png"
+        return "images/missing.png"
 
 
 class Material(AssetGenModel):
@@ -381,10 +381,13 @@ class Block(Asset):
             if texture:
                 return self._image_url(texture)
 
-        return "/images/missing.png"
+        return "images/missing.png"
 
     def _image_url(self, stem: str) -> str:
         return f"{CUBYZ_REPO_RAW_CONTENT_BASE_URL}/{self.TEXTURE_PATH}/{stem}"
+
+    def render(self) -> str:
+        return super().render()
 
 
 class Ore(AssetGenModel):
