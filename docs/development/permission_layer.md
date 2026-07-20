@@ -10,7 +10,7 @@ Everything that is handled by the permission layer is found in the permission tr
 The tree has its root at ```/```.
 The currently only child of the the root is ```command```, and it has all commands as its children.
 
-At then end, this gives you e.g for the command ```spawm``` this tree: ```/``` - ```command``` - ```spawn```.
+At then end, this gives you e.g for the command ```spawn``` this tree: ```/``` - ```command``` - ```spawn```.
 We can join them into one permission path, which would look like this: ```/command/spawn```
 
 ## Whitelisting 
