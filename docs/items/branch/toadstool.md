@@ -1,12 +1,18 @@
 ---
-icon: material/alpha-i-box-outline
+icon: material/alpha-m-box-outline
 ---
 
-# Apple
+# Toadstool
 
-!!! infobox "Apple"
+!!! infobox "Toadstool"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:branch/toadstool") }}
+
+
+
+!!! infobox "Toadstool (block)"
+
+{{ block_infobox("cubyz:branch/toadstool") }}
 
 
 

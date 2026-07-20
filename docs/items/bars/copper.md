@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Copper
 
-!!! infobox "Apple"
+!!! infobox "Copper"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:bars/copper") }}
+
+
+
+!!! infobox "Copper (block)"
+
+{{ block_infobox("cubyz:bars/copper") }}
 
 
 

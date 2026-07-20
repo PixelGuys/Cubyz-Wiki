@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Temperate
 
-!!! infobox "Apple"
+!!! infobox "Temperate"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:grass/vegetation/temperate") }}
+
+
+
+!!! infobox "Temperate (block)"
+
+{{ block_infobox("cubyz:grass/vegetation/temperate") }}
 
 
 

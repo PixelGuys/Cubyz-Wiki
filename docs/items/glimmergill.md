@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Glimmergill
 
-!!! infobox "Apple"
+!!! infobox "Glimmergill"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:glimmergill") }}
+
+
+
+!!! infobox "Glimmergill (block)"
+
+{{ block_infobox("cubyz:glimmergill") }}
 
 
 

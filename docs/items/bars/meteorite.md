@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Meteorite
 
-!!! infobox "Apple"
+!!! infobox "Meteorite"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:bars/meteorite") }}
+
+
+
+!!! infobox "Meteorite (block)"
+
+{{ block_infobox("cubyz:bars/meteorite") }}
 
 
 

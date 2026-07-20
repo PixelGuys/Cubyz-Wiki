@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Torch
 
-!!! infobox "Apple"
+!!! infobox "Torch"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:torch") }}
+
+
+
+!!! infobox "Torch (block)"
+
+{{ block_infobox("cubyz:torch") }}
 
 
 

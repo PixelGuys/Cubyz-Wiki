@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Trumpet Lily
 
-!!! infobox "Apple"
+!!! infobox "Trumpet Lily"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:trumpet_lily") }}
+
+
+
+!!! infobox "Trumpet Lily (block)"
+
+{{ block_infobox("cubyz:trumpet_lily") }}
 
 
 

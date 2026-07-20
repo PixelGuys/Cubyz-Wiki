@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Castilleja
 
-!!! infobox "Apple"
+!!! infobox "Castilleja"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:castilleja") }}
+
+
+
+!!! infobox "Castilleja (block)"
+
+{{ block_infobox("cubyz:castilleja") }}
 
 
 

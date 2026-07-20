@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Lily Pad
 
-!!! infobox "Apple"
+!!! infobox "Lily Pad"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:lily_pad") }}
+
+
+
+!!! infobox "Lily Pad (block)"
+
+{{ block_infobox("cubyz:lily_pad") }}
 
 
 
