@@ -1,0 +1,3499 @@
+.{
+	.items = .{
+		.@"cubyz:apple" = .{
+			.texture = "apple.png",
+		},
+		.@"cubyz:copper_ingot" = .{
+			.tags = .{
+				"metal",
+			},
+			.material = .{
+				.durability = 300.0,
+				.massDamage = 1.0,
+				.hardnessDamage = 5.1,
+				.swingSpeed = 7.1,
+			},
+			.texture = "copper_ingot.png",
+		},
+		.@"cubyz:gold_ingot" = .{
+			.tags = .{
+				"metal",
+				"precious",
+			},
+			.material = .{
+				.durability = 400.0,
+				.massDamage = 14.0,
+				.hardnessDamage = 1.0,
+				.swingSpeed = 0.25,
+			},
+			.texture = "gold_ingot.png",
+		},
+		.@"cubyz:grass_seeds" = .{
+			.texture = "grass_seeds.png",
+		},
+		.@"cubyz:iron_ingot" = .{
+			.tags = .{
+				"metal",
+			},
+			.material = .{
+				.durability = 1000.0,
+				.massDamage = 3.0,
+				.hardnessDamage = 6.0,
+				.swingSpeed = 8.3,
+			},
+			.texture = "iron_ingot.png",
+		},
+		.@"cubyz:meteorite_ingot" = .{
+			.tags = .{
+				"metal",
+			},
+			.material = .{
+				.durability = 1700.0,
+				.massDamage = 2.0,
+				.hardnessDamage = 5.0,
+				.swingSpeed = 7.8,
+			},
+			.texture = "meteorite_ingot.png",
+		},
+		.@"cubyz:raw_meat" = .{
+			.texture = "raw_meat.png",
+		},
+		.@"cubyz:selection_wand" = .{
+			.texture = "selection_wand.png",
+		},
+		.@"cubyz:silver_ingot" = .{
+			.tags = .{
+				"metal",
+				"precious",
+			},
+			.material = .{
+				.durability = 800.0,
+				.massDamage = 8.0,
+				.hardnessDamage = 3.0,
+				.swingSpeed = 2.1,
+			},
+			.texture = "silver_ingot.png",
+		},
+		.@"cubyz:uranium_ingot" = .{
+			.tags = .{
+				"metal",
+			},
+			.material = .{
+				.durability = 1500.0,
+				.massDamage = 10.0,
+				.hardnessDamage = 15.0,
+				.swingSpeed = 0.5,
+			},
+			.texture = "uranium_ingot.png",
+		},
+		.@"cubyz:amber_ore" = .{
+			.material = .{
+				.durability = 140.0,
+				.massDamage = 0.1,
+				.hardnessDamage = 2.3,
+				.swingSpeed = 8.5,
+			},
+			.texture = "amber.png",
+		},
+		.@"cubyz:bellows" = .{
+			.texture = "bellows.png",
+		},
+		.@"cubyz:bluebells" = .{
+			.texture = "bluebells.png",
+		},
+		.@"cubyz:bolete" = .{
+			.texture = "bolete.png",
+		},
+		.@"cubyz:cactus_flower" = .{
+			.texture = "cactus_flower.png",
+		},
+		.@"cubyz:castilleja" = .{
+			.texture = "castilleja.png",
+		},
+		.@"cubyz:chimney" = .{
+			.texture = "chimney.png",
+		},
+		.@"cubyz:coal_ore" = .{
+			.texture = "coal.png",
+		},
+		.@"cubyz:copper_ore" = .{
+			.texture = "raw_copper.png",
+		},
+		.@"cubyz:daffodil" = .{
+			.texture = "daffodil.png",
+		},
+		.@"cubyz:daisies" = .{
+			.texture = "daisies.png",
+		},
+		.@"cubyz:dandelions" = .{
+			.texture = "dandelions.png",
+		},
+		.@"cubyz:dead_leaf_pile" = .{
+			.texture = "dead_leaf_pile.png",
+		},
+		.@"cubyz:diamond_ore" = .{
+			.material = .{
+				.durability = 250.0,
+				.massDamage = 0.7,
+				.hardnessDamage = 8.7,
+				.swingSpeed = 4.7,
+			},
+			.texture = "diamond.png",
+		},
+		.@"cubyz:duckweed" = .{
+			.tags = .{
+				"fluidPlaceable",
+			},
+			.texture = "duckweed.png",
+		},
+		.@"cubyz:fern" = .{
+			.texture = "fern.png",
+		},
+		.@"cubyz:glimmergill" = .{
+			.texture = "glimmergill.png",
+		},
+		.@"cubyz:gold_ore" = .{
+			.texture = "raw_gold.png",
+		},
+		.@"cubyz:hibiscus" = .{
+			.texture = "hibiscus.png",
+		},
+		.@"cubyz:iron_ore" = .{
+			.texture = "raw_iron.png",
+		},
+		.@"cubyz:ivy" = .{
+			.texture = "ivy.png",
+		},
+		.@"cubyz:jade_ore" = .{
+			.material = .{
+				.durability = 600.0,
+				.massDamage = 0.4,
+				.hardnessDamage = 7.0,
+				.swingSpeed = 5.0,
+			},
+			.texture = "jade.png",
+		},
+		.@"cubyz:lily_pad" = .{
+			.tags = .{
+				"fluidPlaceable",
+			},
+			.texture = "lily_pad.png",
+		},
+		.@"cubyz:lumiflora" = .{
+			.texture = "lumiflora.png",
+		},
+		.@"cubyz:marigold" = .{
+			.texture = "marigold.png",
+		},
+		.@"cubyz:meteorite_ore" = .{
+			.texture = "raw_meteorite.png",
+		},
+		.@"cubyz:monstera" = .{
+			.texture = "monstera/leaf.png",
+		},
+		.@"cubyz:moss" = .{
+			.texture = "moss.png",
+		},
+		.@"cubyz:obsidian" = .{
+			.material = .{
+				.durability = 55.0,
+				.massDamage = 1.7,
+				.hardnessDamage = 5.7,
+				.swingSpeed = 2.5,
+			},
+		},
+		.@"cubyz:osier" = .{
+			.texture = "osier.png",
+		},
+		.@"cubyz:pebbles" = .{
+			.texture = "pebbles.png",
+		},
+		.@"cubyz:red_leaf_pile" = .{
+			.texture = "red_leaf_pile.png",
+		},
+		.@"cubyz:resin" = .{
+			.material = .{
+				.durability = 200.0,
+				.massDamage = 1.2,
+				.hardnessDamage = 0.8,
+				.swingSpeed = 5.1,
+			},
+			.texture = "resin.png",
+		},
+		.@"cubyz:ruby_ore" = .{
+			.material = .{
+				.durability = 300.0,
+				.massDamage = 0.9,
+				.hardnessDamage = 8.5,
+				.swingSpeed = 4.5,
+			},
+			.texture = "ruby.png",
+		},
+		.@"cubyz:silver_ore" = .{
+			.texture = "raw_silver.png",
+		},
+		.@"cubyz:sulfur_ore" = .{
+			.material = .{
+				.durability = 20.0,
+				.massDamage = 3.5,
+				.hardnessDamage = 1.0,
+				.swingSpeed = 3.7,
+			},
+			.texture = "sulfur.png",
+		},
+		.@"cubyz:sulfur_torch" = .{
+			.texture = "sulfur_torch.png",
+		},
+		.@"cubyz:toadstool" = .{
+			.texture = "toadstool.png",
+		},
+		.@"cubyz:torch" = .{
+			.texture = "torch.png",
+		},
+		.@"cubyz:trumpet_lily" = .{
+			.texture = "trumpet_lily.png",
+		},
+		.@"cubyz:tussock" = .{
+			.texture = "tussock.png",
+		},
+		.@"cubyz:uranium_ore" = .{
+			.texture = "raw_uranium.png",
+		},
+		.@"cubyz:vetch" = .{
+			.texture = "vetch.png",
+		},
+		.@"cubyz:yellow_leaf_pile" = .{
+			.texture = "yellow_leaf_pile.png",
+		},
+		.@"cubyz:bars/copper" = .{
+			.texture = "bars/copper.png",
+		},
+		.@"cubyz:bars/gold" = .{
+			.texture = "bars/gold.png",
+		},
+		.@"cubyz:bars/iron" = .{
+			.texture = "bars/iron.png",
+		},
+		.@"cubyz:bars/meteorite" = .{
+			.texture = "bars/meteorite.png",
+		},
+		.@"cubyz:bars/silver" = .{
+			.texture = "bars/silver.png",
+		},
+		.@"cubyz:bars/uranium" = .{
+			.texture = "bars/uranium.png",
+		},
+		.@"cubyz:basalt/wall" = .{
+			.texture = "wall/basalt.png",
+		},
+		.@"cubyz:branch/baobab" = .{
+			.material = .{
+				.durability = 28.0,
+				.massDamage = 1.2,
+				.hardnessDamage = 0.47,
+				.swingSpeed = 3.75,
+			},
+			.texture = "branch/baobab.png",
+		},
+		.@"cubyz:branch/birch" = .{
+			.material = .{
+				.durability = 32.0,
+				.massDamage = 1.2,
+				.hardnessDamage = 0.65,
+				.swingSpeed = 4.1,
+			},
+			.texture = "branch/birch.png",
+		},
+		.@"cubyz:branch/bolete" = .{
+			.material = .{
+				.durability = 200.0,
+				.massDamage = 1.0,
+				.hardnessDamage = 0.0,
+				.swingSpeed = 4.6,
+			},
+			.texture = "branch/bolete.png",
+		},
+		.@"cubyz:branch/cactus" = .{
+			.material = .{
+				.durability = 50.0,
+				.massDamage = 1.0,
+				.hardnessDamage = 1.5,
+				.swingSpeed = 5.6,
+			},
+			.texture = "branch/cactus.png",
+		},
+		.@"cubyz:branch/candy_cane" = .{
+			.material = .{
+				.durability = 260.0,
+				.massDamage = 1.5,
+				.hardnessDamage = 0.5,
+				.swingSpeed = 4.2,
+			},
+			.texture = "candy_cane.png",
+		},
+		.@"cubyz:branch/cirrus" = .{
+			.material = .{
+				.durability = 50.0,
+				.massDamage = 2.3,
+				.hardnessDamage = 2.0,
+				.swingSpeed = 4.3,
+			},
+			.texture = "branch/cirrus.png",
+		},
+		.@"cubyz:branch/glimmergill" = .{
+			.material = .{
+				.durability = 260.0,
+				.massDamage = 1.5,
+				.hardnessDamage = 0.5,
+				.swingSpeed = 4.2,
+			},
+			.texture = "branch/glimmergill.png",
+		},
+		.@"cubyz:branch/mahogany" = .{
+			.material = .{
+				.durability = 34.0,
+				.massDamage = 1.2,
+				.hardnessDamage = 0.79,
+				.swingSpeed = 4.1,
+			},
+			.texture = "branch/mahogany.png",
+		},
+		.@"cubyz:branch/oak" = .{
+			.material = .{
+				.durability = 36.0,
+				.massDamage = 1.25,
+				.hardnessDamage = 0.7,
+				.swingSpeed = 4.3,
+			},
+			.texture = "branch/oak.png",
+		},
+		.@"cubyz:branch/palm" = .{
+			.material = .{
+				.durability = 31.0,
+				.massDamage = 1.15,
+				.hardnessDamage = 0.51,
+				.swingSpeed = 4.7,
+			},
+			.texture = "branch/palm.png",
+		},
+		.@"cubyz:branch/pine" = .{
+			.material = .{
+				.durability = 28.0,
+				.massDamage = 1.1,
+				.hardnessDamage = 0.46,
+				.swingSpeed = 4.75,
+			},
+			.texture = "branch/pine.png",
+		},
+		.@"cubyz:branch/toadstool" = .{
+			.material = .{
+				.durability = 230.0,
+				.massDamage = 1.2,
+				.hardnessDamage = 0.0,
+				.swingSpeed = 4.4,
+			},
+			.texture = "branch/toadstool.png",
+		},
+		.@"cubyz:branch/willow" = .{
+			.material = .{
+				.durability = 28.0,
+				.massDamage = 1.35,
+				.hardnessDamage = 0.65,
+				.swingSpeed = 4.3,
+			},
+			.texture = "branch/willow.png",
+		},
+		.@"cubyz:chain/iron" = .{
+			.texture = "chain/iron.png",
+		},
+		.@"cubyz:cloth/aqua" = .{
+			.texture = "cloth/aqua.png",
+		},
+		.@"cubyz:cloth/black" = .{
+			.texture = "cloth/black.png",
+		},
+		.@"cubyz:cloth/blue" = .{
+			.texture = "cloth/blue.png",
+		},
+		.@"cubyz:cloth/brown" = .{
+			.texture = "cloth/brown.png",
+		},
+		.@"cubyz:cloth/crimson" = .{
+			.texture = "cloth/crimson.png",
+		},
+		.@"cubyz:cloth/cyan" = .{
+			.texture = "cloth/cyan.png",
+		},
+		.@"cubyz:cloth/dark_grey" = .{
+			.texture = "cloth/dark_grey.png",
+		},
+		.@"cubyz:cloth/green" = .{
+			.texture = "cloth/green.png",
+		},
+		.@"cubyz:cloth/grey" = .{
+			.texture = "cloth/grey.png",
+		},
+		.@"cubyz:cloth/indigo" = .{
+			.texture = "cloth/indigo.png",
+		},
+		.@"cubyz:cloth/lime" = .{
+			.texture = "cloth/lime.png",
+		},
+		.@"cubyz:cloth/magenta" = .{
+			.texture = "cloth/magenta.png",
+		},
+		.@"cubyz:cloth/orange" = .{
+			.texture = "cloth/orange.png",
+		},
+		.@"cubyz:cloth/pink" = .{
+			.texture = "cloth/pink.png",
+		},
+		.@"cubyz:cloth/purple" = .{
+			.texture = "cloth/purple.png",
+		},
+		.@"cubyz:cloth/red" = .{
+			.texture = "cloth/red.png",
+		},
+		.@"cubyz:cloth/violet" = .{
+			.texture = "cloth/violet.png",
+		},
+		.@"cubyz:cloth/viridian" = .{
+			.texture = "cloth/viridian.png",
+		},
+		.@"cubyz:cloth/white" = .{
+			.texture = "cloth/white.png",
+		},
+		.@"cubyz:cloth/yellow" = .{
+			.texture = "cloth/yellow.png",
+		},
+		.@"cubyz:fence/baobab" = .{
+			.texture = "fence/baobab.png",
+		},
+		.@"cubyz:fence/birch" = .{
+			.texture = "fence/birch.png",
+		},
+		.@"cubyz:fence/cirrus" = .{
+			.texture = "fence/cirrus.png",
+		},
+		.@"cubyz:fence/mahogany" = .{
+			.texture = "fence/mahogany.png",
+		},
+		.@"cubyz:fence/oak" = .{
+			.texture = "fence/oak.png",
+		},
+		.@"cubyz:fence/palm" = .{
+			.texture = "fence/palm.png",
+		},
+		.@"cubyz:fence/pine" = .{
+			.texture = "fence/pine.png",
+		},
+		.@"cubyz:fence/willow" = .{
+			.texture = "fence/willow.png",
+		},
+		.@"cubyz:ferrock/wall" = .{
+			.texture = "wall/ferrock.png",
+		},
+		.@"cubyz:fog/blue" = .{
+			.texture = "fog/blue.png",
+		},
+		.@"cubyz:fog/cyan" = .{
+			.texture = "fog/cyan.png",
+		},
+		.@"cubyz:fog/green" = .{
+			.texture = "fog/green.png",
+		},
+		.@"cubyz:fog/magenta" = .{
+			.texture = "fog/magenta.png",
+		},
+		.@"cubyz:fog/red" = .{
+			.texture = "fog/red.png",
+		},
+		.@"cubyz:fog/yellow" = .{
+			.texture = "fog/yellow.png",
+		},
+		.@"cubyz:glacite/wall" = .{
+			.texture = "wall/glacite.png",
+		},
+		.@"cubyz:lantern/coal" = .{
+			.texture = "lantern/coal.png",
+		},
+		.@"cubyz:lantern/sulfur" = .{
+			.texture = "lantern/sulfur.png",
+		},
+		.@"cubyz:limestone/wall" = .{
+			.texture = "wall/limestone.png",
+		},
+		.@"cubyz:marble/wall" = .{
+			.texture = "wall/marble.png",
+		},
+		.@"cubyz:nimbusite/wall" = .{
+			.texture = "wall/nimbusite.png",
+		},
+		.@"cubyz:planks/baobab" = .{
+			.material = .{
+				.durability = 20.0,
+				.massDamage = 0.8,
+				.hardnessDamage = 0.8,
+				.swingSpeed = 4.2,
+			},
+		},
+		.@"cubyz:planks/birch" = .{
+			.material = .{
+				.durability = 24.0,
+				.massDamage = 0.9,
+				.hardnessDamage = 0.9,
+				.swingSpeed = 4.6,
+			},
+		},
+		.@"cubyz:planks/cirrus" = .{
+			.material = .{
+				.durability = 40.0,
+				.massDamage = 2.1,
+				.hardnessDamage = 2.4,
+				.swingSpeed = 4.8,
+			},
+		},
+		.@"cubyz:planks/mahogany" = .{
+			.material = .{
+				.durability = 26.0,
+				.massDamage = 0.95,
+				.hardnessDamage = 1.0,
+				.swingSpeed = 4.6,
+			},
+		},
+		.@"cubyz:planks/oak" = .{
+			.material = .{
+				.durability = 28.0,
+				.massDamage = 0.95,
+				.hardnessDamage = 0.95,
+				.swingSpeed = 4.8,
+			},
+		},
+		.@"cubyz:planks/palm" = .{
+			.material = .{
+				.durability = 23.0,
+				.massDamage = 0.8,
+				.hardnessDamage = 0.8,
+				.swingSpeed = 5.2,
+			},
+		},
+		.@"cubyz:planks/pine" = .{
+			.material = .{
+				.durability = 20.0,
+				.massDamage = 0.75,
+				.hardnessDamage = 0.75,
+				.swingSpeed = 4.4,
+			},
+		},
+		.@"cubyz:planks/willow" = .{
+			.material = .{
+				.durability = 20.0,
+				.massDamage = 1.0,
+				.hardnessDamage = 0.95,
+				.swingSpeed = 4.8,
+			},
+		},
+		.@"cubyz:pyrolite/wall" = .{
+			.texture = "wall/pyrolite.png",
+		},
+		.@"cubyz:sandstone/wall" = .{
+			.texture = "wall/sandstone.png",
+		},
+		.@"cubyz:sign/baobab" = .{
+			.texture = "sign/baobab.png",
+		},
+		.@"cubyz:sign/birch" = .{
+			.texture = "sign/birch.png",
+		},
+		.@"cubyz:sign/cirrus" = .{
+			.texture = "sign/cirrus.png",
+		},
+		.@"cubyz:sign/mahogany" = .{
+			.texture = "sign/mahogany.png",
+		},
+		.@"cubyz:sign/oak" = .{
+			.texture = "sign/oak.png",
+		},
+		.@"cubyz:sign/palm" = .{
+			.texture = "sign/palm.png",
+		},
+		.@"cubyz:sign/pine" = .{
+			.texture = "sign/pine.png",
+		},
+		.@"cubyz:sign/willow" = .{
+			.texture = "sign/willow.png",
+		},
+		.@"cubyz:slate/wall" = .{
+			.texture = "wall/slate.png",
+		},
+		.@"cubyz:terracotta/wall" = .{
+			.texture = "wall/terracotta.png",
+		},
+		.@"cubyz:torch/lumi" = .{
+			.texture = "torch/lumi.png",
+		},
+		.@"cubyz:vine/cirrus" = .{
+			.texture = "vine/cirrus.png",
+		},
+		.@"cubyz:vine/glimmer_worms" = .{
+			.texture = "vine/glimmer_worms.png",
+		},
+		.@"cubyz:vine/mahogany" = .{
+			.texture = "vine/mahogany.png",
+		},
+		.@"cubyz:vine/willow" = .{
+			.texture = "vine/willow.png",
+		},
+		.@"cubyz:voidstone/wall" = .{
+			.texture = "wall/voidstone.png",
+		},
+		.@"cubyz:grass/vegetation/cold" = .{
+			.texture = "grass_vegetation/cold.png",
+		},
+		.@"cubyz:grass/vegetation/dew" = .{
+			.texture = "grass_vegetation/dew.png",
+		},
+		.@"cubyz:grass/vegetation/dry" = .{
+			.texture = "grass_vegetation/dry.png",
+		},
+		.@"cubyz:grass/vegetation/lush" = .{
+			.texture = "grass_vegetation/lush.png",
+		},
+		.@"cubyz:grass/vegetation/sky" = .{
+			.texture = "grass_vegetation/sky.png",
+		},
+		.@"cubyz:grass/vegetation/temperate" = .{
+			.texture = "grass_vegetation/temperate.png",
+		},
+	},
+	.blocks = .{
+		.@"cubyz:aerosoil" = .{
+			.tags = .{
+				"diggable",
+			},
+			.block_health = 6.5,
+			.texture = "aerosoil.png",
+		},
+		.@"cubyz:air" = .{
+			.tags = .{
+				"air",
+			},
+		},
+		.@"cubyz:amber_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 30.0,
+			.block_resistance = 3.0,
+			.texture = "amber_block.png",
+		},
+		.@"cubyz:amber_ore" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 15.0,
+			.block_resistance = 3.0,
+			.ore = .{
+				.max_height = -1250.0,
+				.min_height = -8000.0,
+			},
+			.texture = "amber_ore.png",
+		},
+		.@"cubyz:ash" = .{
+			.tags = .{
+				"diggable",
+			},
+			.block_health = 7.0,
+			.texture = "ash.png",
+		},
+		.@"cubyz:baobab_log" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"log",
+			},
+			.block_health = 8.0,
+			.texture = "baobab_log.png",
+			.texture_top = "baobab_log_top.png",
+			.texture_bottom = "baobab_log_top.png",
+		},
+		.@"cubyz:baobab_top" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"log",
+			},
+			.block_health = 8.0,
+			.texture = "baobab_log.png",
+			.texture_top = "baobab_log.png",
+			.texture_bottom = "baobab_log_top.png",
+		},
+		.@"cubyz:bellows" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+			},
+			.block_health = 5.0,
+			.texture = "bellows/side.png",
+			.texture_top = "bellows/top.png",
+			.texture_bottom = "bellows/bottom.png",
+			.texture_front = "bellows/nozzle.png",
+			.texture_left = "bellows/nozzle.png",
+			.texture_right = "bellows/side.png",
+		},
+		.@"cubyz:birch_log" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"log",
+			},
+			.block_health = 8.0,
+			.texture = "birch_log.png",
+			.texture_top = "birch_log_top.png",
+			.texture_bottom = "birch_log_top.png",
+		},
+		.@"cubyz:birch_top" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"log",
+			},
+			.block_health = 8.0,
+			.texture = "birch_log.png",
+			.texture_top = "birch_log.png",
+			.texture_bottom = "birch_log_top.png",
+		},
+		.@"cubyz:bluebells" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "bluebells.png",
+		},
+		.@"cubyz:bolete" = .{
+			.tags = .{
+				"cuttable",
+				"mushroom",
+			},
+			.block_health = 0.2,
+			.texture = "bolete_side.png",
+			.texture_top = "bolete_top.png",
+			.texture_bottom = "bolete_bottom.png",
+		},
+		.@"cubyz:bolete_cap" = .{
+			.tags = .{
+				"choppable",
+				"cuttable",
+				"mushroom",
+			},
+			.block_health = 3.0,
+			.texture = "bolete_cap.png",
+		},
+		.@"cubyz:bolete_stem" = .{
+			.tags = .{
+				"choppable",
+				"cuttable",
+				"mushroom",
+			},
+			.block_health = 4.0,
+			.texture = "bolete_stem.png",
+		},
+		.@"cubyz:cactus" = .{
+			.tags = .{
+				"choppable",
+				"cuttable",
+				"log",
+			},
+			.block_health = 5.0,
+			.texture = "cactus.png",
+			.texture_top = "cactus_top.png",
+			.texture_bottom = "cactus_top.png",
+		},
+		.@"cubyz:cactus_flower" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "cactus_flower.png",
+			.texture_top = "cactus_flower_top.png",
+			.texture_bottom = "cactus_flower_top.png",
+		},
+		.@"cubyz:candy_cane_block" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+			},
+			.block_health = 8.0,
+			.texture = "candy_cane_block.png",
+		},
+		.@"cubyz:castilleja" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "castilleja.png",
+			.texture_top = "castilleja_top.png",
+			.texture_bottom = "castilleja_top.png",
+		},
+		.@"cubyz:chimney" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 10.0,
+			.texture = "chimney/side.png",
+			.texture_top = "chimney/top.png",
+			.texture_bottom = "chimney/bottom.png",
+		},
+		.@"cubyz:clay" = .{
+			.tags = .{
+				"diggable",
+			},
+			.block_health = 5.75,
+			.texture = "clay.png",
+		},
+		.@"cubyz:coal_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 35.0,
+			.block_resistance = 1.0,
+			.texture = "coal_block.png",
+		},
+		.@"cubyz:coal_ore" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 16.0,
+			.block_resistance = 1.0,
+			.ore = .{
+				.max_height = 500.0,
+			},
+			.texture = "coal_ore.png",
+		},
+		.@"cubyz:copper_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 35.0,
+			.block_resistance = 2.0,
+			.texture = "copper_block.png",
+		},
+		.@"cubyz:copper_ore" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 35.0,
+			.block_resistance = 2.0,
+			.ore = .{
+				.max_height = 20.0,
+				.min_height = -400.0,
+			},
+			.texture = "copper_ore.png",
+		},
+		.@"cubyz:cut_amber_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 30.0,
+			.block_resistance = 3.0,
+			.texture = "cut_amber_block.png",
+		},
+		.@"cubyz:cut_diamond_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 55.0,
+			.block_resistance = 10.0,
+			.texture = "cut_diamond_block.png",
+		},
+		.@"cubyz:cut_jade_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 30.0,
+			.block_resistance = 6.0,
+			.texture = "cut_jade_block.png",
+		},
+		.@"cubyz:cut_ruby_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 55.0,
+			.block_resistance = 9.0,
+			.texture = "cut_ruby_block.png",
+		},
+		.@"cubyz:daffodil" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "daffodil.png",
+			.texture_top = "daffodil_top.png",
+			.texture_bottom = "daffodil_top.png",
+		},
+		.@"cubyz:daisies" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "daisies.png",
+		},
+		.@"cubyz:dandelions" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "dandelions.png",
+		},
+		.@"cubyz:dead_leaf_pile" = .{
+			.tags = .{
+				"cuttable",
+				"leaf",
+			},
+			.block_health = 0.1,
+			.textures = .{
+				"dead_leaf_pile/0.png",
+				"dead_leaf_pile/1.png",
+				"dead_leaf_pile/2.png",
+				"dead_leaf_pile/3.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:diamond_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 55.0,
+			.block_resistance = 10.0,
+			.texture = "diamond_block.png",
+		},
+		.@"cubyz:diamond_ore" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 80.0,
+			.block_resistance = 10.0,
+			.ore = .{
+				.max_height = -1000.0,
+			},
+			.texture = "diamond_ore.png",
+		},
+		.@"cubyz:dirt" = .{
+			.tags = .{
+				"diggable",
+			},
+			.block_health = 6.5,
+			.texture = "dirt.png",
+		},
+		.@"cubyz:duckweed" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.1,
+			.textures = .{
+				"duckweed/0.png",
+				"duckweed/1.png",
+				"duckweed/2.png",
+				"duckweed/3.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:fern" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "fern.png",
+		},
+		.@"cubyz:frost" = .{
+			.tags = .{
+				"mineable",
+				"cold",
+			},
+			.block_health = 8.0,
+			.texture = "frost.png",
+		},
+		.@"cubyz:furnace" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 20.0,
+			.texture = "furnace/back.png",
+			.texture_top = "furnace/top.png",
+			.texture_bottom = "furnace/bottom.png",
+			.texture_front = "furnace/front.png",
+			.texture_left = "furnace/side.png",
+			.texture_right = "furnace/side.png",
+		},
+		.@"cubyz:glimmergill" = .{
+			.tags = .{
+				"cuttable",
+				"mushroom",
+			},
+			.block_health = 0.2,
+			.texture = "glimmergill_side.png",
+			.texture_top = "glimmergill_top.png",
+			.texture_bottom = "glimmergill_bottom.png",
+		},
+		.@"cubyz:glimmergill_cap" = .{
+			.tags = .{
+				"choppable",
+				"cuttable",
+				"mushroom",
+			},
+			.block_health = 3.0,
+			.texture = "glimmergill_cap.png",
+		},
+		.@"cubyz:glimmergill_stem" = .{
+			.tags = .{
+				"choppable",
+				"cuttable",
+				"mushroom",
+			},
+			.block_health = 4.0,
+			.texture = "glimmergill_stem.png",
+		},
+		.@"cubyz:gold_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 50.0,
+			.block_resistance = 8.5,
+			.texture = "gold_block.png",
+		},
+		.@"cubyz:gold_ore" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 50.0,
+			.block_resistance = 8.5,
+			.ore = .{
+				.max_height = -2000.0,
+			},
+			.texture = "gold_ore.png",
+		},
+		.@"cubyz:gravel" = .{
+			.tags = .{
+				"diggable",
+			},
+			.block_health = 5.5,
+			.texture = "gravel.png",
+		},
+		.@"cubyz:hibiscus" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "hibiscus.png",
+			.texture_top = "hibiscus_top.png",
+			.texture_bottom = "hibiscus_top.png",
+		},
+		.@"cubyz:ice" = .{
+			.tags = .{
+				"mineable",
+				"cold",
+			},
+			.block_health = 7.0,
+			.texture = "ice.png",
+		},
+		.@"cubyz:iron_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 50.0,
+			.block_resistance = 7.0,
+			.texture = "iron_block.png",
+		},
+		.@"cubyz:iron_ore" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 60.0,
+			.block_resistance = 7.0,
+			.ore = .{
+				.max_height = -600.0,
+			},
+			.texture = "iron_ore.png",
+		},
+		.@"cubyz:ivy" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "ivy.png",
+		},
+		.@"cubyz:jade_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 30.0,
+			.block_resistance = 6.0,
+			.texture = "jade_block.png",
+		},
+		.@"cubyz:jade_ore" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 12.0,
+			.block_resistance = 6.0,
+			.ore = .{
+				.min_height = 350.0,
+			},
+			.texture = "jade_ore.png",
+		},
+		.@"cubyz:kamacite" = .{
+			.tags = .{
+				"stone",
+				"mineable",
+			},
+			.block_health = 25.0,
+			.block_resistance = 7.0,
+			.texture = "kamacite.png",
+		},
+		.@"cubyz:kiln" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 10.0,
+			.texture = "kiln/back.png",
+			.texture_top = "kiln/top.png",
+			.texture_bottom = "kiln/bottom.png",
+			.texture_front = "kiln/front.png",
+			.texture_left = "kiln/side.png",
+			.texture_right = "kiln/side.png",
+		},
+		.@"cubyz:lamp" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 10.0,
+			.texture = "lamp.png",
+			.texture_top = "lamp_top.png",
+			.texture_bottom = "lamp_top.png",
+		},
+		.@"cubyz:lava" = .{
+			.tags = .{
+				"fluid",
+				"hot",
+			},
+			.texture = "lava.png",
+		},
+		.@"cubyz:lily_pad" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "lily_pad.png",
+		},
+		.@"cubyz:lumiflora" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "lumiflora.png",
+			.texture_top = "lumiflora_top.png",
+			.texture_bottom = "lumiflora_top.png",
+		},
+		.@"cubyz:magma" = .{
+			.tags = .{
+				"stone",
+				"mineable",
+				"hot",
+			},
+			.block_health = 15.0,
+			.texture = "magma.png",
+		},
+		.@"cubyz:mahogany_log" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"log",
+			},
+			.block_health = 8.0,
+			.texture = "mahogany_log.png",
+			.texture_top = "mahogany_log_top.png",
+			.texture_bottom = "mahogany_log_top.png",
+		},
+		.@"cubyz:mahogany_top" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"log",
+			},
+			.block_health = 8.0,
+			.texture = "mahogany_log.png",
+			.texture_top = "mahogany_log.png",
+			.texture_bottom = "mahogany_log_top.png",
+		},
+		.@"cubyz:marigold" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "marigold.png",
+		},
+		.@"cubyz:meteorite_block" = .{
+			.tags = .{
+				"stone",
+				"mineable",
+			},
+			.block_health = 30.0,
+			.block_resistance = 7.0,
+			.texture = "meteorite_block.png",
+		},
+		.@"cubyz:meteorite_ore" = .{
+			.tags = .{
+				"stone",
+				"mineable",
+			},
+			.block_health = 30.0,
+			.block_resistance = 7.0,
+			.texture = "meteorite_ore.png",
+		},
+		.@"cubyz:monstera" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "monstera/stem.png",
+			.texture_top = "monstera/leaf.png",
+			.texture_bottom = "monstera/leaf_stem.png",
+		},
+		.@"cubyz:moss" = .{
+			.tags = .{
+				"leaf",
+				"cuttable",
+			},
+			.texture = "moss.png",
+		},
+		.@"cubyz:mud" = .{
+			.tags = .{
+				"diggable",
+			},
+			.block_health = 6.5,
+			.texture = "mud.png",
+		},
+		.@"cubyz:oak_log" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"log",
+			},
+			.block_health = 8.0,
+			.texture = "oak_log.png",
+			.texture_top = "oak_log_top.png",
+			.texture_bottom = "oak_log_top.png",
+		},
+		.@"cubyz:oak_top" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"log",
+			},
+			.block_health = 8.0,
+			.texture = "oak_log.png",
+			.texture_top = "oak_log.png",
+			.texture_bottom = "oak_log_top.png",
+		},
+		.@"cubyz:obsidian" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 16.0,
+			.block_resistance = 2.0,
+			.texture = "obsidian.png",
+		},
+		.@"cubyz:osier" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "osier.png",
+		},
+		.@"cubyz:pebbles" = .{
+			.tags = .{
+				"stone",
+				"mineable",
+			},
+			.texture = "pebbles.png",
+		},
+		.@"cubyz:permafrost" = .{
+			.tags = .{
+				"diggable",
+			},
+			.block_health = 6.5,
+			.texture = "permafrost.png",
+		},
+		.@"cubyz:pine_log" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"log",
+			},
+			.block_health = 8.0,
+			.texture = "pine_log.png",
+			.texture_top = "pine_log_top.png",
+			.texture_bottom = "pine_log_top.png",
+		},
+		.@"cubyz:pine_top" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"log",
+			},
+			.block_health = 8.0,
+			.texture = "pine_log.png",
+			.texture_top = "pine_log.png",
+			.texture_bottom = "pine_log_top.png",
+		},
+		.@"cubyz:red_leaf_pile" = .{
+			.tags = .{
+				"cuttable",
+				"leaf",
+			},
+			.block_health = 0.1,
+			.textures = .{
+				"red_leaf_pile/0.png",
+				"red_leaf_pile/1.png",
+				"red_leaf_pile/2.png",
+				"red_leaf_pile/3.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:resin" = .{
+			.tags = .{
+				"choppable",
+			},
+			.texture = "resin.png",
+		},
+		.@"cubyz:resin_block" = .{
+			.tags = .{
+				"choppable",
+			},
+			.block_health = 2.0,
+			.texture = "resin_block.png",
+		},
+		.@"cubyz:ruby_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 55.0,
+			.block_resistance = 9.0,
+			.texture = "ruby_block.png",
+		},
+		.@"cubyz:ruby_ore" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 100.0,
+			.block_resistance = 9.0,
+			.ore = .{
+				.max_height = -5000.0,
+				.min_height = -15000.0,
+			},
+			.texture = "ruby_ore.png",
+		},
+		.@"cubyz:sand" = .{
+			.tags = .{
+				"diggable",
+			},
+			.block_health = 5.0,
+			.texture = "sand.png",
+		},
+		.@"cubyz:silver_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 45.0,
+			.block_resistance = 5.0,
+			.texture = "silver_block.png",
+		},
+		.@"cubyz:silver_ore" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 35.0,
+			.block_resistance = 5.0,
+			.ore = .{
+				.max_height = -250.0,
+			},
+			.texture = "silver_ore.png",
+		},
+		.@"cubyz:snow" = .{
+			.tags = .{
+				"diggable",
+			},
+			.block_health = 4.0,
+			.texture = "snow.png",
+		},
+		.@"cubyz:soil" = .{
+			.tags = .{
+				"diggable",
+			},
+			.block_health = 6.5,
+			.texture = "soil.png",
+		},
+		.@"cubyz:sulfur_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 25.0,
+			.block_resistance = 1.0,
+			.texture = "sulfur_block.png",
+		},
+		.@"cubyz:sulfur_lamp" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 10.0,
+			.texture = "sulfur_lamp.png",
+			.texture_top = "sulfur_lamp_top.png",
+			.texture_bottom = "sulfur_lamp_top.png",
+		},
+		.@"cubyz:sulfur_ore" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 40.0,
+			.block_resistance = 1.0,
+			.ore = .{
+				.max_height = -800.0,
+			},
+			.texture = "sulfur_ore.png",
+		},
+		.@"cubyz:sulfur_torch" = .{
+			.tags = .{
+				"choppable",
+			},
+			.block_health = 0.5,
+			.texture = "sulfur_torch.png",
+		},
+		.@"cubyz:toadstool" = .{
+			.tags = .{
+				"cuttable",
+				"mushroom",
+			},
+			.block_health = 0.2,
+			.texture = "toadstool_side.png",
+			.texture_top = "toadstool_top.png",
+			.texture_bottom = "toadstool_bottom.png",
+		},
+		.@"cubyz:toadstool_cap" = .{
+			.tags = .{
+				"choppable",
+				"cuttable",
+				"mushroom",
+			},
+			.block_health = 3.0,
+			.texture = "toadstool_cap.png",
+		},
+		.@"cubyz:toadstool_stem" = .{
+			.tags = .{
+				"choppable",
+				"cuttable",
+				"mushroom",
+			},
+			.block_health = 4.0,
+			.texture = "toadstool_stem.png",
+		},
+		.@"cubyz:torch" = .{
+			.tags = .{
+				"choppable",
+			},
+			.block_health = 0.5,
+			.texture = "torch.png",
+		},
+		.@"cubyz:trumpet_lily" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "trumpet_lily.png",
+			.texture_top = "trumpet_lily_top.png",
+			.texture_bottom = "trumpet_lily_top.png",
+		},
+		.@"cubyz:tussock" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "tussock.png",
+		},
+		.@"cubyz:uranium_block" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 50.0,
+			.block_resistance = 17.5,
+			.texture = "uranium_block.png",
+		},
+		.@"cubyz:uranium_ore" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 40.0,
+			.block_resistance = 17.5,
+			.ore = .{
+				.max_height = -1500.0,
+			},
+			.texture = "uranium_ore.png",
+		},
+		.@"cubyz:vetch" = .{
+			.tags = .{
+				"cuttable",
+			},
+			.block_health = 0.2,
+			.texture = "vetch.png",
+		},
+		.@"cubyz:void" = .{
+			.tags = .{
+				"void",
+			},
+			.texture = "void.png",
+		},
+		.@"cubyz:water" = .{
+			.tags = .{
+				"fluid",
+			},
+			.texture = "water.png",
+		},
+		.@"cubyz:willow_log" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"log",
+			},
+			.block_health = 8.0,
+			.texture = "willow_log.png",
+			.texture_top = "willow_log_top.png",
+			.texture_bottom = "willow_log_top.png",
+		},
+		.@"cubyz:willow_top" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"log",
+			},
+			.block_health = 8.0,
+			.texture = "willow_log.png",
+			.texture_top = "willow_log.png",
+			.texture_bottom = "willow_log_top.png",
+		},
+		.@"cubyz:workbench" = .{
+			.tags = .{
+				"choppable",
+			},
+			.block_health = 10.0,
+			.texture = "workbench_back.png",
+			.texture_top = "workbench_top.png",
+			.texture_bottom = "workbench_bottom.png",
+			.texture_front = "workbench_front.png",
+			.texture_left = "workbench_side.png",
+			.texture_right = "workbench_side.png",
+			.isInteracive = true,
+		},
+		.@"cubyz:yellow_leaf_pile" = .{
+			.tags = .{
+				"cuttable",
+				"leaf",
+			},
+			.block_health = 0.1,
+			.textures = .{
+				"yellow_leaf_pile/0.png",
+				"yellow_leaf_pile/1.png",
+				"yellow_leaf_pile/2.png",
+				"yellow_leaf_pile/3.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:bars/copper" = .{
+			.block_health = 10.0,
+			.block_resistance = 2.0,
+			.texture = "bars/copper.png",
+		},
+		.@"cubyz:bars/gold" = .{
+			.block_health = 20.0,
+			.block_resistance = 8.5,
+			.texture = "bars/gold.png",
+		},
+		.@"cubyz:bars/iron" = .{
+			.block_health = 20.0,
+			.block_resistance = 7.0,
+			.texture = "bars/iron.png",
+		},
+		.@"cubyz:bars/meteorite" = .{
+			.block_health = 30.0,
+			.block_resistance = 7.0,
+			.texture = "bars/meteorite.png",
+		},
+		.@"cubyz:bars/silver" = .{
+			.block_health = 15.0,
+			.block_resistance = 5.0,
+			.texture = "bars/silver.png",
+		},
+		.@"cubyz:bars/uranium" = .{
+			.block_health = 25.0,
+			.block_resistance = 17.5,
+			.texture = "bars/uranium.png",
+		},
+		.@"cubyz:basalt/bricks" = .{
+			.texture = "basalt/bricks.png",
+		},
+		.@"cubyz:basalt/pillar" = .{
+			.texture = "basalt/pillar.png",
+			.texture_top = "basalt/pillar_top.png",
+			.texture_bottom = "basalt/pillar_bottom.png",
+		},
+		.@"cubyz:basalt/rough" = .{
+			.texture = "basalt/rough.png",
+		},
+		.@"cubyz:basalt/smooth" = .{
+			.texture = "basalt/smooth.png",
+		},
+		.@"cubyz:basalt/tile" = .{
+			.texture = "basalt/tile.png",
+		},
+		.@"cubyz:basalt/wall" = .{
+			.texture = "basalt/wall.png",
+			.texture_top = "basalt/wall_top.png",
+			.texture_bottom = "basalt/wall_top.png",
+		},
+		.@"cubyz:branch/baobab" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"branch",
+			},
+			.block_health = 4.0,
+			.textures = .{
+				"branch/baobab/dot.png",
+				"branch/baobab/half_line.png",
+				"branch/baobab/line.png",
+				"branch/baobab/bend.png",
+				"branch/baobab/intersection.png",
+				"branch/baobab/cross.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/birch" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"branch",
+			},
+			.block_health = 4.0,
+			.textures = .{
+				"branch/birch/dot.png",
+				"branch/birch/half_line.png",
+				"branch/birch/line.png",
+				"branch/birch/bend.png",
+				"branch/birch/intersection.png",
+				"branch/birch/cross.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/bolete" = .{
+			.tags = .{
+				"choppable",
+				"cuttable",
+				"mushroom",
+			},
+			.block_health = 2.0,
+			.textures = .{
+				"branch/bolete/dot.png",
+				"branch/bolete/half_line.png",
+				"branch/bolete/line.png",
+				"branch/bolete/bend.png",
+				"branch/bolete/intersection.png",
+				"branch/bolete/cross.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/cactus" = .{
+			.tags = .{
+				"choppable",
+				"cuttable",
+				"branch",
+			},
+			.block_health = 2.5,
+			.textures = .{
+				"branch/cactus/dot.png",
+				"branch/cactus/half_line.png",
+				"branch/cactus/line.png",
+				"branch/cactus/bend.png",
+				"branch/cactus/intersection.png",
+				"branch/cactus/cross.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/candy_cane" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+			},
+			.block_health = 4.0,
+			.textures = .{
+				"branch/candy_cane/dot.png",
+				"branch/candy_cane/half_line.png",
+				"branch/candy_cane/line.png",
+				"branch/candy_cane/bend.png",
+				"branch/candy_cane/intersection.png",
+				"branch/candy_cane/cross.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/cirrus" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"branch",
+			},
+			.block_health = 4.0,
+			.textures = .{
+				"branch/cirrus/dot.png",
+				"branch/cirrus/half_line.png",
+				"branch/cirrus/line.png",
+				"branch/cirrus/bend.png",
+				"branch/cirrus/intersection.png",
+				"branch/cirrus/cross.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/glimmergill" = .{
+			.tags = .{
+				"choppable",
+				"cuttable",
+				"mushroom",
+			},
+			.block_health = 2.0,
+			.textures = .{
+				"branch/glimmergill/dot.png",
+				"branch/glimmergill/half_line.png",
+				"branch/glimmergill/line.png",
+				"branch/glimmergill/bend.png",
+				"branch/glimmergill/intersection.png",
+				"branch/glimmergill/cross.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/mahogany" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"branch",
+			},
+			.block_health = 4.0,
+			.textures = .{
+				"branch/mahogany/dot.png",
+				"branch/mahogany/half_line.png",
+				"branch/mahogany/line.png",
+				"branch/mahogany/bend.png",
+				"branch/mahogany/intersection.png",
+				"branch/mahogany/cross.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/oak" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"branch",
+			},
+			.block_health = 4.0,
+			.textures = .{
+				"branch/oak/dot.png",
+				"branch/oak/half_line.png",
+				"branch/oak/line.png",
+				"branch/oak/bend.png",
+				"branch/oak/intersection.png",
+				"branch/oak/cross.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/palm" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"branch",
+			},
+			.block_health = 4.0,
+			.textures = .{
+				"branch/palm/dot.png",
+				"branch/palm/half_line.png",
+				"branch/palm/line.png",
+				"branch/palm/bend.png",
+				"branch/palm/intersection.png",
+				"branch/palm/cross.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/pine" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"branch",
+			},
+			.block_health = 4.0,
+			.textures = .{
+				"branch/pine/dot.png",
+				"branch/pine/half_line.png",
+				"branch/pine/line.png",
+				"branch/pine/bend.png",
+				"branch/pine/intersection.png",
+				"branch/pine/cross.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/toadstool" = .{
+			.tags = .{
+				"choppable",
+				"cuttable",
+				"mushroom",
+			},
+			.block_health = 2.0,
+			.textures = .{
+				"branch/toadstool/dot.png",
+				"branch/toadstool/half_line.png",
+				"branch/toadstool/line.png",
+				"branch/toadstool/bend.png",
+				"branch/toadstool/intersection.png",
+				"branch/toadstool/cross.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/willow" = .{
+			.tags = .{
+				"choppable",
+				"wood",
+				"branch",
+			},
+			.block_health = 4.0,
+			.textures = .{
+				"branch/willow/dot.png",
+				"branch/willow/half_line.png",
+				"branch/willow/line.png",
+				"branch/willow/bend.png",
+				"branch/willow/intersection.png",
+				"branch/willow/cross.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:chain/iron" = .{
+			.tags = .{
+				"mineable",
+			},
+			.block_health = 20.0,
+			.block_resistance = 2.0,
+			.texture = "chain/iron.png",
+		},
+		.@"cubyz:chalk/aqua" = .{
+			.texture = "chalk/aqua.png",
+		},
+		.@"cubyz:chalk/black" = .{
+			.texture = "chalk/black.png",
+		},
+		.@"cubyz:chalk/blue" = .{
+			.texture = "chalk/blue.png",
+		},
+		.@"cubyz:chalk/brown" = .{
+			.texture = "chalk/brown.png",
+		},
+		.@"cubyz:chalk/crimson" = .{
+			.texture = "chalk/crimson.png",
+		},
+		.@"cubyz:chalk/cyan" = .{
+			.texture = "chalk/cyan.png",
+		},
+		.@"cubyz:chalk/dark_grey" = .{
+			.texture = "chalk/dark_grey.png",
+		},
+		.@"cubyz:chalk/green" = .{
+			.texture = "chalk/green.png",
+		},
+		.@"cubyz:chalk/grey" = .{
+			.texture = "chalk/grey.png",
+		},
+		.@"cubyz:chalk/indigo" = .{
+			.texture = "chalk/indigo.png",
+		},
+		.@"cubyz:chalk/lime" = .{
+			.texture = "chalk/lime.png",
+		},
+		.@"cubyz:chalk/magenta" = .{
+			.texture = "chalk/magenta.png",
+		},
+		.@"cubyz:chalk/orange" = .{
+			.texture = "chalk/orange.png",
+		},
+		.@"cubyz:chalk/pink" = .{
+			.texture = "chalk/pink.png",
+		},
+		.@"cubyz:chalk/purple" = .{
+			.texture = "chalk/purple.png",
+		},
+		.@"cubyz:chalk/red" = .{
+			.texture = "chalk/red.png",
+		},
+		.@"cubyz:chalk/violet" = .{
+			.texture = "chalk/violet.png",
+		},
+		.@"cubyz:chalk/viridian" = .{
+			.texture = "chalk/viridian.png",
+		},
+		.@"cubyz:chalk/white" = .{
+			.texture = "chalk/white.png",
+		},
+		.@"cubyz:chalk/yellow" = .{
+			.texture = "chalk/yellow.png",
+		},
+		.@"cubyz:chest/baobab" = .{
+			.texture = "chest/baobab/back.png",
+			.texture_top = "chest/baobab/top.png",
+			.texture_bottom = "chest/baobab/bottom.png",
+			.texture_front = "chest/baobab/front.png",
+			.texture_left = "chest/baobab/side.png",
+			.texture_right = "chest/baobab/side.png",
+		},
+		.@"cubyz:chest/birch" = .{
+			.texture = "chest/birch/back.png",
+			.texture_top = "chest/birch/top.png",
+			.texture_bottom = "chest/birch/bottom.png",
+			.texture_front = "chest/birch/front.png",
+			.texture_left = "chest/birch/side.png",
+			.texture_right = "chest/birch/side.png",
+		},
+		.@"cubyz:chest/cirrus" = .{
+			.texture = "chest/cirrus/back.png",
+			.texture_top = "chest/cirrus/top.png",
+			.texture_bottom = "chest/cirrus/bottom.png",
+			.texture_front = "chest/cirrus/front.png",
+			.texture_left = "chest/cirrus/side.png",
+			.texture_right = "chest/cirrus/side.png",
+		},
+		.@"cubyz:chest/mahogany" = .{
+			.texture = "chest/mahogany/back.png",
+			.texture_top = "chest/mahogany/top.png",
+			.texture_bottom = "chest/mahogany/bottom.png",
+			.texture_front = "chest/mahogany/front.png",
+			.texture_left = "chest/mahogany/side.png",
+			.texture_right = "chest/mahogany/side.png",
+		},
+		.@"cubyz:chest/oak" = .{
+			.texture = "chest/oak/back.png",
+			.texture_top = "chest/oak/top.png",
+			.texture_bottom = "chest/oak/bottom.png",
+			.texture_front = "chest/oak/front.png",
+			.texture_left = "chest/oak/side.png",
+			.texture_right = "chest/oak/side.png",
+		},
+		.@"cubyz:chest/palm" = .{
+			.texture = "chest/palm/back.png",
+			.texture_top = "chest/palm/top.png",
+			.texture_bottom = "chest/palm/bottom.png",
+			.texture_front = "chest/palm/front.png",
+			.texture_left = "chest/palm/side.png",
+			.texture_right = "chest/palm/side.png",
+		},
+		.@"cubyz:chest/pine" = .{
+			.texture = "chest/pine/back.png",
+			.texture_top = "chest/pine/top.png",
+			.texture_bottom = "chest/pine/bottom.png",
+			.texture_front = "chest/pine/front.png",
+			.texture_left = "chest/pine/side.png",
+			.texture_right = "chest/pine/side.png",
+		},
+		.@"cubyz:chest/willow" = .{
+			.texture = "chest/willow/back.png",
+			.texture_top = "chest/willow/top.png",
+			.texture_bottom = "chest/willow/bottom.png",
+			.texture_front = "chest/willow/front.png",
+			.texture_left = "chest/willow/side.png",
+			.texture_right = "chest/willow/side.png",
+		},
+		.@"cubyz:cloth/aqua" = .{
+			.texture = "cloth/aqua.png",
+		},
+		.@"cubyz:cloth/black" = .{
+			.texture = "cloth/black.png",
+		},
+		.@"cubyz:cloth/blue" = .{
+			.texture = "cloth/blue.png",
+		},
+		.@"cubyz:cloth/brown" = .{
+			.texture = "cloth/brown.png",
+		},
+		.@"cubyz:cloth/crimson" = .{
+			.texture = "cloth/crimson.png",
+		},
+		.@"cubyz:cloth/cyan" = .{
+			.texture = "cloth/cyan.png",
+		},
+		.@"cubyz:cloth/dark_grey" = .{
+			.texture = "cloth/dark_grey.png",
+		},
+		.@"cubyz:cloth/green" = .{
+			.texture = "cloth/green.png",
+		},
+		.@"cubyz:cloth/grey" = .{
+			.texture = "cloth/grey.png",
+		},
+		.@"cubyz:cloth/indigo" = .{
+			.texture = "cloth/indigo.png",
+		},
+		.@"cubyz:cloth/lime" = .{
+			.texture = "cloth/lime.png",
+		},
+		.@"cubyz:cloth/magenta" = .{
+			.texture = "cloth/magenta.png",
+		},
+		.@"cubyz:cloth/orange" = .{
+			.texture = "cloth/orange.png",
+		},
+		.@"cubyz:cloth/pink" = .{
+			.texture = "cloth/pink.png",
+		},
+		.@"cubyz:cloth/purple" = .{
+			.texture = "cloth/purple.png",
+		},
+		.@"cubyz:cloth/red" = .{
+			.texture = "cloth/red.png",
+		},
+		.@"cubyz:cloth/violet" = .{
+			.texture = "cloth/violet.png",
+		},
+		.@"cubyz:cloth/viridian" = .{
+			.texture = "cloth/viridian.png",
+		},
+		.@"cubyz:cloth/white" = .{
+			.texture = "cloth/white.png",
+		},
+		.@"cubyz:cloth/yellow" = .{
+			.texture = "cloth/yellow.png",
+		},
+		.@"cubyz:fence/baobab" = .{
+			.texture = "fence/baobab.png",
+			.texture_top = "fence/top/baobab.png",
+			.texture_bottom = "fence/top/baobab.png",
+		},
+		.@"cubyz:fence/birch" = .{
+			.texture = "fence/birch.png",
+			.texture_top = "fence/top/birch.png",
+			.texture_bottom = "fence/top/birch.png",
+		},
+		.@"cubyz:fence/cirrus" = .{
+			.texture = "fence/cirrus.png",
+			.texture_top = "fence/top/cirrus.png",
+			.texture_bottom = "fence/top/cirrus.png",
+		},
+		.@"cubyz:fence/mahogany" = .{
+			.texture = "fence/mahogany.png",
+			.texture_top = "fence/top/mahogany.png",
+			.texture_bottom = "fence/top/mahogany.png",
+		},
+		.@"cubyz:fence/oak" = .{
+			.texture = "fence/oak.png",
+			.texture_top = "fence/top/oak.png",
+			.texture_bottom = "fence/top/oak.png",
+		},
+		.@"cubyz:fence/palm" = .{
+			.texture = "fence/palm.png",
+			.texture_top = "fence/top/palm.png",
+			.texture_bottom = "fence/top/palm.png",
+		},
+		.@"cubyz:fence/pine" = .{
+			.texture = "fence/pine.png",
+			.texture_top = "fence/top/pine.png",
+			.texture_bottom = "fence/top/pine.png",
+		},
+		.@"cubyz:fence/willow" = .{
+			.texture = "fence/willow.png",
+			.texture_top = "fence/top/willow.png",
+			.texture_bottom = "fence/top/willow.png",
+		},
+		.@"cubyz:ferrock/bricks" = .{
+			.texture = "ferrock/bricks.png",
+		},
+		.@"cubyz:ferrock/pillar" = .{
+			.texture = "ferrock/pillar.png",
+			.texture_top = "ferrock/pillar_top.png",
+			.texture_bottom = "ferrock/pillar_top.png",
+		},
+		.@"cubyz:ferrock/rough" = .{
+			.texture = "ferrock/rough.png",
+		},
+		.@"cubyz:ferrock/smooth" = .{
+			.texture = "ferrock/smooth.png",
+		},
+		.@"cubyz:ferrock/tile" = .{
+			.texture = "ferrock/tile.png",
+		},
+		.@"cubyz:ferrock/wall" = .{
+			.texture = "ferrock/wall.png",
+			.texture_top = "ferrock/wall_top.png",
+			.texture_bottom = "ferrock/wall_top.png",
+		},
+		.@"cubyz:fog/blue" = .{
+			.texture = "fog/blue.png",
+		},
+		.@"cubyz:fog/cyan" = .{
+			.texture = "fog/cyan.png",
+		},
+		.@"cubyz:fog/green" = .{
+			.texture = "fog/green.png",
+		},
+		.@"cubyz:fog/magenta" = .{
+			.texture = "fog/magenta.png",
+		},
+		.@"cubyz:fog/red" = .{
+			.texture = "fog/red.png",
+		},
+		.@"cubyz:fog/yellow" = .{
+			.texture = "fog/yellow.png",
+		},
+		.@"cubyz:glacite/bricks" = .{
+			.texture = "glacite/bricks.png",
+		},
+		.@"cubyz:glacite/pillar" = .{
+			.texture = "glacite/pillar.png",
+			.texture_top = "glacite/pillar_top.png",
+			.texture_bottom = "glacite/pillar_bottom.png",
+		},
+		.@"cubyz:glacite/rough" = .{
+			.texture = "glacite/rough.png",
+		},
+		.@"cubyz:glacite/smooth" = .{
+			.texture = "glacite/smooth.png",
+		},
+		.@"cubyz:glacite/tile" = .{
+			.texture = "glacite/tile.png",
+		},
+		.@"cubyz:glacite/wall" = .{
+			.texture = "glacite/wall.png",
+			.texture_top = "glacite/wall_top.png",
+			.texture_bottom = "glacite/wall_top.png",
+		},
+		.@"cubyz:glass/aqua" = .{
+			.texture = "glass/aqua.png",
+		},
+		.@"cubyz:glass/black" = .{
+			.texture = "glass/black.png",
+		},
+		.@"cubyz:glass/blue" = .{
+			.texture = "glass/blue.png",
+		},
+		.@"cubyz:glass/brown" = .{
+			.texture = "glass/brown.png",
+		},
+		.@"cubyz:glass/crimson" = .{
+			.texture = "glass/crimson.png",
+		},
+		.@"cubyz:glass/cyan" = .{
+			.texture = "glass/cyan.png",
+		},
+		.@"cubyz:glass/dark_grey" = .{
+			.texture = "glass/dark_grey.png",
+		},
+		.@"cubyz:glass/green" = .{
+			.texture = "glass/green.png",
+		},
+		.@"cubyz:glass/grey" = .{
+			.texture = "glass/grey.png",
+		},
+		.@"cubyz:glass/indigo" = .{
+			.texture = "glass/indigo.png",
+		},
+		.@"cubyz:glass/lime" = .{
+			.texture = "glass/lime.png",
+		},
+		.@"cubyz:glass/magenta" = .{
+			.texture = "glass/magenta.png",
+		},
+		.@"cubyz:glass/orange" = .{
+			.texture = "glass/orange.png",
+		},
+		.@"cubyz:glass/pink" = .{
+			.texture = "glass/pink.png",
+		},
+		.@"cubyz:glass/purple" = .{
+			.texture = "glass/purple.png",
+		},
+		.@"cubyz:glass/red" = .{
+			.texture = "glass/red.png",
+		},
+		.@"cubyz:glass/uranium" = .{
+			.texture = "glass/uranium.png",
+		},
+		.@"cubyz:glass/violet" = .{
+			.texture = "glass/violet.png",
+		},
+		.@"cubyz:glass/viridian" = .{
+			.texture = "glass/viridian.png",
+		},
+		.@"cubyz:glass/white" = .{
+			.texture = "glass/white.png",
+		},
+		.@"cubyz:glass/yellow" = .{
+			.texture = "glass/yellow.png",
+		},
+		.@"cubyz:glow_crystal/aqua" = .{
+			.texture = "glow_crystal/aqua.png",
+		},
+		.@"cubyz:glow_crystal/black" = .{
+			.texture = "glow_crystal/black.png",
+		},
+		.@"cubyz:glow_crystal/blue" = .{
+			.texture = "glow_crystal/blue.png",
+		},
+		.@"cubyz:glow_crystal/brown" = .{
+			.texture = "glow_crystal/brown.png",
+		},
+		.@"cubyz:glow_crystal/crimson" = .{
+			.texture = "glow_crystal/crimson.png",
+		},
+		.@"cubyz:glow_crystal/cyan" = .{
+			.texture = "glow_crystal/cyan.png",
+		},
+		.@"cubyz:glow_crystal/dark_grey" = .{
+			.texture = "glow_crystal/dark_grey.png",
+		},
+		.@"cubyz:glow_crystal/green" = .{
+			.texture = "glow_crystal/green.png",
+		},
+		.@"cubyz:glow_crystal/grey" = .{
+			.texture = "glow_crystal/grey.png",
+		},
+		.@"cubyz:glow_crystal/indigo" = .{
+			.texture = "glow_crystal/indigo.png",
+		},
+		.@"cubyz:glow_crystal/lime" = .{
+			.texture = "glow_crystal/lime.png",
+		},
+		.@"cubyz:glow_crystal/magenta" = .{
+			.texture = "glow_crystal/magenta.png",
+		},
+		.@"cubyz:glow_crystal/orange" = .{
+			.texture = "glow_crystal/orange.png",
+		},
+		.@"cubyz:glow_crystal/pink" = .{
+			.texture = "glow_crystal/pink.png",
+		},
+		.@"cubyz:glow_crystal/purple" = .{
+			.texture = "glow_crystal/purple.png",
+		},
+		.@"cubyz:glow_crystal/red" = .{
+			.texture = "glow_crystal/red.png",
+		},
+		.@"cubyz:glow_crystal/violet" = .{
+			.texture = "glow_crystal/violet.png",
+		},
+		.@"cubyz:glow_crystal/viridian" = .{
+			.texture = "glow_crystal/viridian.png",
+		},
+		.@"cubyz:glow_crystal/white" = .{
+			.texture = "glow_crystal/white.png",
+		},
+		.@"cubyz:glow_crystal/yellow" = .{
+			.texture = "glow_crystal/yellow.png",
+		},
+		.@"cubyz:grass/cold" = .{
+			.texture = "grass/cold.png",
+			.texture_bottom = "permafrost.png",
+		},
+		.@"cubyz:grass/dew" = .{
+			.texture = "grass/dew.png",
+			.texture_bottom = "clay.png",
+		},
+		.@"cubyz:grass/dry" = .{
+			.texture = "grass/dry.png",
+			.texture_bottom = "dirt.png",
+		},
+		.@"cubyz:grass/lush" = .{
+			.texture = "grass/lush.png",
+			.texture_bottom = "mud.png",
+		},
+		.@"cubyz:grass/sky" = .{
+			.texture = "grass/sky.png",
+			.texture_bottom = "aerosoil.png",
+		},
+		.@"cubyz:grass/temperate" = .{
+			.texture = "grass/temperate.png",
+			.texture_bottom = "soil.png",
+		},
+		.@"cubyz:lantern/coal" = .{
+			.texture = "lantern/coal/side.png",
+			.texture_top = "lantern/coal/top.png",
+			.texture_bottom = "lantern/coal/top.png",
+		},
+		.@"cubyz:lantern/sulfur" = .{
+			.texture = "lantern/sulfur/side.png",
+			.texture_top = "lantern/sulfur/top.png",
+			.texture_bottom = "lantern/sulfur/top.png",
+		},
+		.@"cubyz:leaves/baobab" = .{
+			.texture = "leaves/baobab.png",
+		},
+		.@"cubyz:leaves/birch" = .{
+			.texture = "leaves/birch.png",
+		},
+		.@"cubyz:leaves/cirrus" = .{
+			.texture = "leaves/cirrus.png",
+		},
+		.@"cubyz:leaves/dead" = .{
+			.texture = "leaves/dead.png",
+		},
+		.@"cubyz:leaves/mahogany" = .{
+			.texture = "leaves/mahogany.png",
+		},
+		.@"cubyz:leaves/oak" = .{
+			.texture = "leaves/oak.png",
+		},
+		.@"cubyz:leaves/palm" = .{
+			.texture = "leaves/palm.png",
+			.textures = .{
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				"leaves/palm_hanging.png",
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:leaves/pine" = .{
+			.texture = "leaves/pine.png",
+		},
+		.@"cubyz:leaves/red" = .{
+			.texture = "leaves/red.png",
+		},
+		.@"cubyz:leaves/willow" = .{
+			.texture = "leaves/willow.png",
+		},
+		.@"cubyz:leaves/yellow" = .{
+			.texture = "leaves/yellow.png",
+		},
+		.@"cubyz:limestone/bricks" = .{
+			.texture = "limestone/bricks.png",
+		},
+		.@"cubyz:limestone/pillar" = .{
+			.texture = "limestone/pillar.png",
+			.texture_top = "limestone/pillar_top.png",
+			.texture_bottom = "limestone/pillar_top.png",
+		},
+		.@"cubyz:limestone/rough" = .{
+			.texture = "limestone/rough.png",
+		},
+		.@"cubyz:limestone/smooth" = .{
+			.texture = "limestone/smooth.png",
+		},
+		.@"cubyz:limestone/tile" = .{
+			.texture = "limestone/tile.png",
+		},
+		.@"cubyz:limestone/wall" = .{
+			.texture = "limestone/wall.png",
+			.texture_top = "limestone/wall_top.png",
+			.texture_bottom = "limestone/wall_top.png",
+		},
+		.@"cubyz:log/baobab" = .{
+			.textures = .{
+				"log/baobab/dot.png",
+				"log/baobab/line.png",
+				"log/baobab/bend.png",
+				"log/baobab/intersection.png",
+				"log/baobab/cross.png",
+				"log/baobab/top.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:log/birch" = .{
+			.textures = .{
+				"log/birch/dot.png",
+				"log/birch/line.png",
+				"log/birch/bend.png",
+				"log/birch/intersection.png",
+				"log/birch/cross.png",
+				"log/birch/top.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:log/bolete" = .{
+			.tags = .{
+				"cuttable",
+				"mushroom",
+			},
+			.textures = .{
+				"log/bolete/dot.png",
+				"log/bolete/line.png",
+				"log/bolete/bend.png",
+				"log/bolete/intersection.png",
+				"log/bolete/cross.png",
+				"log/bolete/top.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:log/cactus" = .{
+			.tags = .{
+				"choppable",
+				"cuttable",
+			},
+			.textures = .{
+				"log/cactus/dot.png",
+				"log/cactus/line.png",
+				"log/cactus/bend.png",
+				"log/cactus/intersection.png",
+				"log/cactus/cross.png",
+				"log/cactus/top.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:log/cirrus" = .{
+			.textures = .{
+				"log/cirrus/dot.png",
+				"log/cirrus/line.png",
+				"log/cirrus/bend.png",
+				"log/cirrus/intersection.png",
+				"log/cirrus/cross.png",
+				"log/cirrus/top.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:log/glimmergill" = .{
+			.tags = .{
+				"cuttable",
+				"mushroom",
+			},
+			.textures = .{
+				"log/glimmergill/dot.png",
+				"log/glimmergill/line.png",
+				"log/glimmergill/bend.png",
+				"log/glimmergill/intersection.png",
+				"log/glimmergill/cross.png",
+				"log/glimmergill/top.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:log/mahogany" = .{
+			.textures = .{
+				"log/mahogany/dot.png",
+				"log/mahogany/line.png",
+				"log/mahogany/bend.png",
+				"log/mahogany/intersection.png",
+				"log/mahogany/cross.png",
+				"log/mahogany/top.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:log/oak" = .{
+			.textures = .{
+				"log/oak/dot.png",
+				"log/oak/line.png",
+				"log/oak/bend.png",
+				"log/oak/intersection.png",
+				"log/oak/cross.png",
+				"log/oak/top.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:log/palm" = .{
+			.textures = .{
+				"log/palm/dot.png",
+				"log/palm/line.png",
+				"log/palm/bend.png",
+				"log/palm/intersection.png",
+				"log/palm/cross.png",
+				"log/palm/top.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:log/pine" = .{
+			.textures = .{
+				"log/pine/dot.png",
+				"log/pine/line.png",
+				"log/pine/bend.png",
+				"log/pine/intersection.png",
+				"log/pine/cross.png",
+				"log/pine/top.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:log/toadstool" = .{
+			.tags = .{
+				"cuttable",
+				"mushroom",
+			},
+			.textures = .{
+				"log/toadstool/dot.png",
+				"log/toadstool/line.png",
+				"log/toadstool/bend.png",
+				"log/toadstool/intersection.png",
+				"log/toadstool/cross.png",
+				"log/toadstool/top.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:log/willow" = .{
+			.textures = .{
+				"log/willow/dot.png",
+				"log/willow/line.png",
+				"log/willow/bend.png",
+				"log/willow/intersection.png",
+				"log/willow/cross.png",
+				"log/willow/top.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:marble/bricks" = .{
+			.texture = "marble/bricks.png",
+		},
+		.@"cubyz:marble/pillar" = .{
+			.texture = "marble/pillar.png",
+			.texture_top = "marble/pillar_top.png",
+			.texture_bottom = "marble/pillar_bottom.png",
+		},
+		.@"cubyz:marble/rough" = .{
+			.texture = "marble/rough.png",
+		},
+		.@"cubyz:marble/smooth" = .{
+			.texture = "marble/smooth.png",
+		},
+		.@"cubyz:marble/tile" = .{
+			.texture = "marble/tile.png",
+		},
+		.@"cubyz:marble/wall" = .{
+			.texture = "marble/wall.png",
+			.texture_top = "marble/wall_top.png",
+			.texture_bottom = "marble/wall_top.png",
+		},
+		.@"cubyz:nimbusite/bricks" = .{
+			.texture = "nimbusite/bricks.png",
+		},
+		.@"cubyz:nimbusite/pillar" = .{
+			.texture = "nimbusite/pillar.png",
+			.texture_top = "nimbusite/pillar_top.png",
+			.texture_bottom = "nimbusite/pillar_bottom.png",
+		},
+		.@"cubyz:nimbusite/rough" = .{
+			.texture = "nimbusite/rough.png",
+		},
+		.@"cubyz:nimbusite/smooth" = .{
+			.texture = "nimbusite/smooth.png",
+		},
+		.@"cubyz:nimbusite/tile" = .{
+			.texture = "nimbusite/tile.png",
+		},
+		.@"cubyz:nimbusite/wall" = .{
+			.texture = "nimbusite/wall.png",
+			.texture_top = "nimbusite/wall_top.png",
+			.texture_bottom = "nimbusite/wall_top.png",
+		},
+		.@"cubyz:planks/baobab" = .{
+			.texture = "planks/baobab.png",
+		},
+		.@"cubyz:planks/birch" = .{
+			.texture = "planks/birch.png",
+		},
+		.@"cubyz:planks/cirrus" = .{
+			.texture = "planks/cirrus.png",
+		},
+		.@"cubyz:planks/mahogany" = .{
+			.texture = "planks/mahogany.png",
+		},
+		.@"cubyz:planks/oak" = .{
+			.texture = "planks/oak.png",
+		},
+		.@"cubyz:planks/palm" = .{
+			.texture = "planks/palm.png",
+		},
+		.@"cubyz:planks/pine" = .{
+			.texture = "planks/pine.png",
+		},
+		.@"cubyz:planks/willow" = .{
+			.texture = "planks/willow.png",
+		},
+		.@"cubyz:pyrolite/bricks" = .{
+			.texture = "pyrolite/bricks.png",
+		},
+		.@"cubyz:pyrolite/pillar" = .{
+			.texture = "pyrolite/pillar.png",
+			.texture_top = "pyrolite/pillar_top.png",
+			.texture_bottom = "pyrolite/pillar_top.png",
+		},
+		.@"cubyz:pyrolite/rough" = .{
+			.texture = "pyrolite/rough.png",
+		},
+		.@"cubyz:pyrolite/smooth" = .{
+			.texture = "pyrolite/smooth.png",
+		},
+		.@"cubyz:pyrolite/tile" = .{
+			.texture = "pyrolite/tile.png",
+		},
+		.@"cubyz:pyrolite/wall" = .{
+			.texture = "pyrolite/wall.png",
+			.texture_top = "pyrolite/wall_top.png",
+			.texture_bottom = "pyrolite/wall_top.png",
+		},
+		.@"cubyz:sandstone/bricks" = .{
+			.texture = "sandstone/bricks.png",
+		},
+		.@"cubyz:sandstone/pillar" = .{
+			.texture = "sandstone/pillar.png",
+			.texture_top = "sandstone/pillar_top.png",
+			.texture_bottom = "sandstone/pillar_top.png",
+		},
+		.@"cubyz:sandstone/rough" = .{
+			.texture = "sandstone/rough.png",
+		},
+		.@"cubyz:sandstone/smooth" = .{
+			.texture = "sandstone/smooth.png",
+		},
+		.@"cubyz:sandstone/tile" = .{
+			.texture = "sandstone/tile.png",
+		},
+		.@"cubyz:sandstone/wall" = .{
+			.texture = "sandstone/wall.png",
+			.texture_top = "sandstone/wall_top.png",
+			.texture_bottom = "sandstone/wall_top.png",
+		},
+		.@"cubyz:sbb/origin" = .{
+			.tags = .{
+				"sbbOrigin",
+			},
+			.texture = "sbb/origin_side.png",
+			.texture_top = "sbb/origin_top.png",
+			.texture_bottom = "sbb/origin_bottom.png",
+		},
+		.@"cubyz:sign/baobab" = .{
+			.texture = "sign/baobab.png",
+		},
+		.@"cubyz:sign/birch" = .{
+			.texture = "sign/birch.png",
+		},
+		.@"cubyz:sign/cirrus" = .{
+			.texture = "sign/cirrus.png",
+		},
+		.@"cubyz:sign/mahogany" = .{
+			.texture = "sign/mahogany.png",
+		},
+		.@"cubyz:sign/oak" = .{
+			.texture = "sign/oak.png",
+		},
+		.@"cubyz:sign/palm" = .{
+			.texture = "sign/palm.png",
+		},
+		.@"cubyz:sign/pine" = .{
+			.texture = "sign/pine.png",
+		},
+		.@"cubyz:sign/willow" = .{
+			.texture = "sign/willow.png",
+		},
+		.@"cubyz:slate/bricks" = .{
+			.texture = "slate/bricks.png",
+		},
+		.@"cubyz:slate/pillar" = .{
+			.texture = "slate/pillar.png",
+			.texture_top = "slate/pillar_top.png",
+			.texture_bottom = "slate/pillar_bottom.png",
+		},
+		.@"cubyz:slate/rough" = .{
+			.texture = "slate/rough.png",
+		},
+		.@"cubyz:slate/smooth" = .{
+			.texture = "slate/smooth.png",
+		},
+		.@"cubyz:slate/tile" = .{
+			.texture = "slate/tile.png",
+		},
+		.@"cubyz:slate/wall" = .{
+			.texture = "slate/wall.png",
+			.texture_top = "slate/wall_top.png",
+			.texture_bottom = "slate/wall_top.png",
+		},
+		.@"cubyz:terracotta/bricks" = .{
+			.texture = "terracotta/bricks.png",
+		},
+		.@"cubyz:terracotta/pillar" = .{
+			.texture = "terracotta/pillar.png",
+			.texture_top = "terracotta/pillar_top.png",
+			.texture_bottom = "terracotta/pillar_bottom.png",
+		},
+		.@"cubyz:terracotta/rough" = .{
+			.texture = "terracotta/rough.png",
+		},
+		.@"cubyz:terracotta/smooth" = .{
+			.texture = "terracotta/smooth.png",
+		},
+		.@"cubyz:terracotta/tile" = .{
+			.texture = "terracotta/tile.png",
+		},
+		.@"cubyz:terracotta/wall" = .{
+			.texture = "terracotta/wall.png",
+			.texture_top = "terracotta/wall_top.png",
+			.texture_bottom = "terracotta/wall_top.png",
+		},
+		.@"cubyz:torch/lumi" = .{
+			.tags = .{
+				"choppable",
+			},
+			.block_health = 0.5,
+			.texture = "torch/lumi.png",
+		},
+		.@"cubyz:vine/cirrus" = .{
+			.textures = .{
+				"vine/cirrus/top.png",
+				"vine/cirrus/bottom.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:vine/glimmer_worms" = .{
+			.textures = .{
+				"vine/glimmer_worms/top.png",
+				"vine/glimmer_worms/bottom.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:vine/mahogany" = .{
+			.textures = .{
+				"vine/mahogany/top.png",
+				"vine/mahogany/bottom.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:vine/willow" = .{
+			.textures = .{
+				"vine/willow/top.png",
+				"vine/willow/bottom.png",
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:voidstone/bricks" = .{
+			.texture = "voidstone/bricks.png",
+		},
+		.@"cubyz:voidstone/pillar" = .{
+			.texture = "voidstone/pillar.png",
+			.texture_top = "voidstone/pillar_top.png",
+			.texture_bottom = "voidstone/pillar_top.png",
+		},
+		.@"cubyz:voidstone/rough" = .{
+			.texture = "voidstone/rough.png",
+		},
+		.@"cubyz:voidstone/smooth" = .{
+			.texture = "voidstone/smooth.png",
+		},
+		.@"cubyz:voidstone/tile" = .{
+			.texture = "voidstone/tile.png",
+		},
+		.@"cubyz:voidstone/wall" = .{
+			.texture = "voidstone/wall.png",
+			.texture_top = "voidstone/wall_top.png",
+			.texture_bottom = "voidstone/wall_top.png",
+		},
+		.@"cubyz:branch/leafy/baobab" = .{
+			.texture = "leaves/baobab.png",
+			.textures = .{
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				"branch/baobab/dot.png",
+				"branch/baobab/half_line.png",
+				"branch/baobab/line.png",
+				"branch/baobab/bend.png",
+				"branch/baobab/intersection.png",
+				"branch/baobab/cross.png",
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/leafy/birch" = .{
+			.texture = "leaves/birch.png",
+			.textures = .{
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				"branch/birch/dot.png",
+				"branch/birch/half_line.png",
+				"branch/birch/line.png",
+				"branch/birch/bend.png",
+				"branch/birch/intersection.png",
+				"branch/birch/cross.png",
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/leafy/cirrus" = .{
+			.texture = "leaves/cirrus.png",
+			.textures = .{
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				"branch/cirrus/dot.png",
+				"branch/cirrus/half_line.png",
+				"branch/cirrus/line.png",
+				"branch/cirrus/bend.png",
+				"branch/cirrus/intersection.png",
+				"branch/cirrus/cross.png",
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/leafy/mahogany" = .{
+			.texture = "leaves/mahogany.png",
+			.textures = .{
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				"branch/mahogany/dot.png",
+				"branch/mahogany/half_line.png",
+				"branch/mahogany/line.png",
+				"branch/mahogany/bend.png",
+				"branch/mahogany/intersection.png",
+				"branch/mahogany/cross.png",
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/leafy/oak" = .{
+			.texture = "leaves/oak.png",
+			.textures = .{
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				"branch/oak/dot.png",
+				"branch/oak/half_line.png",
+				"branch/oak/line.png",
+				"branch/oak/bend.png",
+				"branch/oak/intersection.png",
+				"branch/oak/cross.png",
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/leafy/palm" = .{
+			.texture = "leaves/palm.png",
+			.textures = .{
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				"branch/palm/dot.png",
+				"branch/palm/half_line.png",
+				"branch/palm/line.png",
+				"branch/palm/bend.png",
+				"branch/palm/intersection.png",
+				"branch/palm/cross.png",
+				"leaves/palm_hanging.png",
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/leafy/pine" = .{
+			.texture = "leaves/pine.png",
+			.textures = .{
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				"branch/pine/dot.png",
+				"branch/pine/half_line.png",
+				"branch/pine/line.png",
+				"branch/pine/bend.png",
+				"branch/pine/intersection.png",
+				"branch/pine/cross.png",
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:branch/leafy/willow" = .{
+			.texture = "leaves/willow.png",
+			.textures = .{
+				null,
+				null,
+				null,
+				null,
+				null,
+				null,
+				"branch/willow/dot.png",
+				"branch/willow/half_line.png",
+				"branch/willow/line.png",
+				"branch/willow/bend.png",
+				"branch/willow/intersection.png",
+				"branch/willow/cross.png",
+				null,
+				null,
+				null,
+				null,
+			},
+		},
+		.@"cubyz:cloth/block/aqua" = .{
+			.texture = "cloth/aqua.png",
+		},
+		.@"cubyz:cloth/block/black" = .{
+			.texture = "cloth/black.png",
+		},
+		.@"cubyz:cloth/block/blue" = .{
+			.texture = "cloth/blue.png",
+		},
+		.@"cubyz:cloth/block/brown" = .{
+			.texture = "cloth/brown.png",
+		},
+		.@"cubyz:cloth/block/crimson" = .{
+			.texture = "cloth/crimson.png",
+		},
+		.@"cubyz:cloth/block/cyan" = .{
+			.texture = "cloth/cyan.png",
+		},
+		.@"cubyz:cloth/block/dark_grey" = .{
+			.texture = "cloth/dark_grey.png",
+		},
+		.@"cubyz:cloth/block/green" = .{
+			.texture = "cloth/green.png",
+		},
+		.@"cubyz:cloth/block/grey" = .{
+			.texture = "cloth/grey.png",
+		},
+		.@"cubyz:cloth/block/indigo" = .{
+			.texture = "cloth/indigo.png",
+		},
+		.@"cubyz:cloth/block/lime" = .{
+			.texture = "cloth/lime.png",
+		},
+		.@"cubyz:cloth/block/magenta" = .{
+			.texture = "cloth/magenta.png",
+		},
+		.@"cubyz:cloth/block/orange" = .{
+			.texture = "cloth/orange.png",
+		},
+		.@"cubyz:cloth/block/pink" = .{
+			.texture = "cloth/pink.png",
+		},
+		.@"cubyz:cloth/block/purple" = .{
+			.texture = "cloth/purple.png",
+		},
+		.@"cubyz:cloth/block/red" = .{
+			.texture = "cloth/red.png",
+		},
+		.@"cubyz:cloth/block/violet" = .{
+			.texture = "cloth/violet.png",
+		},
+		.@"cubyz:cloth/block/viridian" = .{
+			.texture = "cloth/viridian.png",
+		},
+		.@"cubyz:cloth/block/white" = .{
+			.texture = "cloth/white.png",
+		},
+		.@"cubyz:cloth/block/yellow" = .{
+			.texture = "cloth/yellow.png",
+		},
+		.@"cubyz:grass/vegetation/cold" = .{
+			.texture = "grass/vegetation/cold.png",
+		},
+		.@"cubyz:grass/vegetation/dew" = .{
+			.texture = "grass/vegetation/dew.png",
+		},
+		.@"cubyz:grass/vegetation/dry" = .{
+			.texture = "grass/vegetation/dry.png",
+		},
+		.@"cubyz:grass/vegetation/lush" = .{
+			.texture = "grass/vegetation/lush.png",
+		},
+		.@"cubyz:grass/vegetation/sky" = .{
+			.texture = "grass/vegetation/sky.png",
+		},
+		.@"cubyz:grass/vegetation/temperate" = .{
+			.texture = "grass/vegetation/temperate.png",
+		},
+		.@"cubyz:leaves/opaque/baobab" = .{
+			.texture = "leaves/opaque/baobab.png",
+		},
+		.@"cubyz:leaves/opaque/birch" = .{
+			.texture = "leaves/opaque/birch.png",
+		},
+		.@"cubyz:leaves/opaque/cirrus" = .{
+			.texture = "leaves/opaque/cirrus.png",
+		},
+		.@"cubyz:leaves/opaque/dead" = .{
+			.texture = "leaves/opaque/dead.png",
+		},
+		.@"cubyz:leaves/opaque/mahogany" = .{
+			.texture = "leaves/opaque/mahogany.png",
+		},
+		.@"cubyz:leaves/opaque/oak" = .{
+			.texture = "leaves/opaque/oak.png",
+		},
+		.@"cubyz:leaves/opaque/palm" = .{
+			.texture = "leaves/opaque/palm.png",
+		},
+		.@"cubyz:leaves/opaque/pine" = .{
+			.texture = "leaves/opaque/pine.png",
+		},
+		.@"cubyz:leaves/opaque/red" = .{
+			.texture = "leaves/opaque/red.png",
+		},
+		.@"cubyz:leaves/opaque/willow" = .{
+			.texture = "leaves/opaque/willow.png",
+		},
+		.@"cubyz:leaves/opaque/yellow" = .{
+			.texture = "leaves/opaque/yellow.png",
+		},
+		.@"cubyz:sbb/child/aqua" = .{
+			.texture = "sbb/child/side/aqua.png",
+			.texture_top = "sbb/child/top/aqua.png",
+			.texture_bottom = "sbb/child/bottom/aqua.png",
+		},
+		.@"cubyz:sbb/child/black" = .{
+			.texture = "sbb/child/side/black.png",
+			.texture_top = "sbb/child/top/black.png",
+			.texture_bottom = "sbb/child/bottom/black.png",
+		},
+		.@"cubyz:sbb/child/blue" = .{
+			.texture = "sbb/child/side/blue.png",
+			.texture_top = "sbb/child/top/blue.png",
+			.texture_bottom = "sbb/child/bottom/blue.png",
+		},
+		.@"cubyz:sbb/child/brown" = .{
+			.texture = "sbb/child/side/brown.png",
+			.texture_top = "sbb/child/top/brown.png",
+			.texture_bottom = "sbb/child/bottom/brown.png",
+		},
+		.@"cubyz:sbb/child/crimson" = .{
+			.texture = "sbb/child/side/crimson.png",
+			.texture_top = "sbb/child/top/crimson.png",
+			.texture_bottom = "sbb/child/bottom/crimson.png",
+		},
+		.@"cubyz:sbb/child/cyan" = .{
+			.texture = "sbb/child/side/cyan.png",
+			.texture_top = "sbb/child/top/cyan.png",
+			.texture_bottom = "sbb/child/bottom/cyan.png",
+		},
+		.@"cubyz:sbb/child/dark_grey" = .{
+			.texture = "sbb/child/side/dark_grey.png",
+			.texture_top = "sbb/child/top/dark_grey.png",
+			.texture_bottom = "sbb/child/bottom/dark_grey.png",
+		},
+		.@"cubyz:sbb/child/green" = .{
+			.texture = "sbb/child/side/green.png",
+			.texture_top = "sbb/child/top/green.png",
+			.texture_bottom = "sbb/child/bottom/green.png",
+		},
+		.@"cubyz:sbb/child/grey" = .{
+			.texture = "sbb/child/side/grey.png",
+			.texture_top = "sbb/child/top/grey.png",
+			.texture_bottom = "sbb/child/bottom/grey.png",
+		},
+		.@"cubyz:sbb/child/indigo" = .{
+			.texture = "sbb/child/side/indigo.png",
+			.texture_top = "sbb/child/top/indigo.png",
+			.texture_bottom = "sbb/child/bottom/indigo.png",
+		},
+		.@"cubyz:sbb/child/lime" = .{
+			.texture = "sbb/child/side/lime.png",
+			.texture_top = "sbb/child/top/lime.png",
+			.texture_bottom = "sbb/child/bottom/lime.png",
+		},
+		.@"cubyz:sbb/child/magenta" = .{
+			.texture = "sbb/child/side/magenta.png",
+			.texture_top = "sbb/child/top/magenta.png",
+			.texture_bottom = "sbb/child/bottom/magenta.png",
+		},
+		.@"cubyz:sbb/child/orange" = .{
+			.texture = "sbb/child/side/orange.png",
+			.texture_top = "sbb/child/top/orange.png",
+			.texture_bottom = "sbb/child/bottom/orange.png",
+		},
+		.@"cubyz:sbb/child/pink" = .{
+			.texture = "sbb/child/side/pink.png",
+			.texture_top = "sbb/child/top/pink.png",
+			.texture_bottom = "sbb/child/bottom/pink.png",
+		},
+		.@"cubyz:sbb/child/purple" = .{
+			.texture = "sbb/child/side/purple.png",
+			.texture_top = "sbb/child/top/purple.png",
+			.texture_bottom = "sbb/child/bottom/purple.png",
+		},
+		.@"cubyz:sbb/child/red" = .{
+			.texture = "sbb/child/side/red.png",
+			.texture_top = "sbb/child/top/red.png",
+			.texture_bottom = "sbb/child/bottom/red.png",
+		},
+		.@"cubyz:sbb/child/violet" = .{
+			.texture = "sbb/child/side/violet.png",
+			.texture_top = "sbb/child/top/violet.png",
+			.texture_bottom = "sbb/child/bottom/violet.png",
+		},
+		.@"cubyz:sbb/child/viridian" = .{
+			.texture = "sbb/child/side/viridian.png",
+			.texture_top = "sbb/child/top/viridian.png",
+			.texture_bottom = "sbb/child/bottom/viridian.png",
+		},
+		.@"cubyz:sbb/child/white" = .{
+			.texture = "sbb/child/side/white.png",
+			.texture_top = "sbb/child/top/white.png",
+			.texture_bottom = "sbb/child/bottom/white.png",
+		},
+		.@"cubyz:sbb/child/yellow" = .{
+			.texture = "sbb/child/side/yellow.png",
+			.texture_top = "sbb/child/top/yellow.png",
+			.texture_bottom = "sbb/child/bottom/yellow.png",
+		},
+	},
+}

@@ -1,14 +1,10 @@
-# Soil
+---
+icon: material/shovel
+---
 
 !!! infobox "Soil"
 
-    ![Image title](https://raw.githubusercontent.com/PixelGuys/Cubyz/refs/tags/0.2.0/assets/cubyz/blocks/textures/soil.png){ width="300" align=left }
-
-    |           |        |
-    |-----------|-------:|
-    | Health:   |    6.5 |
-    | Tool:     | Shover |
-    | Rotation: | stairs |
+{{ block_infobox("cubyz:soil") }}
 
 ## About
 
