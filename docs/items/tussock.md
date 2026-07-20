@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Tussock
 
-!!! infobox "Apple"
+!!! infobox "Tussock"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:tussock") }}
+
+
+
+!!! infobox "Tussock (block)"
+
+{{ block_infobox("cubyz:tussock") }}
 
 
 

@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Monstera
 
-!!! infobox "Apple"
+!!! infobox "Monstera"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:monstera") }}
+
+
+
+!!! infobox "Monstera (block)"
+
+{{ block_infobox("cubyz:monstera") }}
 
 
 

@@ -2,11 +2,11 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Grass Seeds
 
-!!! infobox "Apple"
+!!! infobox "Grass Seeds"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:grass_seeds") }}
 
 
 

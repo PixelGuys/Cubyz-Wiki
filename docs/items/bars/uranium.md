@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Uranium
 
-!!! infobox "Apple"
+!!! infobox "Uranium"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:bars/uranium") }}
+
+
+
+!!! infobox "Uranium (block)"
+
+{{ block_infobox("cubyz:bars/uranium") }}
 
 
 

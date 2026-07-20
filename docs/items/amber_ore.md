@@ -1,12 +1,18 @@
 ---
-icon: material/alpha-i-box-outline
+icon: material/alpha-m-box-outline
 ---
 
-# Apple
+# Amber Ore
 
-!!! infobox "Apple"
+!!! infobox "Amber Ore"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:amber_ore") }}
+
+
+
+!!! infobox "Amber Ore (block)"
+
+{{ block_infobox("cubyz:amber_ore") }}
 
 
 

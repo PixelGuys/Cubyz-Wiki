@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Lime
 
-!!! infobox "Apple"
+!!! infobox "Lime"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:cloth/lime") }}
+
+
+
+!!! infobox "Lime (block)"
+
+{{ block_infobox("cubyz:cloth/lime") }}
 
 
 

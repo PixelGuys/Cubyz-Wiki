@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Dark Grey
 
-!!! infobox "Apple"
+!!! infobox "Dark Grey"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:cloth/dark_grey") }}
+
+
+
+!!! infobox "Dark Grey (block)"
+
+{{ block_infobox("cubyz:cloth/dark_grey") }}
 
 
 

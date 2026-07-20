@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Lumiflora
 
-!!! infobox "Apple"
+!!! infobox "Lumiflora"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:lumiflora") }}
+
+
+
+!!! infobox "Lumiflora (block)"
+
+{{ block_infobox("cubyz:lumiflora") }}
 
 
 

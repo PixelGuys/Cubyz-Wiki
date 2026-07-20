@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Osier
 
-!!! infobox "Apple"
+!!! infobox "Osier"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:osier") }}
+
+
+
+!!! infobox "Osier (block)"
+
+{{ block_infobox("cubyz:osier") }}
 
 
 

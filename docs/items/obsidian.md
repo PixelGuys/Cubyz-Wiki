@@ -1,12 +1,18 @@
 ---
-icon: material/alpha-i-box-outline
+icon: material/alpha-m-box-outline
 ---
 
-# Apple
+# Obsidian
 
-!!! infobox "Apple"
+!!! infobox "Obsidian"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:obsidian") }}
+
+
+
+!!! infobox "Obsidian (block)"
+
+{{ block_infobox("cubyz:obsidian") }}
 
 
 

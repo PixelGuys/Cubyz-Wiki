@@ -1,12 +1,12 @@
 ---
-icon: material/alpha-i-box-outline
+icon: material/alpha-m-box-outline
 ---
 
-# Apple
+# Iron Ingot
 
-!!! infobox "Apple"
+!!! infobox "Iron Ingot"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:iron_ingot") }}
 
 
 

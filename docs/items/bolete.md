@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Bolete
 
-!!! infobox "Apple"
+!!! infobox "Bolete"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:bolete") }}
+
+
+
+!!! infobox "Bolete (block)"
+
+{{ block_infobox("cubyz:bolete") }}
 
 
 
