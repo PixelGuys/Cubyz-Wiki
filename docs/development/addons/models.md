@@ -1,3 +1,7 @@
+---
+icon: lucide/drafting-compass
+---
+
 # Models
 Cubyz loads `.glb` files for block models, which you can make in your preferred 3D modelling software (i.e. [Blockbench](https://www.blockbench.net/) or [Blender](https://www.blender.org/).) However, there are some things to keep in mind when creating your model:
 

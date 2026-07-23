@@ -1,3 +1,7 @@
+---
+icon: lucide/box
+---
+
 ## Blocks
 Every block has a `zig.zon` file containing all the properties of each block.
 

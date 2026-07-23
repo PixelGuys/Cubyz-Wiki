@@ -1,3 +1,7 @@
+---
+icon: lucide/sword
+---
+
 ## Items
 Every item has a `zig.zon` file containing all the properties of the item.
 
