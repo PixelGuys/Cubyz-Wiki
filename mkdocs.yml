@@ -16,6 +16,7 @@ theme:
     - navigation.indexes
     - content.action.edit
     - content.tabs.link
+    - content.code.copy
   palette:
     - media: "(prefers-color-scheme: light)"
       primary: green
@@ -54,8 +55,13 @@ markdown_extensions:
   - zensical.extensions.macros:
       module_name: macros
       render_by_default: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
 
 extra_css:
+  - css/global.css
   - css/infobox.css
 
 extra:
