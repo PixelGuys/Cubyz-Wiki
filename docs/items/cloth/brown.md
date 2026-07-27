@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Brown
 
-!!! infobox "Apple"
+!!! infobox "Brown"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:cloth/brown") }}
+
+
+
+!!! infobox "Brown (block)"
+
+{{ block_infobox("cubyz:cloth/brown") }}
 
 
 

@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Sky
 
-!!! infobox "Apple"
+!!! infobox "Sky"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:grass/vegetation/sky") }}
+
+
+
+!!! infobox "Sky (block)"
+
+{{ block_infobox("cubyz:grass/vegetation/sky") }}
 
 
 

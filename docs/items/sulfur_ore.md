@@ -1,12 +1,18 @@
 ---
-icon: material/alpha-i-box-outline
+icon: material/alpha-m-box-outline
 ---
 
-# Apple
+# Sulfur Ore
 
-!!! infobox "Apple"
+!!! infobox "Sulfur Ore"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:sulfur_ore") }}
+
+
+
+!!! infobox "Sulfur Ore (block)"
+
+{{ block_infobox("cubyz:sulfur_ore") }}
 
 
 

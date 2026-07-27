@@ -1,12 +1,18 @@
 ---
-icon: material/alpha-i-box-outline
+icon: material/alpha-m-box-outline
 ---
 
-# Apple
+# Cirrus
 
-!!! infobox "Apple"
+!!! infobox "Cirrus"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:branch/cirrus") }}
+
+
+
+!!! infobox "Cirrus (block)"
+
+{{ block_infobox("cubyz:branch/cirrus") }}
 
 
 

@@ -2,11 +2,11 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Raw Meat
 
-!!! infobox "Apple"
+!!! infobox "Raw Meat"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:raw_meat") }}
 
 
 

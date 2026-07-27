@@ -2,11 +2,11 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Selection Wand
 
-!!! infobox "Apple"
+!!! infobox "Selection Wand"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:selection_wand") }}
 
 
 

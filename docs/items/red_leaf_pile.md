@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Red Leaf Pile
 
-!!! infobox "Apple"
+!!! infobox "Red Leaf Pile"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:red_leaf_pile") }}
+
+
+
+!!! infobox "Red Leaf Pile (block)"
+
+{{ block_infobox("cubyz:red_leaf_pile") }}
 
 
 

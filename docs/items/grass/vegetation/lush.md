@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Lush
 
-!!! infobox "Apple"
+!!! infobox "Lush"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:grass/vegetation/lush") }}
+
+
+
+!!! infobox "Lush (block)"
+
+{{ block_infobox("cubyz:grass/vegetation/lush") }}
 
 
 

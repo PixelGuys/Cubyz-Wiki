@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Bluebells
 
-!!! infobox "Apple"
+!!! infobox "Bluebells"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:bluebells") }}
+
+
+
+!!! infobox "Bluebells (block)"
+
+{{ block_infobox("cubyz:bluebells") }}
 
 
 

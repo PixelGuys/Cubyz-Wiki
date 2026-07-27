@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Dry
 
-!!! infobox "Apple"
+!!! infobox "Dry"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:grass/vegetation/dry") }}
+
+
+
+!!! infobox "Dry (block)"
+
+{{ block_infobox("cubyz:grass/vegetation/dry") }}
 
 
 

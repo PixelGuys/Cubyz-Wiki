@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Birch
 
-!!! infobox "Apple"
+!!! infobox "Birch"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:sign/birch") }}
+
+
+
+!!! infobox "Birch (block)"
+
+{{ block_infobox("cubyz:sign/birch") }}
 
 
 

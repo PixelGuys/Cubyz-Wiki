@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Palm
 
-!!! infobox "Apple"
+!!! infobox "Palm"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:sign/palm") }}
+
+
+
+!!! infobox "Palm (block)"
+
+{{ block_infobox("cubyz:sign/palm") }}
 
 
 

@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Gold
 
-!!! infobox "Apple"
+!!! infobox "Gold"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:bars/gold") }}
+
+
+
+!!! infobox "Gold (block)"
+
+{{ block_infobox("cubyz:bars/gold") }}
 
 
 

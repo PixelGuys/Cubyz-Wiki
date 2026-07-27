@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Chimney
 
-!!! infobox "Apple"
+!!! infobox "Chimney"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:chimney") }}
+
+
+
+!!! infobox "Chimney (block)"
+
+{{ block_infobox("cubyz:chimney") }}
 
 
 

@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Sulfur
 
-!!! infobox "Apple"
+!!! infobox "Sulfur"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:lantern/sulfur") }}
+
+
+
+!!! infobox "Sulfur (block)"
+
+{{ block_infobox("cubyz:lantern/sulfur") }}
 
 
 

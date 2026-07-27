@@ -1,12 +1,18 @@
 ---
-icon: material/alpha-i-box-outline
+icon: material/alpha-m-box-outline
 ---
 
-# Apple
+# Resin
 
-!!! infobox "Apple"
+!!! infobox "Resin"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:resin") }}
+
+
+
+!!! infobox "Resin (block)"
+
+{{ block_infobox("cubyz:resin") }}
 
 
 

@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Dandelions
 
-!!! infobox "Apple"
+!!! infobox "Dandelions"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:dandelions") }}
+
+
+
+!!! infobox "Dandelions (block)"
+
+{{ block_infobox("cubyz:dandelions") }}
 
 
 

@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Wall
 
-!!! infobox "Apple"
+!!! infobox "Wall"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:glacite/wall") }}
+
+
+
+!!! infobox "Wall (block)"
+
+{{ block_infobox("cubyz:glacite/wall") }}
 
 
 

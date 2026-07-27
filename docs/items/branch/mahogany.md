@@ -1,12 +1,18 @@
 ---
-icon: material/alpha-i-box-outline
+icon: material/alpha-m-box-outline
 ---
 
-# Apple
+# Mahogany
 
-!!! infobox "Apple"
+!!! infobox "Mahogany"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:branch/mahogany") }}
+
+
+
+!!! infobox "Mahogany (block)"
+
+{{ block_infobox("cubyz:branch/mahogany") }}
 
 
 

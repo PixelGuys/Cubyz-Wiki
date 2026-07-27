@@ -1,12 +1,18 @@
 ---
-icon: material/alpha-i-box-outline
+icon: material/alpha-m-box-outline
 ---
 
-# Apple
+# Candy Cane
 
-!!! infobox "Apple"
+!!! infobox "Candy Cane"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:branch/candy_cane") }}
+
+
+
+!!! infobox "Candy Cane (block)"
+
+{{ block_infobox("cubyz:branch/candy_cane") }}
 
 
 

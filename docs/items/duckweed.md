@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Duckweed
 
-!!! infobox "Apple"
+!!! infobox "Duckweed"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:duckweed") }}
+
+
+
+!!! infobox "Duckweed (block)"
+
+{{ block_infobox("cubyz:duckweed") }}
 
 
 

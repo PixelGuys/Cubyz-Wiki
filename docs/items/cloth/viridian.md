@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Viridian
 
-!!! infobox "Apple"
+!!! infobox "Viridian"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:cloth/viridian") }}
+
+
+
+!!! infobox "Viridian (block)"
+
+{{ block_infobox("cubyz:cloth/viridian") }}
 
 
 

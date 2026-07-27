@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Coal Ore
 
-!!! infobox "Apple"
+!!! infobox "Coal Ore"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:coal_ore") }}
+
+
+
+!!! infobox "Coal Ore (block)"
+
+{{ block_infobox("cubyz:coal_ore") }}
 
 
 

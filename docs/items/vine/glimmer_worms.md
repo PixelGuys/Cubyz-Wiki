@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Glimmer Worms
 
-!!! infobox "Apple"
+!!! infobox "Glimmer Worms"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:vine/glimmer_worms") }}
+
+
+
+!!! infobox "Glimmer Worms (block)"
+
+{{ block_infobox("cubyz:vine/glimmer_worms") }}
 
 
 

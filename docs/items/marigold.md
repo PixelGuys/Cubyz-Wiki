@@ -2,11 +2,17 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Apple
+# Marigold
 
-!!! infobox "Apple"
+!!! infobox "Marigold"
 
-{{ item_infobox("cubyz:apple") }}
+{{ item_infobox("cubyz:marigold") }}
+
+
+
+!!! infobox "Marigold (block)"
+
+{{ block_infobox("cubyz:marigold") }}
 
 
 
