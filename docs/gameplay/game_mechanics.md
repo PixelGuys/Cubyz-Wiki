@@ -12,14 +12,17 @@ This page is about the various mechanics that are tied to the player.
 The player has 8 hearts (shaped like an anatomical heart), which can be empty, half-full, and full, meaning the player has a total of 16 health. Health can be lost due to fall damage and hazardous blocks such as cacti, lava, or magma. Currently, there is no way to regain health other than dying.
 
 ## Energy
-The player has 8 energy bars (shaped like a stomach), which can be empty, half-full, and full just like hearts. Currently, there is no way to lose or gain energy, and it does nothing.
+The player has 8 energy bars (shaped like a stomach), which can be empty, half-full, and full just like hearts. Currently, this bar does nothing and is purely cosmetic.
 
 ## Movement
-The player has 3 means of movement, walking, sprinting and crouching.
+In survival mode, the player has 3 means of movement, walking, sprinting and crouching.
+In creative mode, the player has the same as survival, but with fly, ghost and hyperspeed.
 
 Walking and sprinting are the same, except sprinting is faster. Crouching is the slowest, but prevents you from falling off blocks, unless the block is slippery. You will still be able to step down from smaller blocks, such as a block chiseled into stairs. Crouching also lets you fit into 1.5 block tall spaces. 
 
 The player may also jump, providing enough elevation to cross 1 whole block.
+
+Hyperspeed allows the player to go at a really fast speed, way faster than sprinting. Fly allows the player to fly in the air. Ghost also allows the player to fly, but the player can go through blocks. (Kinda like Spectator mode in Minecraft).
 
 While moving mid-air, your directional control is much weaker.
 
