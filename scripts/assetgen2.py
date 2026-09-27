@@ -15,7 +15,7 @@ from scripts import zon
 THIS_DIRECTORY = Path(__file__).parent.resolve()
 TEMPLATE_DIRECTORY = THIS_DIRECTORY / "templates"
 CUBYZ_REPO_RAW_CONTENT_BASE_URL = (
-    "https://raw.githubusercontent.com/PixelGuys/Cubyz/refs/tags/0.3.0"
+    "https://raw.githubusercontent.com/PixelGuys/Cubyz/refs/tags/0.4.1"
 )
 DOCS_FOLDER = THIS_DIRECTORY.parent / "docs"
 
