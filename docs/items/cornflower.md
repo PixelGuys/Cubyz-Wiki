@@ -2,7 +2,7 @@
 icon: material/alpha-i-box-outline
 ---
 
-# Daffodil
+# Cornflower
 
 !!! infobox "Cornflower"
 
@@ -23,7 +23,7 @@ icon: material/alpha-i-box-outline
 
 ## Obtaining
 
-> Collected with a [sickle](../gameplay/game_mechanics.md#building-and-destruction), the cornflower can be found naturally generated in flower patches.
+> Obtained via breaking a [cornflower](../blocks/cornflower.md) with a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
 
 ## Usage
 
