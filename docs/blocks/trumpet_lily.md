@@ -22,7 +22,7 @@ icon: material/sickle
 
 ## Obtaining
 
-> A Trumpet Lily can be found naturally generated in flower patches. Can only be collected using a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
+> A trumpet lily can be found naturally generated in flower patches. Can only be collected using a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
 
 ## Usage
 
