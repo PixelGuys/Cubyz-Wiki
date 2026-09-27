@@ -23,7 +23,7 @@ icon: material/alpha-i-box-outline
 
 ## Obtaining
 
-> Collected with a [sickle](../gameplay/game_mechanics.md#building-and-destruction), the fern can be found naturally generated on soil in some forest biomes.
+> Obtained via breaking [Ferns](../blocks/fern.md) with a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
 
 ## Usage
 
@@ -31,5 +31,4 @@ icon: material/alpha-i-box-outline
 
 ## History
 
-> + Texture updated in version 0.1.0
-> + Added in version 0.0.0
+> Added in version 0.0.0
