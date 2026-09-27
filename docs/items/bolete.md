@@ -23,7 +23,7 @@ icon: material/alpha-i-box-outline
 
 ## Obtaining
 
-> Collected with a [sickle](../gameplay/game_mechanics.md#building-and-destruction), the bolete can be found naturally generated in patches on most soils.
+> Obtained via breaking [boletes](../blocks/bolete.md) with a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
 
 ## Usage
 
