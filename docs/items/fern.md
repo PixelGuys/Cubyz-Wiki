@@ -19,16 +19,17 @@ icon: material/alpha-i-box-outline
 
 ## About
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> A vibrant green plant with four reaching fronds.
 
 ## Obtaining
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Collected with a [sickle](../gameplay/game_mechanics.md#building-and-destruction), the fern can be found naturally generated on soil in some forest biomes.
 
 ## Usage
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Can be placed for decoration.
 
 ## History
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> + Texture updated in version 0.1.0
+> + Added in version 0.0.0
