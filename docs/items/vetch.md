@@ -23,7 +23,7 @@ icon: material/alpha-i-box-outline
 
 ## Obtaining
 
-> Collected with a [sickle](../gameplay/game_mechanics.md#building-and-destruction), vetch can be found naturally generated in flower patches.
+> Obtained via breaking a [vetch](../blocks/vetch.md) with a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
 
 ## Usage
 
@@ -31,5 +31,4 @@ icon: material/alpha-i-box-outline
 
 ## History
 
-> + Block model updated in version 0.4.1
-> + Added in version 0.0.0
+> Added in version 0.0.0
