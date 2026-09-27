@@ -23,7 +23,7 @@ icon: material/alpha-i-box-outline
 
 ## Obtaining
 
-> Obtained via breaking [boletes](../blocks/bolete.md) with a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
+> Obtained via breaking a [bolete](../blocks/bolete.md) with a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
 
 ## Usage
 
