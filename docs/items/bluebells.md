@@ -23,7 +23,7 @@ icon: material/alpha-i-box-outline
 
 ## Obtaining
 
-> Collected with a [sickle](../gameplay/game_mechanics.md#building-and-destruction), bluebells can be found naturally generated in flower patches and abundantly in the bluebell woods biome.
+> Obtained via breaking [bluebells](../blocks/bluebells.md) with a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
 
 ## Usage
 
@@ -31,5 +31,4 @@ icon: material/alpha-i-box-outline
 
 ## History
 
-> + Block model updated in version 0.4.1
-> + Added in version 0.1.0
+> Added in version 0.1.0
