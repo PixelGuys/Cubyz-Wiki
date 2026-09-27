@@ -23,7 +23,7 @@ icon: material/alpha-i-box-outline
 
 ## Obtaining
 
-> Obtained via breaking [Ferns](../blocks/fern.md) with a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
+> Obtained via breaking a [fern](../blocks/fern.md) with a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
 
 ## Usage
 
