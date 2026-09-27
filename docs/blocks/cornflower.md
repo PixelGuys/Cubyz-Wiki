@@ -10,7 +10,7 @@ icon: material/sickle
 
 
 
-# Daisies
+# Cornflower
 
 !!! infobox "Cornflower"
 
@@ -18,16 +18,16 @@ icon: material/sickle
 
 ## About
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> A blue, solitary flower with a purple center.
 
 ## Obtaining
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Cornflowers can be found naturally generated in flower patches. Can only be collected using a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
 
 ## Usage
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Can be placed for decoration.
 
 ## History
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Added in version 0.4.1
