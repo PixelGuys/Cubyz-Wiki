@@ -30,4 +30,4 @@ icon: material/sickle
 
 ## History
 
-> Added in version 0.4.1
+> Added in version 0.4.0
