@@ -19,16 +19,17 @@ icon: material/alpha-i-box-outline
 
 ## About
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> A cluster of blue droopy flowers.
 
 ## Obtaining
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Collected with a [sickle](../gameplay/game_mechanics.md#building-and-destruction), bluebells can be found naturally generated in flower patches and abundantly in the bluebell woods biome.
 
 ## Usage
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Can be placed for decoration.
 
 ## History
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> + Block model updated in version 0.4.1
+> + Added in version 0.1.0
