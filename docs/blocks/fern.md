@@ -22,7 +22,7 @@ icon: material/sickle
 
 ## Obtaining
 
-> Ferns can be found naturally generated on soil in some forest biomes. Can only be collected using a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
+> A fern can be found naturally generated on soil in some forest biomes. Can only be collected using a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
 
 ## Usage
 
