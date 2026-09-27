@@ -22,7 +22,7 @@ icon: material/sickle
 
 ## Obtaining
 
-> Cornflowers can be found naturally generated in flower patches. Can only be collected using a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
+> A cornflower can be found naturally generated in flower patches. Can only be collected using a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
 
 ## Usage
 
