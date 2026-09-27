@@ -17,11 +17,11 @@ icon: material/alpha-i-box-outline
 
 ## Obtaining
 
-> Dropped from broken or decayed leaves.
+> Obtained via breaking most leaves or causing them to decay.
 
 ## Usage
 
-> Currently, there is no use for the Apple.
+> Currently, there is no use for the apple.
 
 ## History
 
