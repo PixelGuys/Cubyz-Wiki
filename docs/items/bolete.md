@@ -31,4 +31,4 @@ icon: material/alpha-i-box-outline
 
 ## History
 
-> + Added in version 0.0.0
+> Added in version 0.0.0
