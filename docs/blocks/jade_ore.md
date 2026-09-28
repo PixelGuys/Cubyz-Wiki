@@ -1,16 +1,12 @@
 ---
-icon: material/pickaxe
+icon: wiki/jade_ore
 ---
 
-
-
-<script>
-    window.location.replace("/items/jade_ore.html");
-</script>
-
-
-
 # Jade Ore
+
+!!! infobox "Jade Ore (item)"
+
+{{ item_infobox("cubyz:jade_ore") }}
 
 !!! infobox "Jade Ore"
 

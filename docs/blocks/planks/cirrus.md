@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/planks-cirrus
 ---
 
-
-
-<script>
-    window.location.replace("/items/planks/cirrus.html");
-</script>
-
-
-
 # Cirrus
+
+!!! infobox "Cirrus (item)"
+
+{{ item_infobox("cubyz:planks/cirrus") }}
 
 !!! infobox "Cirrus"
 

@@ -1,16 +1,12 @@
 ---
-icon: material/axe
+icon: wiki/resin
 ---
 
-
-
-<script>
-    window.location.replace("/items/resin.html");
-</script>
-
-
-
 # Resin
+
+!!! infobox "Resin (item)"
+
+{{ item_infobox("cubyz:resin") }}
 
 !!! infobox "Resin"
 

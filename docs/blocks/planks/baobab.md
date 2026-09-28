@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/planks-baobab
 ---
 
-
-
-<script>
-    window.location.replace("/items/planks/baobab.html");
-</script>
-
-
-
 # Baobab
+
+!!! infobox "Baobab (item)"
+
+{{ item_infobox("cubyz:planks/baobab") }}
 
 !!! infobox "Baobab"
 

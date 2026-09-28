@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/lantern-coal
 ---
 
-
-
-<script>
-    window.location.replace("/items/lantern/coal.html");
-</script>
-
-
-
 # Coal
+
+!!! infobox "Coal (item)"
+
+{{ item_infobox("cubyz:lantern/coal") }}
 
 !!! infobox "Coal"
 

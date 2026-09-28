@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/fence-pine
 ---
 
-
-
-<script>
-    window.location.replace("/items/fence/pine.html");
-</script>
-
-
-
 # Pine
+
+!!! infobox "Pine (item)"
+
+{{ item_infobox("cubyz:fence/pine") }}
 
 !!! infobox "Pine"
 

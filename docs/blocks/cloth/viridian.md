@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/cloth-viridian
 ---
 
-
-
-<script>
-    window.location.replace("/items/cloth/viridian.html");
-</script>
-
-
-
 # Viridian
+
+!!! infobox "Viridian (item)"
+
+{{ item_infobox("cubyz:cloth/viridian") }}
 
 !!! infobox "Viridian"
 

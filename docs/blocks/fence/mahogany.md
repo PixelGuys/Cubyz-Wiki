@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/fence-mahogany
 ---
 
-
-
-<script>
-    window.location.replace("/items/fence/mahogany.html");
-</script>
-
-
-
 # Mahogany
+
+!!! infobox "Mahogany (item)"
+
+{{ item_infobox("cubyz:fence/mahogany") }}
 
 !!! infobox "Mahogany"
 

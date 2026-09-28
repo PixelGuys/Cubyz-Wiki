@@ -1,16 +1,12 @@
 ---
-icon: material/pickaxe
+icon: wiki/chain-iron
 ---
 
-
-
-<script>
-    window.location.replace("/items/chain/iron.html");
-</script>
-
-
-
 # Iron
+
+!!! infobox "Iron (item)"
+
+{{ item_infobox("cubyz:chain/iron") }}
 
 !!! infobox "Iron"
 

@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/cloth-red
 ---
 
-
-
-<script>
-    window.location.replace("/items/cloth/red.html");
-</script>
-
-
-
 # Red
+
+!!! infobox "Red (item)"
+
+{{ item_infobox("cubyz:cloth/red") }}
 
 !!! infobox "Red"
 

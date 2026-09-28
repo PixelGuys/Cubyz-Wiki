@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/sign-mahogany
 ---
 
-
-
-<script>
-    window.location.replace("/items/sign/mahogany.html");
-</script>
-
-
-
 # Mahogany
+
+!!! infobox "Mahogany (item)"
+
+{{ item_infobox("cubyz:sign/mahogany") }}
 
 !!! infobox "Mahogany"
 

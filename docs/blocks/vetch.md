@@ -1,16 +1,12 @@
 ---
-icon: material/sickle
+icon: wiki/vetch
 ---
 
-
-
-<script>
-    window.location.replace("/items/vetch.html");
-</script>
-
-
-
 # Vetch
+
+!!! infobox "Vetch (item)"
+
+{{ item_infobox("cubyz:vetch") }}
 
 !!! infobox "Vetch"
 

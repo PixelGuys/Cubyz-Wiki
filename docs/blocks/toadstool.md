@@ -1,16 +1,12 @@
 ---
-icon: material/sickle
+icon: wiki/toadstool
 ---
 
-
-
-<script>
-    window.location.replace("/items/toadstool.html");
-</script>
-
-
-
 # Toadstool
+
+!!! infobox "Toadstool (item)"
+
+{{ item_infobox("cubyz:toadstool") }}
 
 !!! infobox "Toadstool"
 

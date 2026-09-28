@@ -1,16 +1,12 @@
 ---
-icon: material/axe
+icon: wiki/branch-willow
 ---
 
-
-
-<script>
-    window.location.replace("/items/branch/willow.html");
-</script>
-
-
-
 # Willow
+
+!!! infobox "Willow (item)"
+
+{{ item_infobox("cubyz:branch/willow") }}
 
 !!! infobox "Willow"
 

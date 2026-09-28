@@ -1,16 +1,12 @@
 ---
-icon: material/pickaxe
+icon: wiki/pebbles
 ---
 
-
-
-<script>
-    window.location.replace("/items/pebbles.html");
-</script>
-
-
-
 # Pebbles
+
+!!! infobox "Pebbles (item)"
+
+{{ item_infobox("cubyz:pebbles") }}
 
 !!! infobox "Pebbles"
 

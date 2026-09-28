@@ -1,16 +1,12 @@
 ---
-icon: material/sickle
+icon: wiki/osier
 ---
 
-
-
-<script>
-    window.location.replace("/items/osier.html");
-</script>
-
-
-
 # Osier
+
+!!! infobox "Osier (item)"
+
+{{ item_infobox("cubyz:osier") }}
 
 !!! infobox "Osier"
 

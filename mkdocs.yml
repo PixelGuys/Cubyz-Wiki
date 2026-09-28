@@ -6,6 +6,7 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  custom_dir: theme/overrides
   logo: images/logo.png
   favicon: images/logo.png
   features:

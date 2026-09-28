@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/fence-cirrus
 ---
 
-
-
-<script>
-    window.location.replace("/items/fence/cirrus.html");
-</script>
-
-
-
 # Cirrus
+
+!!! infobox "Cirrus (item)"
+
+{{ item_infobox("cubyz:fence/cirrus") }}
 
 !!! infobox "Cirrus"
 

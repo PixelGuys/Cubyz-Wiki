@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/vine-mahogany
 ---
 
-
-
-<script>
-    window.location.replace("/items/vine/mahogany.html");
-</script>
-
-
-
 # Mahogany
+
+!!! infobox "Mahogany (item)"
+
+{{ item_infobox("cubyz:vine/mahogany") }}
 
 !!! infobox "Mahogany"
 

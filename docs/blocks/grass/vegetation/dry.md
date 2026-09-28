@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/grass-vegetation-dry
 ---
 
-
-
-<script>
-    window.location.replace("/items/grass/vegetation/dry.html");
-</script>
-
-
-
 # Dry
+
+!!! infobox "Dry (item)"
+
+{{ item_infobox("cubyz:grass/vegetation/dry") }}
 
 !!! infobox "Dry"
 

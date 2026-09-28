@@ -1,16 +1,12 @@
 ---
-icon: material/axe
+icon: wiki/branch-oak
 ---
 
-
-
-<script>
-    window.location.replace("/items/branch/oak.html");
-</script>
-
-
-
 # Oak
+
+!!! infobox "Oak (item)"
+
+{{ item_infobox("cubyz:branch/oak") }}
 
 !!! infobox "Oak"
 

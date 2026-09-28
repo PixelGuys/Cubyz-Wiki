@@ -1,16 +1,12 @@
 ---
-icon: material/axe
+icon: wiki/branch-candy_cane
 ---
 
-
-
-<script>
-    window.location.replace("/items/branch/candy_cane.html");
-</script>
-
-
-
 # Candy Cane
+
+!!! infobox "Candy Cane (item)"
+
+{{ item_infobox("cubyz:branch/candy_cane") }}
 
 !!! infobox "Candy Cane"
 

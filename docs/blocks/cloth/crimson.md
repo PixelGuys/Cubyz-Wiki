@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/cloth-crimson
 ---
 
-
-
-<script>
-    window.location.replace("/items/cloth/crimson.html");
-</script>
-
-
-
 # Crimson
+
+!!! infobox "Crimson (item)"
+
+{{ item_infobox("cubyz:cloth/crimson") }}
 
 !!! infobox "Crimson"
 

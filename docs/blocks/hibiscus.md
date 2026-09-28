@@ -1,16 +1,12 @@
 ---
-icon: material/sickle
+icon: wiki/hibiscus
 ---
 
-
-
-<script>
-    window.location.replace("/items/hibiscus.html");
-</script>
-
-
-
 # Hibiscus
+
+!!! infobox "Hibiscus (item)"
+
+{{ item_infobox("cubyz:hibiscus") }}
 
 !!! infobox "Hibiscus"
 

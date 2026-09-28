@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/lantern-sulfur
 ---
 
-
-
-<script>
-    window.location.replace("/items/lantern/sulfur.html");
-</script>
-
-
-
 # Sulfur
+
+!!! infobox "Sulfur (item)"
+
+{{ item_infobox("cubyz:lantern/sulfur") }}
 
 !!! infobox "Sulfur"
 

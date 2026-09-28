@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/cloth-indigo
 ---
 
-
-
-<script>
-    window.location.replace("/items/cloth/indigo.html");
-</script>
-
-
-
 # Indigo
+
+!!! infobox "Indigo (item)"
+
+{{ item_infobox("cubyz:cloth/indigo") }}
 
 !!! infobox "Indigo"
 

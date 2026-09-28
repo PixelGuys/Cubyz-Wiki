@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/fog-green
 ---
 
-
-
-<script>
-    window.location.replace("/items/fog/green.html");
-</script>
-
-
-
 # Green
+
+!!! infobox "Green (item)"
+
+{{ item_infobox("cubyz:fog/green") }}
 
 !!! infobox "Green"
 

@@ -1,16 +1,12 @@
 ---
-icon: material/axe
+icon: wiki/branch-cirrus
 ---
 
-
-
-<script>
-    window.location.replace("/items/branch/cirrus.html");
-</script>
-
-
-
 # Cirrus
+
+!!! infobox "Cirrus (item)"
+
+{{ item_infobox("cubyz:branch/cirrus") }}
 
 !!! infobox "Cirrus"
 

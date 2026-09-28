@@ -1,16 +1,12 @@
 ---
-icon: material/sickle
+icon: wiki/moss
 ---
 
-
-
-<script>
-    window.location.replace("/items/moss.html");
-</script>
-
-
-
 # Moss
+
+!!! infobox "Moss (item)"
+
+{{ item_infobox("cubyz:moss") }}
 
 !!! infobox "Moss"
 

@@ -1,16 +1,12 @@
 ---
-icon: material/sickle
+icon: wiki/daisies
 ---
 
-
-
-<script>
-    window.location.replace("/items/daisies.html");
-</script>
-
-
-
 # Daisies
+
+!!! infobox "Daisies (item)"
+
+{{ item_infobox("cubyz:daisies") }}
 
 !!! infobox "Daisies"
 

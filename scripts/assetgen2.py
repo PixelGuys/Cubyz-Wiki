@@ -46,6 +46,12 @@ def main(args: list[str]) -> None:
 def generate_files(db: AssetDatabase) -> None:
     for assets in cast("tuple[dict[Id, Asset], ...]", (db.items, db.blocks)):
         for asset in assets.values():
+            if isinstance(asset, Block) and not asset.has_item:
+                continue
+
+            if isinstance(asset, Item) and asset.block is not None:
+                continue
+
             output = asset.render()
 
             destination_path = asset.destination_path
@@ -213,6 +219,7 @@ def extract_block_data(assets: AssetDatabase, self_id: Id, data: dict) -> Block:
         texture_left=_get_texture("texture_left"),
         texture_right=_get_texture("texture_right"),
         isInteracive="onInteract" in data,
+        has_item=data.get("hasItem", True),
         self_id=self_id,
         assets_link=assets,
     )
@@ -275,9 +282,11 @@ class Asset(AssetGenModel):
 
     @property
     def name(self) -> str:
-        return str.join(
-            " ", map(str.capitalize, self.file_name.replace("_", " ").replace("-", " ").split(" "))
-        )
+        parts = self.file_name.replace("_", " ").replace("-", " ").split(" ")
+        if self.file_name == "wall":
+            material = self.self_id.path.rsplit("/", maxsplit=1)[0].split("/")[-1]
+            parts = [material]
+        return str.join(" ", map(str.capitalize, parts))
 
     @property
     def category(self) -> str:
@@ -292,8 +301,18 @@ class Asset(AssetGenModel):
         return self.self_id.path.split("/")[-1]
 
     @property
+    def asset_dir(self) -> str:
+        path = self.self_id.path
+        if path.rsplit("/", maxsplit=1)[-1] == "wall":
+            material = path.rsplit("/", maxsplit=1)[0]
+            return "walls/" + material
+        if path == "sulfur_torch":
+            return "torch/sulfur"
+        return path
+
+    @property
     def path_no_extension(self) -> str:
-        return self.category + "/" + self.self_id.path
+        return self.category + "/" + self.asset_dir
 
     @property
     def destination_path(self) -> Path:
@@ -359,6 +378,7 @@ class Block(Asset):
     texture_left: str | None = None
     texture_right: str | None = None
     isInteracive: bool = False
+    has_item: bool = True
 
     @property
     def icon(self) -> str:
@@ -396,6 +416,8 @@ class Block(Asset):
         return "images/missing.png"
 
     def _image_url(self, stem: str) -> str:
+        if stem.startswith("glass/") and stem.endswith(".png"):
+            stem = stem[: -len(".png")] + "_absorption.png"
         return f"{CUBYZ_REPO_RAW_CONTENT_BASE_URL}/{self.TEXTURE_PATH}/{stem}"
 
     def render(self) -> str:

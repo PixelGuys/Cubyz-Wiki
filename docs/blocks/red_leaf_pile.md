@@ -1,16 +1,12 @@
 ---
-icon: material/sickle
+icon: wiki/red_leaf_pile
 ---
 
-
-
-<script>
-    window.location.replace("/items/red_leaf_pile.html");
-</script>
-
-
-
 # Red Leaf Pile
+
+!!! infobox "Red Leaf Pile (item)"
+
+{{ item_infobox("cubyz:red_leaf_pile") }}
 
 !!! infobox "Red Leaf Pile"
 

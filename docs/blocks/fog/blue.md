@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/fog-blue
 ---
 
-
-
-<script>
-    window.location.replace("/items/fog/blue.html");
-</script>
-
-
-
 # Blue
+
+!!! infobox "Blue (item)"
+
+{{ item_infobox("cubyz:fog/blue") }}
 
 !!! infobox "Blue"
 

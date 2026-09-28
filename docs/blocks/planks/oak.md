@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/planks-oak
 ---
 
-
-
-<script>
-    window.location.replace("/items/planks/oak.html");
-</script>
-
-
-
 # Oak
+
+!!! infobox "Oak (item)"
+
+{{ item_infobox("cubyz:planks/oak") }}
 
 !!! infobox "Oak"
 

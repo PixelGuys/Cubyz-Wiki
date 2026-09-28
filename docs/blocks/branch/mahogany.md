@@ -1,16 +1,12 @@
 ---
-icon: material/axe
+icon: wiki/branch-mahogany
 ---
 
-
-
-<script>
-    window.location.replace("/items/branch/mahogany.html");
-</script>
-
-
-
 # Mahogany
+
+!!! infobox "Mahogany (item)"
+
+{{ item_infobox("cubyz:branch/mahogany") }}
 
 !!! infobox "Mahogany"
 

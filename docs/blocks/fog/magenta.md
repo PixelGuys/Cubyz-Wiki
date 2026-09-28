@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/fog-magenta
 ---
 
-
-
-<script>
-    window.location.replace("/items/fog/magenta.html");
-</script>
-
-
-
 # Magenta
+
+!!! infobox "Magenta (item)"
+
+{{ item_infobox("cubyz:fog/magenta") }}
 
 !!! infobox "Magenta"
 

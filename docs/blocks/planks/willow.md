@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/planks-willow
 ---
 
-
-
-<script>
-    window.location.replace("/items/planks/willow.html");
-</script>
-
-
-
 # Willow
+
+!!! infobox "Willow (item)"
+
+{{ item_infobox("cubyz:planks/willow") }}
 
 !!! infobox "Willow"
 

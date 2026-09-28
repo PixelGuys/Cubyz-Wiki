@@ -1,16 +1,12 @@
 ---
-icon: material/pickaxe
+icon: wiki/chimney
 ---
 
-
-
-<script>
-    window.location.replace("/items/chimney.html");
-</script>
-
-
-
 # Chimney
+
+!!! infobox "Chimney (item)"
+
+{{ item_infobox("cubyz:chimney") }}
 
 !!! infobox "Chimney"
 

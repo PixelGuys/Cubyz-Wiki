@@ -1,16 +1,12 @@
 ---
-icon: material/sickle
+icon: wiki/fern
 ---
 
-
-
-<script>
-    window.location.replace("/items/fern.html");
-</script>
-
-
-
 # Fern
+
+!!! infobox "Fern (item)"
+
+{{ item_infobox("cubyz:fern") }}
 
 !!! infobox "Fern"
 

@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/cloth-white
 ---
 
-
-
-<script>
-    window.location.replace("/items/cloth/white.html");
-</script>
-
-
-
 # White
+
+!!! infobox "White (item)"
+
+{{ item_infobox("cubyz:cloth/white") }}
 
 !!! infobox "White"
 

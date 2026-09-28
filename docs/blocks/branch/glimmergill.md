@@ -1,16 +1,12 @@
 ---
-icon: material/axe
+icon: wiki/branch-glimmergill
 ---
 
-
-
-<script>
-    window.location.replace("/items/branch/glimmergill.html");
-</script>
-
-
-
 # Glimmergill
+
+!!! infobox "Glimmergill (item)"
+
+{{ item_infobox("cubyz:branch/glimmergill") }}
 
 !!! infobox "Glimmergill"
 

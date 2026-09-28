@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/planks-birch
 ---
 
-
-
-<script>
-    window.location.replace("/items/planks/birch.html");
-</script>
-
-
-
 # Birch
+
+!!! infobox "Birch (item)"
+
+{{ item_infobox("cubyz:planks/birch") }}
 
 !!! infobox "Birch"
 

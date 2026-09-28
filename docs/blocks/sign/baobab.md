@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/sign-baobab
 ---
 
-
-
-<script>
-    window.location.replace("/items/sign/baobab.html");
-</script>
-
-
-
 # Baobab
+
+!!! infobox "Baobab (item)"
+
+{{ item_infobox("cubyz:sign/baobab") }}
 
 !!! infobox "Baobab"
 

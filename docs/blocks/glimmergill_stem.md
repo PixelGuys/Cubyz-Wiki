@@ -1,5 +1,5 @@
 ---
-icon: material/axe
+icon: wiki/glimmergill_stem
 ---
 
 

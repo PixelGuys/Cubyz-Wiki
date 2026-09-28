@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/vine-willow
 ---
 
-
-
-<script>
-    window.location.replace("/items/vine/willow.html");
-</script>
-
-
-
 # Willow
+
+!!! infobox "Willow (item)"
+
+{{ item_infobox("cubyz:vine/willow") }}
 
 !!! infobox "Willow"
 

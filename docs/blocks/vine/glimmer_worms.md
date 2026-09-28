@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/vine-glimmer_worms
 ---
 
-
-
-<script>
-    window.location.replace("/items/vine/glimmer_worms.html");
-</script>
-
-
-
 # Glimmer Worms
+
+!!! infobox "Glimmer Worms (item)"
+
+{{ item_infobox("cubyz:vine/glimmer_worms") }}
 
 !!! infobox "Glimmer Worms"
 

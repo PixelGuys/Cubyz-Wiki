@@ -1,16 +1,12 @@
 ---
-icon: material/sickle
+icon: wiki/monstera
 ---
 
-
-
-<script>
-    window.location.replace("/items/monstera.html");
-</script>
-
-
-
 # Monstera
+
+!!! infobox "Monstera (item)"
+
+{{ item_infobox("cubyz:monstera") }}
 
 !!! infobox "Monstera"
 

@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/sign-oak
 ---
 
-
-
-<script>
-    window.location.replace("/items/sign/oak.html");
-</script>
-
-
-
 # Oak
+
+!!! infobox "Oak (item)"
+
+{{ item_infobox("cubyz:sign/oak") }}
 
 !!! infobox "Oak"
 

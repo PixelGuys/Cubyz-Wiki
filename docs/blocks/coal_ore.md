@@ -1,16 +1,12 @@
 ---
-icon: material/pickaxe
+icon: wiki/coal_ore
 ---
 
-
-
-<script>
-    window.location.replace("/items/coal_ore.html");
-</script>
-
-
-
 # Coal Ore
+
+!!! infobox "Coal Ore (item)"
+
+{{ item_infobox("cubyz:coal_ore") }}
 
 !!! infobox "Coal Ore"
 

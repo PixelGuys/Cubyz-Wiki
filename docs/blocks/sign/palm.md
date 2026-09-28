@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/sign-palm
 ---
 
-
-
-<script>
-    window.location.replace("/items/sign/palm.html");
-</script>
-
-
-
 # Palm
+
+!!! infobox "Palm (item)"
+
+{{ item_infobox("cubyz:sign/palm") }}
 
 !!! infobox "Palm"
 

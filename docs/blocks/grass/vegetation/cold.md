@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/grass-vegetation-cold
 ---
 
-
-
-<script>
-    window.location.replace("/items/grass/vegetation/cold.html");
-</script>
-
-
-
 # Cold
+
+!!! infobox "Cold (item)"
+
+{{ item_infobox("cubyz:grass/vegetation/cold") }}
 
 !!! infobox "Cold"
 

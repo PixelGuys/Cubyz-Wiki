@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/sign-willow
 ---
 
-
-
-<script>
-    window.location.replace("/items/sign/willow.html");
-</script>
-
-
-
 # Willow
+
+!!! infobox "Willow (item)"
+
+{{ item_infobox("cubyz:sign/willow") }}
 
 !!! infobox "Willow"
 

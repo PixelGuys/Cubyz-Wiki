@@ -1,16 +1,12 @@
 ---
-icon: material/box-shadow
+icon: wiki/cloth-lime
 ---
 
-
-
-<script>
-    window.location.replace("/items/cloth/lime.html");
-</script>
-
-
-
 # Lime
+
+!!! infobox "Lime (item)"
+
+{{ item_infobox("cubyz:cloth/lime") }}
 
 !!! infobox "Lime"
 
