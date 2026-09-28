@@ -18,16 +18,17 @@ icon: material/sickle
 
 ## About
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> A bright yellow, solitary flower.
 
 ## Obtaining
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> A daffodil can be found naturally generated in flower patches. Can only be collected using a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
 
 ## Usage
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Can be placed for decoration.
 
 ## History
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> + Block model updated in version 0.4.1
+> + Added in version 0.0.0

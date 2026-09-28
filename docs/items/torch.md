@@ -19,16 +19,16 @@ icon: material/alpha-i-box-outline
 
 ## About
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> A brightly burning stick. Somehow, it never burns out...
 
 ## Obtaining
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Crafted from 1 (one) [coal](coal_ore.md) and 1 (one) of any plank type.
 
 ## Usage
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Can be placed as decoration to generate a source of light.
 
 ## History
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Added in version 0.0.0

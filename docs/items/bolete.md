@@ -19,16 +19,16 @@ icon: material/alpha-i-box-outline
 
 ## About
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> A brown mushroom.
 
 ## Obtaining
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Obtained via breaking a [bolete](../blocks/bolete.md) with a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
 
 ## Usage
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Can be placed for decoration.
 
 ## History
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Added in version 0.0.0

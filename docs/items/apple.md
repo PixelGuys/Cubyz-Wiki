@@ -13,16 +13,16 @@ icon: material/alpha-i-box-outline
 
 ## About
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> A shiny red apple. Crisp to bite and full of flavor!
 
 ## Obtaining
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Obtained via breaking most leaves or causing them to decay.
 
 ## Usage
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Currently, there is no use for the apple.
 
 ## History
 
-> This section is a stub. You can help the Cubyz Wiki by expanding it.
+> Added in version 0.0.0
