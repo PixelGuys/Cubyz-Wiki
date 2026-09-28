@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/cactus_flower.html");
-</script>
-
-
-
 # Cactus Flower
+
+!!! infobox "Cactus Flower (item)"
+
+{{ item_infobox("cubyz:cactus_flower") }}
 
 !!! infobox "Cactus Flower"
 

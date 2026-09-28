@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/yellow_leaf_pile.html");
-</script>
-
-
-
 # Yellow Leaf Pile
+
+!!! infobox "Yellow Leaf Pile (item)"
+
+{{ item_infobox("cubyz:yellow_leaf_pile") }}
 
 !!! infobox "Yellow Leaf Pile"
 

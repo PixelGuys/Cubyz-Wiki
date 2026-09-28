@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/dead_leaf_pile.html");
-</script>
-
-
-
 # Dead Leaf Pile
+
+!!! infobox "Dead Leaf Pile (item)"
+
+{{ item_infobox("cubyz:dead_leaf_pile") }}
 
 !!! infobox "Dead Leaf Pile"
 

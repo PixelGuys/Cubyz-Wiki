@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/bolete.html");
-</script>
-
-
-
 # Bolete
+
+!!! infobox "Bolete (item)"
+
+{{ item_infobox("cubyz:bolete") }}
 
 !!! infobox "Bolete"
 

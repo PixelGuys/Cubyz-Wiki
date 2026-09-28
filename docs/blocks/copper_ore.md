@@ -2,15 +2,11 @@
 icon: material/pickaxe
 ---
 
-
-
-<script>
-    window.location.replace("/items/copper_ore.html");
-</script>
-
-
-
 # Copper Ore
+
+!!! infobox "Copper Ore (item)"
+
+{{ item_infobox("cubyz:copper_ore") }}
 
 !!! infobox "Copper Ore"
 

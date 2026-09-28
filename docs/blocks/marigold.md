@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/marigold.html");
-</script>
-
-
-
 # Marigold
+
+!!! infobox "Marigold (item)"
+
+{{ item_infobox("cubyz:marigold") }}
 
 !!! infobox "Marigold"
 

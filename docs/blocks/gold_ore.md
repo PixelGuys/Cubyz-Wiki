@@ -2,15 +2,11 @@
 icon: material/pickaxe
 ---
 
-
-
-<script>
-    window.location.replace("/items/gold_ore.html");
-</script>
-
-
-
 # Gold Ore
+
+!!! infobox "Gold Ore (item)"
+
+{{ item_infobox("cubyz:gold_ore") }}
 
 !!! infobox "Gold Ore"
 

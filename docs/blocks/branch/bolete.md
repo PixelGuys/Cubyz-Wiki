@@ -2,15 +2,11 @@
 icon: material/axe
 ---
 
-
-
-<script>
-    window.location.replace("/items/branch/bolete.html");
-</script>
-
-
-
 # Bolete
+
+!!! infobox "Bolete (item)"
+
+{{ item_infobox("cubyz:branch/bolete") }}
 
 !!! infobox "Bolete"
 

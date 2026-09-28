@@ -2,15 +2,11 @@
 icon: material/box-shadow
 ---
 
-
-
-<script>
-    window.location.replace("/items/cloth/aqua.html");
-</script>
-
-
-
 # Aqua
+
+!!! infobox "Aqua (item)"
+
+{{ item_infobox("cubyz:cloth/aqua") }}
 
 !!! infobox "Aqua"
 

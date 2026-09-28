@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/daffodil.html");
-</script>
-
-
-
 # Daffodil
+
+!!! infobox "Daffodil (item)"
+
+{{ item_infobox("cubyz:daffodil") }}
 
 !!! infobox "Daffodil"
 

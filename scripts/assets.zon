@@ -725,6 +725,7 @@
 			.texture = "willow_log.png",
 			.texture_top = "willow_log.png",
 			.texture_bottom = "willow_log_top.png",
+			.has_item = false,
 		},
 		.@"cubyz:willow_log" = .{
 			.tags = .{
@@ -736,6 +737,7 @@
 			.texture = "willow_log.png",
 			.texture_top = "willow_log_top.png",
 			.texture_bottom = "willow_log_top.png",
+			.has_item = false,
 		},
 		.@"cubyz:water" = .{
 			.tags = .{
@@ -978,6 +980,7 @@
 			.texture = "pine_log.png",
 			.texture_top = "pine_log.png",
 			.texture_bottom = "pine_log_top.png",
+			.has_item = false,
 		},
 		.@"cubyz:pine_log" = .{
 			.tags = .{
@@ -989,6 +992,7 @@
 			.texture = "pine_log.png",
 			.texture_top = "pine_log_top.png",
 			.texture_bottom = "pine_log_top.png",
+			.has_item = false,
 		},
 		.@"cubyz:permafrost" = .{
 			.tags = .{
@@ -1030,6 +1034,7 @@
 			.texture = "oak_log.png",
 			.texture_top = "oak_log.png",
 			.texture_bottom = "oak_log_top.png",
+			.has_item = false,
 		},
 		.@"cubyz:oak_log" = .{
 			.tags = .{
@@ -1041,6 +1046,7 @@
 			.texture = "oak_log.png",
 			.texture_top = "oak_log_top.png",
 			.texture_bottom = "oak_log_top.png",
+			.has_item = false,
 		},
 		.@"cubyz:mud" = .{
 			.tags = .{
@@ -1104,6 +1110,7 @@
 			.texture = "mahogany_log.png",
 			.texture_top = "mahogany_log.png",
 			.texture_bottom = "mahogany_log_top.png",
+			.has_item = false,
 		},
 		.@"cubyz:mahogany_log" = .{
 			.tags = .{
@@ -1115,6 +1122,7 @@
 			.texture = "mahogany_log.png",
 			.texture_top = "mahogany_log_top.png",
 			.texture_bottom = "mahogany_log_top.png",
+			.has_item = false,
 		},
 		.@"cubyz:magma" = .{
 			.tags = .{
@@ -1635,6 +1643,7 @@
 			.texture = "birch_log.png",
 			.texture_top = "birch_log.png",
 			.texture_bottom = "birch_log_top.png",
+			.has_item = false,
 		},
 		.@"cubyz:birch_log" = .{
 			.tags = .{
@@ -1646,6 +1655,7 @@
 			.texture = "birch_log.png",
 			.texture_top = "birch_log_top.png",
 			.texture_bottom = "birch_log_top.png",
+			.has_item = false,
 		},
 		.@"cubyz:bellows" = .{
 			.tags = .{
@@ -1670,6 +1680,7 @@
 			.texture = "baobab_log.png",
 			.texture_top = "baobab_log.png",
 			.texture_bottom = "baobab_log_top.png",
+			.has_item = false,
 		},
 		.@"cubyz:baobab_log" = .{
 			.tags = .{
@@ -1681,6 +1692,7 @@
 			.texture = "baobab_log.png",
 			.texture_top = "baobab_log_top.png",
 			.texture_bottom = "baobab_log_top.png",
+			.has_item = false,
 		},
 		.@"cubyz:ash" = .{
 			.tags = .{
@@ -1713,6 +1725,7 @@
 			.tags = .{
 				"air",
 			},
+			.has_item = false,
 		},
 		.@"cubyz:aerosoil" = .{
 			.tags = .{

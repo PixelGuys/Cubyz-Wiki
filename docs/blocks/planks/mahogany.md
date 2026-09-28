@@ -2,15 +2,11 @@
 icon: material/box-shadow
 ---
 
-
-
-<script>
-    window.location.replace("/items/planks/mahogany.html");
-</script>
-
-
-
 # Mahogany
+
+!!! infobox "Mahogany (item)"
+
+{{ item_infobox("cubyz:planks/mahogany") }}
 
 !!! infobox "Mahogany"
 

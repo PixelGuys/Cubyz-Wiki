@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/dandelions.html");
-</script>
-
-
-
 # Dandelions
+
+!!! infobox "Dandelions (item)"
+
+{{ item_infobox("cubyz:dandelions") }}
 
 !!! infobox "Dandelions"
 

@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/duckweed.html");
-</script>
-
-
-
 # Duckweed
+
+!!! infobox "Duckweed (item)"
+
+{{ item_infobox("cubyz:duckweed") }}
 
 !!! infobox "Duckweed"
 

@@ -2,15 +2,11 @@
 icon: material/axe
 ---
 
-
-
-<script>
-    window.location.replace("/items/branch/cactus.html");
-</script>
-
-
-
 # Cactus
+
+!!! infobox "Cactus (item)"
+
+{{ item_infobox("cubyz:branch/cactus") }}
 
 !!! infobox "Cactus"
 

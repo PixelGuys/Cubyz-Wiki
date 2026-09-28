@@ -2,15 +2,11 @@
 icon: material/axe
 ---
 
-
-
-<script>
-    window.location.replace("/items/branch/toadstool.html");
-</script>
-
-
-
 # Toadstool
+
+!!! infobox "Toadstool (item)"
+
+{{ item_infobox("cubyz:branch/toadstool") }}
 
 !!! infobox "Toadstool"
 

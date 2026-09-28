@@ -2,15 +2,11 @@
 icon: material/pickaxe
 ---
 
-
-
-<script>
-    window.location.replace("/items/obsidian.html");
-</script>
-
-
-
 # Obsidian
+
+!!! infobox "Obsidian (item)"
+
+{{ item_infobox("cubyz:obsidian") }}
 
 !!! infobox "Obsidian"
 

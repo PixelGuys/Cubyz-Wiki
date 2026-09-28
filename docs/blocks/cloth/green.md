@@ -2,15 +2,11 @@
 icon: material/box-shadow
 ---
 
-
-
-<script>
-    window.location.replace("/items/cloth/green.html");
-</script>
-
-
-
 # Green
+
+!!! infobox "Green (item)"
+
+{{ item_infobox("cubyz:cloth/green") }}
 
 !!! infobox "Green"
 

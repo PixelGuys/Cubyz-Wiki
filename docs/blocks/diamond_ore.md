@@ -2,15 +2,11 @@
 icon: material/pickaxe
 ---
 
-
-
-<script>
-    window.location.replace("/items/diamond_ore.html");
-</script>
-
-
-
 # Diamond Ore
+
+!!! infobox "Diamond Ore (item)"
+
+{{ item_infobox("cubyz:diamond_ore") }}
 
 !!! infobox "Diamond Ore"
 

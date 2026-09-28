@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/bluebells.html");
-</script>
-
-
-
 # Bluebells
+
+!!! infobox "Bluebells (item)"
+
+{{ item_infobox("cubyz:bluebells") }}
 
 !!! infobox "Bluebells"
 

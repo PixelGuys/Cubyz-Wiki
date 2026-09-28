@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/tussock.html");
-</script>
-
-
-
 # Tussock
+
+!!! infobox "Tussock (item)"
+
+{{ item_infobox("cubyz:tussock") }}
 
 !!! infobox "Tussock"
 

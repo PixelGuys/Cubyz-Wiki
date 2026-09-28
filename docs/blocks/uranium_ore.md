@@ -2,15 +2,11 @@
 icon: material/pickaxe
 ---
 
-
-
-<script>
-    window.location.replace("/items/uranium_ore.html");
-</script>
-
-
-
 # Uranium Ore
+
+!!! infobox "Uranium Ore (item)"
+
+{{ item_infobox("cubyz:uranium_ore") }}
 
 !!! infobox "Uranium Ore"
 

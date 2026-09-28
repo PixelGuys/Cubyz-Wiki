@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/ivy.html");
-</script>
-
-
-
 # Ivy
+
+!!! infobox "Ivy (item)"
+
+{{ item_infobox("cubyz:ivy") }}
 
 !!! infobox "Ivy"
 

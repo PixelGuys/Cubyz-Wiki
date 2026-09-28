@@ -2,15 +2,11 @@
 icon: material/box-shadow
 ---
 
-
-
-<script>
-    window.location.replace("/items/grass/vegetation/dew.html");
-</script>
-
-
-
 # Dew
+
+!!! infobox "Dew (item)"
+
+{{ item_infobox("cubyz:grass/vegetation/dew") }}
 
 !!! infobox "Dew"
 

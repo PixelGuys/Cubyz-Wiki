@@ -2,15 +2,11 @@
 icon: material/box-shadow
 ---
 
-
-
-<script>
-    window.location.replace("/items/sign/birch.html");
-</script>
-
-
-
 # Birch
+
+!!! infobox "Birch (item)"
+
+{{ item_infobox("cubyz:sign/birch") }}
 
 !!! infobox "Birch"
 

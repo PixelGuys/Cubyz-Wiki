@@ -2,15 +2,11 @@
 icon: material/axe
 ---
 
-
-
-<script>
-    window.location.replace("/items/branch/baobab.html");
-</script>
-
-
-
 # Baobab
+
+!!! infobox "Baobab (item)"
+
+{{ item_infobox("cubyz:branch/baobab") }}
 
 !!! infobox "Baobab"
 

@@ -2,15 +2,11 @@
 icon: material/box-shadow
 ---
 
-
-
-<script>
-    window.location.replace("/items/bars/meteorite.html");
-</script>
-
-
-
 # Meteorite
+
+!!! infobox "Meteorite (item)"
+
+{{ item_infobox("cubyz:bars/meteorite") }}
 
 !!! infobox "Meteorite"
 

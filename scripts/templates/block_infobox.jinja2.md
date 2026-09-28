@@ -3,9 +3,6 @@
 | | |
 |:-|-:|
 |**ID**| {{ block.id }} |
-{% if block.item -%}
-|**Item**| [{{ block.id }}]({{ block.item.wiki_link }}) |
-{%- endif %}
 {%- if block.ore %}
 |**Max Height**| {{ block.ore.max_height }} |
 |**Min Height**| {{ block.ore.min_height }} |

@@ -2,15 +2,11 @@
 icon: material/box-shadow
 ---
 
-
-
-<script>
-    window.location.replace("/items/bars/uranium.html");
-</script>
-
-
-
 # Uranium
+
+!!! infobox "Uranium (item)"
+
+{{ item_infobox("cubyz:bars/uranium") }}
 
 !!! infobox "Uranium"
 

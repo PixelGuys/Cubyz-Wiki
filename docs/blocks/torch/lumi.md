@@ -2,15 +2,11 @@
 icon: material/axe
 ---
 
-
-
-<script>
-    window.location.replace("/items/torch/lumi.html");
-</script>
-
-
-
 # Lumi
+
+!!! infobox "Lumi (item)"
+
+{{ item_infobox("cubyz:torch/lumi") }}
 
 !!! infobox "Lumi"
 

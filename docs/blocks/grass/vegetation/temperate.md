@@ -2,15 +2,11 @@
 icon: material/box-shadow
 ---
 
-
-
-<script>
-    window.location.replace("/items/grass/vegetation/temperate.html");
-</script>
-
-
-
 # Temperate
+
+!!! infobox "Temperate (item)"
+
+{{ item_infobox("cubyz:grass/vegetation/temperate") }}
 
 !!! infobox "Temperate"
 
