@@ -37,8 +37,14 @@ null = (
 string = (quote + pp.Regex(r'[^"]*') + quote).set_name("string_literal")
 
 number = (
-    (pp.Regex(r"0x[a-fA-F0-9]+").set_parse_action(lambda t: int(str(t[0]), 16))).set_name(
+    (pp.Regex(r"0x[a-fA-F0-9_]+").set_parse_action(lambda t: int(str(t[0]).replace("_", ""), 16))).set_name(
         "hexadecimal_integer_literal"
+    )
+    | (pp.Regex(r"0b[01_]+").set_parse_action(lambda t: int(str(t[0]).replace("_", ""), 2))).set_name(
+        "binary_integer_literal"
+    )
+    | (pp.Regex(r"0o[0-7_]+").set_parse_action(lambda t: int(str(t[0]).replace("_", ""), 8))).set_name(
+        "octal_integer_literal"
     )
     | (
         #               x.            .x      x.y
