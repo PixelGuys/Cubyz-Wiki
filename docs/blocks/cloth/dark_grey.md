@@ -1,5 +1,5 @@
 ---
-icon: material/box-shadow
+icon: wiki/cloth-dark_grey
 ---
 
 # Dark Grey

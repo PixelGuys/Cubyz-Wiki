@@ -1,5 +1,5 @@
 ---
-icon: material/sickle
+icon: wiki/yellow_leaf_pile
 ---
 
 # Yellow Leaf Pile

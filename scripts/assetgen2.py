@@ -416,6 +416,8 @@ class Block(Asset):
         return "images/missing.png"
 
     def _image_url(self, stem: str) -> str:
+        if stem.startswith("glass/") and stem.endswith(".png"):
+            stem = stem[: -len(".png")] + "_absorption.png"
         return f"{CUBYZ_REPO_RAW_CONTENT_BASE_URL}/{self.TEXTURE_PATH}/{stem}"
 
     def render(self) -> str:

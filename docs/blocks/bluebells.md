@@ -1,5 +1,5 @@
 ---
-icon: material/sickle
+icon: wiki/bluebells
 ---
 
 # Bluebells

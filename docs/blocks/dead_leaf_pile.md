@@ -1,5 +1,5 @@
 ---
-icon: material/sickle
+icon: wiki/dead_leaf_pile
 ---
 
 # Dead Leaf Pile

@@ -1,5 +1,5 @@
 ---
-icon: material/pickaxe
+icon: wiki/gold_ore
 ---
 
 # Gold Ore
