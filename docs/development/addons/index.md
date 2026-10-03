@@ -1,3 +1,7 @@
+---
+icon: lucide/puzzle
+---
+
 # Addon Creation
 
 This page outlines a guide to creating your own addons.

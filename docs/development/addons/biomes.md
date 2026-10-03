@@ -1,5 +1,9 @@
+---
+icon: lucide/tree-pine
+---
+
 ## Biomes
-Every biome is defined by a `zig.zon` file that contains all the data the world generator needs to generate it.
+ Every biome is defined by a `<biome_name>.zig.zon` file that contains all the data the world generator needs to generate it.
 
 ### `zig.zon` Fields
 
