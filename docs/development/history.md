@@ -1,4 +1,5 @@
 ## Early History
+
 ---
 
 On the 22nd of August of 2018, **zenith391** and **ZaUserA** created Cubz.
@@ -8,18 +9,20 @@ project is currently maintained mainly by **QuantumDeveloper** (also referred
 to as **IntegratedQuantum**) (and also maintained by others).
 
 ## "Cubyz"
+
 ---
 
 Initially, Cubyz was named "Cubz" by **zenith391** and **ZaUserA**, but on
 the 17th of March of 2019 (at 6:00PM GMT, Sunday), **zenith391** suggests the
 new name "Cubyz". You can find the link to that message [here](https://discord.com/channels/443805812390100992/475297969609113600/556899803758329886).
-If the message is no longer available, you can find a screenshot [here](/images/history/zenith-message-1.png) and [here](/images/history/zenith-message-2.png).
+If the message is no longer available, you can find a screenshot [here](images/zenith-message-1.png) and [here](images/zenith-message-2.png).
 
 > "they will merge under the new name Cubyz"
 >
 > — **zenith391**, March 17 2019 at 6:00PM GMT (Sunday)
 
 ## Early Development Builds
+
 ---
 
 Sometime in 2019, @QuantumDeveloper found a project on Github called Cubz. He
@@ -31,10 +34,10 @@ that allowed you to "[put] tools together in a wide variety of ways". He also
 added a **Multicolored Lighting System**, the **Block Rotation System** and
 the **Addons** system.
 
-![Initial Player Model](/images/history/Initial_Player_Model.png)
-![The Last Water House](/images/history/The_Last_Water_House.png)
-![Snowy Cubyz](/images/history/Snowy_Cubyz.png)
-![Desert](/images/history/Desert.png)
+![Initial Player Model](images/Initial_Player_Model.png)
+![The Last Water House](images/The_Last_Water_House.png)
+![Snowy Cubyz](images/Snowy_Cubyz.png)
+![Desert](images/Desert.png)
 
 <style>
 img[alt="Initial Player Model"], [alt="The Last Water House"], [alt="Snowy Cubyz"], [alt="Desert"] {
@@ -46,6 +49,7 @@ Source to screenshots can be found at
 [www.youtube.com/watch?v=0TDcqLFwQrE](https://www.youtube.com/watch?v=0TDcqLFwQrE).
 
 ## The Great Zig Rewrite
+
 ---
 
 There was an attempt to rewrite Cubyz in C++ and Vulkan, but that was abandoned
@@ -76,7 +80,7 @@ specific stuff.
 ## Cubyz 0.0.0!
 
 On October the 5th 2025, Cubyz version `0.0.0` is released.
-You can find the release announcement [here (Github)](https://github.com/PixelGuys/Cubyz/releases/tag/0.0.0) and [here (Discord)](https://discord.com/channels/443805812390100992/481475033621856266/1424480988960129178). Screenshot of the Discord message [here](/images/history/quantum-message-1.png).
+You can find the release announcement [here (Github)](https://github.com/PixelGuys/Cubyz/releases/tag/0.0.0) and [here (Discord)](https://discord.com/channels/443805812390100992/481475033621856266/1424480988960129178). Screenshot of the Discord message [here](images/quantum-message-1.png).
 
 QuantumDeveloper also released a youtube video which as of July 11th 2026 has `199k views` on youtube.
 You can whatch the video [here](https://youtu.be/jm_0nRQEn_o?si=skWJxRfMtx7hJxxp), Enjoy!
@@ -90,6 +94,7 @@ As of now, it is not known when 1.0.0 version will be released, as the engine st
 Despire great effort from the community, there is still a great deal of work to be done. If you want to contribute to Cubyz, check out the [Cubyz Contribution Guide](https://github.com/PixelGuys/Cubyz?tab=contributing-ov-file).
 
 ## Sources
+
 ---
 
 **Early History**
