@@ -2,15 +2,11 @@
 icon: material/box-shadow
 ---
 
-
-
-<script>
-    window.location.replace("/items/grass/vegetation/lush.html");
-</script>
-
-
-
 # Lush
+
+!!! infobox "Lush (item)"
+
+{{ item_infobox("cubyz:grass/vegetation/lush") }}
 
 !!! infobox "Lush"
 

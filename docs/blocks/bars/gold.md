@@ -2,15 +2,11 @@
 icon: material/box-shadow
 ---
 
-
-
-<script>
-    window.location.replace("/items/bars/gold.html");
-</script>
-
-
-
 # Gold
+
+!!! infobox "Gold (item)"
+
+{{ item_infobox("cubyz:bars/gold") }}
 
 !!! infobox "Gold"
 

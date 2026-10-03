@@ -2,15 +2,11 @@
 icon: material/box-shadow
 ---
 
-
-
-<script>
-    window.location.replace("/items/fence/baobab.html");
-</script>
-
-
-
 # Baobab
+
+!!! infobox "Baobab (item)"
+
+{{ item_infobox("cubyz:fence/baobab") }}
 
 !!! infobox "Baobab"
 

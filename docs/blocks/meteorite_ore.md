@@ -2,15 +2,11 @@
 icon: material/pickaxe
 ---
 
-
-
-<script>
-    window.location.replace("/items/meteorite_ore.html");
-</script>
-
-
-
 # Meteorite Ore
+
+!!! infobox "Meteorite Ore (item)"
+
+{{ item_infobox("cubyz:meteorite_ore") }}
 
 !!! infobox "Meteorite Ore"
 

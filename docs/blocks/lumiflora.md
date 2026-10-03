@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/lumiflora.html");
-</script>
-
-
-
 # Lumiflora
+
+!!! infobox "Lumiflora (item)"
+
+{{ item_infobox("cubyz:lumiflora") }}
 
 !!! infobox "Lumiflora"
 

@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/cornflower.html");
-</script>
-
-
-
 # Cornflower
+
+!!! infobox "Cornflower (item)"
+
+{{ item_infobox("cubyz:cornflower") }}
 
 !!! infobox "Cornflower"
 

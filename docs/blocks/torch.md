@@ -2,15 +2,11 @@
 icon: material/axe
 ---
 
-
-
-<script>
-    window.location.replace("/items/torch.html");
-</script>
-
-
-
 # Torch
+
+!!! infobox "Torch (item)"
+
+{{ item_infobox("cubyz:torch") }}
 
 !!! infobox "Torch"
 

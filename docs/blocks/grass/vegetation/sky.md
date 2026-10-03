@@ -2,15 +2,11 @@
 icon: material/box-shadow
 ---
 
-
-
-<script>
-    window.location.replace("/items/grass/vegetation/sky.html");
-</script>
-
-
-
 # Sky
+
+!!! infobox "Sky (item)"
+
+{{ item_infobox("cubyz:grass/vegetation/sky") }}
 
 !!! infobox "Sky"
 

@@ -2,15 +2,11 @@
 icon: material/axe
 ---
 
-
-
-<script>
-    window.location.replace("/items/bellows.html");
-</script>
-
-
-
 # Bellows
+
+!!! infobox "Bellows (item)"
+
+{{ item_infobox("cubyz:bellows") }}
 
 !!! infobox "Bellows"
 

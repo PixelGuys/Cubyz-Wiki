@@ -2,15 +2,11 @@
 icon: material/pickaxe
 ---
 
-
-
-<script>
-    window.location.replace("/items/iron_ore.html");
-</script>
-
-
-
 # Iron Ore
+
+!!! infobox "Iron Ore (item)"
+
+{{ item_infobox("cubyz:iron_ore") }}
 
 !!! infobox "Iron Ore"
 

@@ -2,15 +2,11 @@
 icon: material/box-shadow
 ---
 
-
-
-<script>
-    window.location.replace("/items/sign/cirrus.html");
-</script>
-
-
-
 # Cirrus
+
+!!! infobox "Cirrus (item)"
+
+{{ item_infobox("cubyz:sign/cirrus") }}
 
 !!! infobox "Cirrus"
 

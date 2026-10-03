@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/castilleja.html");
-</script>
-
-
-
 # Castilleja
+
+!!! infobox "Castilleja (item)"
+
+{{ item_infobox("cubyz:castilleja") }}
 
 !!! infobox "Castilleja"
 

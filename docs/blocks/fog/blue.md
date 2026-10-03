@@ -2,15 +2,11 @@
 icon: material/box-shadow
 ---
 
-
-
-<script>
-    window.location.replace("/items/fog/blue.html");
-</script>
-
-
-
 # Blue
+
+!!! infobox "Blue (item)"
+
+{{ item_infobox("cubyz:fog/blue") }}
 
 !!! infobox "Blue"
 

@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/glimmergill.html");
-</script>
-
-
-
 # Glimmergill
+
+!!! infobox "Glimmergill (item)"
+
+{{ item_infobox("cubyz:glimmergill") }}
 
 !!! infobox "Glimmergill"
 

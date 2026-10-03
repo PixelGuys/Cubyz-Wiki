@@ -2,15 +2,11 @@
 icon: material/pickaxe
 ---
 
-
-
-<script>
-    window.location.replace("/items/ruby_ore.html");
-</script>
-
-
-
 # Ruby Ore
+
+!!! infobox "Ruby Ore (item)"
+
+{{ item_infobox("cubyz:ruby_ore") }}
 
 !!! infobox "Ruby Ore"
 

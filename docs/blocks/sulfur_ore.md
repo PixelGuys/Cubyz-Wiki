@@ -2,15 +2,11 @@
 icon: material/pickaxe
 ---
 
-
-
-<script>
-    window.location.replace("/items/sulfur_ore.html");
-</script>
-
-
-
 # Sulfur Ore
+
+!!! infobox "Sulfur Ore (item)"
+
+{{ item_infobox("cubyz:sulfur_ore") }}
 
 !!! infobox "Sulfur Ore"
 

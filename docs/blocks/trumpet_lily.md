@@ -2,15 +2,11 @@
 icon: material/sickle
 ---
 
-
-
-<script>
-    window.location.replace("/items/trumpet_lily.html");
-</script>
-
-
-
 # Trumpet Lily
+
+!!! infobox "Trumpet Lily (item)"
+
+{{ item_infobox("cubyz:trumpet_lily") }}
 
 !!! infobox "Trumpet Lily"
 

@@ -2,15 +2,11 @@
 icon: material/axe
 ---
 
-
-
-<script>
-    window.location.replace("/items/branch/palm.html");
-</script>
-
-
-
 # Palm
+
+!!! infobox "Palm (item)"
+
+{{ item_infobox("cubyz:branch/palm") }}
 
 !!! infobox "Palm"
 
