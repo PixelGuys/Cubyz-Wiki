@@ -2,13 +2,9 @@
 icon: material/axe
 ---
 
-
-
 <script>
-    window.location.replace("/items/torch/lumi.html");
+    window.location.replace("../items/torch/lumi.html");
 </script>
-
-
 
 # Lumi
 

@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/cloth/dark_grey.html");
+    window.location.replace("../items/cloth/dark_grey.html");
 </script>
-
-
 
 # Dark Grey
 

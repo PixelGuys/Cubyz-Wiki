@@ -2,13 +2,9 @@
 icon: material/pickaxe
 ---
 
-
-
 <script>
-    window.location.replace("/items/gold_ore.html");
+    window.location.replace("../items/gold_ore.html");
 </script>
-
-
 
 # Gold Ore
 

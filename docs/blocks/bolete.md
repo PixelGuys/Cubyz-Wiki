@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/bolete.html");
+    window.location.replace("../items/bolete.html");
 </script>
-
-
 
 # Bolete
 

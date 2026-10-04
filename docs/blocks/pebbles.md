@@ -2,13 +2,9 @@
 icon: material/pickaxe
 ---
 
-
-
 <script>
-    window.location.replace("/items/pebbles.html");
+    window.location.replace("../items/pebbles.html");
 </script>
-
-
 
 # Pebbles
 

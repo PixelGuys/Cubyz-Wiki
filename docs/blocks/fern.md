@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/fern.html");
+    window.location.replace("../items/fern.html");
 </script>
-
-
 
 # Fern
 
@@ -30,5 +26,5 @@ icon: material/sickle
 
 ## History
 
-> + Texture updated in version 0.1.0
-> + Added in version 0.0.0
+> - Texture updated in version 0.1.0
+> - Added in version 0.0.0

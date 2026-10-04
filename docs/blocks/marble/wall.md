@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/marble/wall.html");
+    window.location.replace("../items/marble/wall.html");
 </script>
-
-
 
 # Wall
 

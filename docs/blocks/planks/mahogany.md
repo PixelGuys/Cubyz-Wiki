@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/planks/mahogany.html");
+    window.location.replace("../items/planks/mahogany.html");
 </script>
-
-
 
 # Mahogany
 

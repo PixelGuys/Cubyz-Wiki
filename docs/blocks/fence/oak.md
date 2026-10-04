@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/fence/oak.html");
+    window.location.replace("../items/fence/oak.html");
 </script>
-
-
 
 # Oak
 

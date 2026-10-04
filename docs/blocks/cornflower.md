@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/cornflower.html");
+    window.location.replace("../items/cornflower.html");
 </script>
-
-
 
 # Cornflower
 

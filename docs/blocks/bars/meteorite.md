@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/bars/meteorite.html");
+    window.location.replace("../items/bars/meteorite.html");
 </script>
-
-
 
 # Meteorite
 

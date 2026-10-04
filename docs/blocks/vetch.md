@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/vetch.html");
+    window.location.replace("../items/vetch.html");
 </script>
-
-
 
 # Vetch
 
@@ -30,5 +26,5 @@ icon: material/sickle
 
 ## History
 
-> + Block model updated in version 0.4.1
-> + Added in version 0.0.0
+> - Block model updated in version 0.4.1
+> - Added in version 0.0.0

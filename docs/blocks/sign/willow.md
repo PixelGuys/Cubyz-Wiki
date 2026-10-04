@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/sign/willow.html");
+    window.location.replace("../items/sign/willow.html");
 </script>
-
-
 
 # Willow
 

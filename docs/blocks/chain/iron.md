@@ -2,13 +2,9 @@
 icon: material/pickaxe
 ---
 
-
-
 <script>
-    window.location.replace("/items/chain/iron.html");
+    window.location.replace("../items/chain/iron.html");
 </script>
-
-
 
 # Iron
 

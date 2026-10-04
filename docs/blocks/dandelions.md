@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/dandelions.html");
+    window.location.replace("../items/dandelions.html");
 </script>
-
-
 
 # Dandelions
 

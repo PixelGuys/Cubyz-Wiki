@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/dead_leaf_pile.html");
+    window.location.replace("../items/dead_leaf_pile.html");
 </script>
-
-
 
 # Dead Leaf Pile
 

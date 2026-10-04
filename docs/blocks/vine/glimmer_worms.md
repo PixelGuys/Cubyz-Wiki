@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/vine/glimmer_worms.html");
+    window.location.replace("../items/vine/glimmer_worms.html");
 </script>
-
-
 
 # Glimmer Worms
 

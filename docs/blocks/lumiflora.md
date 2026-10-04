@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/lumiflora.html");
+    window.location.replace("../items/lumiflora.html");
 </script>
-
-
 
 # Lumiflora
 

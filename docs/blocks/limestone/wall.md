@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/limestone/wall.html");
+    window.location.replace("../items/limestone/wall.html");
 </script>
-
-
 
 # Wall
 

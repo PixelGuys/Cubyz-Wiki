@@ -2,13 +2,9 @@
 icon: material/pickaxe
 ---
 
-
-
 <script>
-    window.location.replace("/items/diamond_ore.html");
+    window.location.replace("../items/diamond_ore.html");
 </script>
-
-
 
 # Diamond Ore
 

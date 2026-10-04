@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/duckweed.html");
+    window.location.replace("../items/duckweed.html");
 </script>
-
-
 
 # Duckweed
 

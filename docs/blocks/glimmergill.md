@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/glimmergill.html");
+    window.location.replace("../items/glimmergill.html");
 </script>
-
-
 
 # Glimmergill
 

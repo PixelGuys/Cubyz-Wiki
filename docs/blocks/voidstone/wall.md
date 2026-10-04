@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/voidstone/wall.html");
+    window.location.replace("../items/voidstone/wall.html");
 </script>
-
-
 
 # Wall
 

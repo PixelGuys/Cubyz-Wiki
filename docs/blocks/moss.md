@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/moss.html");
+    window.location.replace("../items/moss.html");
 </script>
-
-
 
 # Moss
 

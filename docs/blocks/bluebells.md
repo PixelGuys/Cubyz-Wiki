@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/bluebells.html");
+    window.location.replace("../items/bluebells.html");
 </script>
-
-
 
 # Bluebells
 
@@ -22,7 +18,7 @@ icon: material/sickle
 
 ## Obtaining
 
-> Bluebells can be found naturally generated in flower patches and abundantly in the bluebell woods biome. Can only be collected using a [sickle](../gameplay/game_mechanics.md#building-and-destruction). 
+> Bluebells can be found naturally generated in flower patches and abundantly in the bluebell woods biome. Can only be collected using a [sickle](../gameplay/game_mechanics.md#building-and-destruction).
 
 ## Usage
 
@@ -30,5 +26,5 @@ icon: material/sickle
 
 ## History
 
-> + Block model updated in version 0.4.1
-> + Added in version 0.1.0
+> - Block model updated in version 0.4.1
+> - Added in version 0.1.0

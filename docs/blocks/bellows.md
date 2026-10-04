@@ -2,13 +2,9 @@
 icon: material/axe
 ---
 
-
-
 <script>
-    window.location.replace("/items/bellows.html");
+    window.location.replace("../items/bellows.html");
 </script>
-
-
 
 # Bellows
 

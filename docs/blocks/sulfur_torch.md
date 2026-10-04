@@ -2,13 +2,9 @@
 icon: material/axe
 ---
 
-
-
 <script>
-    window.location.replace("/items/sulfur_torch.html");
+    window.location.replace("../items/sulfur_torch.html");
 </script>
-
-
 
 # Sulfur Torch
 

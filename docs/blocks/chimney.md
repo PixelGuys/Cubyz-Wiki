@@ -2,13 +2,9 @@
 icon: material/pickaxe
 ---
 
-
-
 <script>
-    window.location.replace("/items/chimney.html");
+    window.location.replace("../items/chimney.html");
 </script>
-
-
 
 # Chimney
 

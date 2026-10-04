@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/tussock.html");
+    window.location.replace("../items/tussock.html");
 </script>
-
-
 
 # Tussock
 

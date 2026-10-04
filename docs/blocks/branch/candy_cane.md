@@ -2,13 +2,9 @@
 icon: material/axe
 ---
 
-
-
 <script>
-    window.location.replace("/items/branch/candy_cane.html");
+    window.location.replace("../items/branch/candy_cane.html");
 </script>
-
-
 
 # Candy Cane
 

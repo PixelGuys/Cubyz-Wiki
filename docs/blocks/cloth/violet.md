@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/cloth/violet.html");
+    window.location.replace("../items/cloth/violet.html");
 </script>
-
-
 
 # Violet
 

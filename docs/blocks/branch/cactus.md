@@ -2,13 +2,9 @@
 icon: material/axe
 ---
 
-
-
 <script>
-    window.location.replace("/items/branch/cactus.html");
+    window.location.replace("../items/branch/cactus.html");
 </script>
-
-
 
 # Cactus
 

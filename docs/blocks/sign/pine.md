@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/sign/pine.html");
+    window.location.replace("../items/sign/pine.html");
 </script>
-
-
 
 # Pine
 
