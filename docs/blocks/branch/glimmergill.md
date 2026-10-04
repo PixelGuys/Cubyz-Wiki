@@ -2,13 +2,9 @@
 icon: material/axe
 ---
 
-
-
 <script>
-    window.location.replace("/items/branch/glimmergill.html");
+    window.location.replace("../items/branch/glimmergill.html");
 </script>
-
-
 
 # Glimmergill
 

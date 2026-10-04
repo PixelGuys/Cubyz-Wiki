@@ -2,13 +2,9 @@
 icon: material/pickaxe
 ---
 
-
-
 <script>
-    window.location.replace("/items/silver_ore.html");
+    window.location.replace("../items/silver_ore.html");
 </script>
-
-
 
 # Silver Ore
 

@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/planks/baobab.html");
+    window.location.replace("../items/planks/baobab.html");
 </script>
-
-
 
 # Baobab
 

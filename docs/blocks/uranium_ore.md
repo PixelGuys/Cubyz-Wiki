@@ -2,13 +2,9 @@
 icon: material/pickaxe
 ---
 
-
-
 <script>
-    window.location.replace("/items/uranium_ore.html");
+    window.location.replace("../items/uranium_ore.html");
 </script>
-
-
 
 # Uranium Ore
 

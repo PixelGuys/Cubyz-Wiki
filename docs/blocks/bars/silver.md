@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/bars/silver.html");
+    window.location.replace("../items/bars/silver.html");
 </script>
-
-
 
 # Silver
 

@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/sandstone/wall.html");
+    window.location.replace("../items/sandstone/wall.html");
 </script>
-
-
 
 # Wall
 

@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/yellow_leaf_pile.html");
+    window.location.replace("../items/yellow_leaf_pile.html");
 </script>
-
-
 
 # Yellow Leaf Pile
 

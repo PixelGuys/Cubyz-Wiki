@@ -2,13 +2,9 @@
 icon: material/axe
 ---
 
-
-
 <script>
-    window.location.replace("/items/branch/baobab.html");
+    window.location.replace("../items/branch/baobab.html");
 </script>
-
-
 
 # Baobab
 

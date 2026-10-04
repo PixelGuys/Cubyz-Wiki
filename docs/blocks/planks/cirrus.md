@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/planks/cirrus.html");
+    window.location.replace("../items/planks/cirrus.html");
 </script>
-
-
 
 # Cirrus
 

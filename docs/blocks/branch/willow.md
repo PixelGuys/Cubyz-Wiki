@@ -2,13 +2,9 @@
 icon: material/axe
 ---
 
-
-
 <script>
-    window.location.replace("/items/branch/willow.html");
+    window.location.replace("../items/branch/willow.html");
 </script>
-
-
 
 # Willow
 

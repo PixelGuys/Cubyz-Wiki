@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/monstera.html");
+    window.location.replace("../items/monstera.html");
 </script>
-
-
 
 # Monstera
 

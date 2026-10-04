@@ -2,13 +2,9 @@
 icon: material/pickaxe
 ---
 
-
-
 <script>
-    window.location.replace("/items/obsidian.html");
+    window.location.replace("../items/obsidian.html");
 </script>
-
-
 
 # Obsidian
 

@@ -2,13 +2,9 @@
 icon: material/axe
 ---
 
-
-
 <script>
-    window.location.replace("/items/branch/palm.html");
+    window.location.replace("../items/branch/palm.html");
 </script>
-
-
 
 # Palm
 

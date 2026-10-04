@@ -2,13 +2,9 @@
 icon: material/pickaxe
 ---
 
-
-
 <script>
-    window.location.replace("/items/sulfur_ore.html");
+    window.location.replace("../items/sulfur_ore.html");
 </script>
-
-
 
 # Sulfur Ore
 

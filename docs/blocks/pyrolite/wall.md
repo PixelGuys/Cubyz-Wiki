@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/pyrolite/wall.html");
+    window.location.replace("../items/pyrolite/wall.html");
 </script>
-
-
 
 # Wall
 

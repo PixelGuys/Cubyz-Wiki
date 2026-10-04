@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/ivy.html");
+    window.location.replace("../items/ivy.html");
 </script>
-
-
 
 # Ivy
 

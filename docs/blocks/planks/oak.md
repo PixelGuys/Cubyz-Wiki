@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/planks/oak.html");
+    window.location.replace("../items/planks/oak.html");
 </script>
-
-
 
 # Oak
 

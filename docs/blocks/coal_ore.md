@@ -2,13 +2,9 @@
 icon: material/pickaxe
 ---
 
-
-
 <script>
-    window.location.replace("/items/coal_ore.html");
+    window.location.replace("../items/coal_ore.html");
 </script>
-
-
 
 # Coal Ore
 

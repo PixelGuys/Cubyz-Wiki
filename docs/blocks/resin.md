@@ -2,13 +2,9 @@
 icon: material/axe
 ---
 
-
-
 <script>
-    window.location.replace("/items/resin.html");
+    window.location.replace("../items/resin.html");
 </script>
-
-
 
 # Resin
 

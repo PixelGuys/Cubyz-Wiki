@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/lantern/coal.html");
+    window.location.replace("../items/lantern/coal.html");
 </script>
-
-
 
 # Coal
 

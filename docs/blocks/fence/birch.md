@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/fence/birch.html");
+    window.location.replace("../items/fence/birch.html");
 </script>
-
-
 
 # Birch
 

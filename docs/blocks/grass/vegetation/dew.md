@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/grass/vegetation/dew.html");
+    window.location.replace("../items/grass/vegetation/dew.html");
 </script>
-
-
 
 # Dew
 

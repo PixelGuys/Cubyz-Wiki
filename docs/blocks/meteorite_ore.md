@@ -2,13 +2,9 @@
 icon: material/pickaxe
 ---
 
-
-
 <script>
-    window.location.replace("/items/meteorite_ore.html");
+    window.location.replace("../items/meteorite_ore.html");
 </script>
-
-
 
 # Meteorite Ore
 

@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/fog/magenta.html");
+    window.location.replace("../items/fog/magenta.html");
 </script>
-
-
 
 # Magenta
 

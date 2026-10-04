@@ -2,13 +2,9 @@
 icon: material/axe
 ---
 
-
-
 <script>
-    window.location.replace("/items/branch/toadstool.html");
+    window.location.replace("../items/branch/toadstool.html");
 </script>
-
-
 
 # Toadstool
 

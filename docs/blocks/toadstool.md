@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/toadstool.html");
+    window.location.replace("../items/toadstool.html");
 </script>
-
-
 
 # Toadstool
 

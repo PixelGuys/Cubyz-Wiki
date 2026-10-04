@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/osier.html");
+    window.location.replace("../items/osier.html");
 </script>
-
-
 
 # Osier
 

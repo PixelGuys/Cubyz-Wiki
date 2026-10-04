@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/bars/iron.html");
+    window.location.replace("../items/bars/iron.html");
 </script>
-
-
 
 # Iron
 

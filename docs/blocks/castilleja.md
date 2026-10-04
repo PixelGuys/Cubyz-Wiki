@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/castilleja.html");
+    window.location.replace("../items/castilleja.html");
 </script>
-
-
 
 # Castilleja
 

@@ -1,16 +1,16 @@
 from __future__ import annotations
 
 import argparse
-from copy import deepcopy
 import sys
+from copy import deepcopy
 from functools import cached_property, lru_cache
 from pathlib import Path
-from typing import Any, ClassVar, Dict, Self, cast
+from typing import Any, ClassVar, Self, cast
 
 import jinja2
 import pydantic
-from scripts import zon
 
+from scripts import zon
 
 THIS_DIRECTORY = Path(__file__).parent.resolve()
 TEMPLATE_DIRECTORY = THIS_DIRECTORY / "templates"
@@ -116,7 +116,7 @@ def rebuild_items(args: CliArgs, assets: AssetDatabase) -> None:
 
         relative_path = file_path.relative_to(items_directory)
         content = file_path.read_text(encoding="utf-8")
-        data = cast(Dict, zon.loads(content))
+        data = cast(dict, zon.loads(content))
 
         id = Id.from_path("cubyz", relative_path)
         assets.items[id] = extract_item(assets, id, data)
@@ -174,7 +174,7 @@ def rebuild_blocks(args: CliArgs, assets: AssetDatabase) -> None:
 
         relative_path = file_path.relative_to(items_directory)
         content = file_path.read_text(encoding="utf-8")
-        data = cast(Dict, zon.loads(content))
+        data = cast(dict, zon.loads(content))
 
         base_dict = deepcopy(defaults.get(file_path.parent.as_posix(), {}))
         recursive_update(base_dict, data)
@@ -408,8 +408,8 @@ class Ore(AssetGenModel):
 
 
 class AssetDatabase(AssetGenModel):
-    items: Dict[Id, Item] = pydantic.Field(default_factory=dict)
-    blocks: Dict[Id, Block] = pydantic.Field(default_factory=dict)
+    items: dict[Id, Item] = pydantic.Field(default_factory=dict)
+    blocks: dict[Id, Block] = pydantic.Field(default_factory=dict)
 
     @classmethod
     def load_zon(cls, data: str) -> Self:

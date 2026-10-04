@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/fog/yellow.html");
+    window.location.replace("../items/fog/yellow.html");
 </script>
-
-
 
 # Yellow
 

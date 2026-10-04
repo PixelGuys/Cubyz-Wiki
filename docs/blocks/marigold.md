@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/marigold.html");
+    window.location.replace("../items/marigold.html");
 </script>
-
-
 
 # Marigold
 

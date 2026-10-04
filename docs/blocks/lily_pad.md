@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/lily_pad.html");
+    window.location.replace("../items/lily_pad.html");
 </script>
-
-
 
 # Lily Pad
 

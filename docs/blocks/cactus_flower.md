@@ -2,13 +2,9 @@
 icon: material/sickle
 ---
 
-
-
 <script>
-    window.location.replace("/items/cactus_flower.html");
+    window.location.replace("../items/cactus_flower.html");
 </script>
-
-
 
 # Cactus Flower
 

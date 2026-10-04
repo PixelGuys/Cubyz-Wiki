@@ -2,13 +2,9 @@
 icon: material/box-shadow
 ---
 
-
-
 <script>
-    window.location.replace("/items/bars/copper.html");
+    window.location.replace("../items/bars/copper.html");
 </script>
-
-
 
 # Copper
 
