@@ -32,7 +32,6 @@ Every biome is defined by a `zig.zon` file that contains all the data the world 
 | `fogDensity` | `f32` | Density of biome fog. | `1` |
 | `fogColor` | — | Fog color in hexidecimal. | `0xffbfe2ff` |
 | `skyColor` | — | Sky color in hexidecimal. | `.{0.46, 0.7, 1.0}` |
-| `structures` | `[]SimpleStructureModel` | Structures that can generate in the biome. | — |
 | `maxSubBiomeCount` | `f32` | Maximum number of sub-biomes allowed per biome instance. | — |
 | `music` | `String` | Music file that loops while the player is in the biome. | — |
 | `isValidPlayerSpawn` | `bool` | Whether players can spawn in this biome. Used to ensure the player starts in a biome with trees. | — |
@@ -70,6 +69,7 @@ List of valid fields:
 
 Ground structure definitions.
 
+Example usage:
 ```zig
 .ground_structure = .{
 	"1 to 2 mod:block"
@@ -79,8 +79,9 @@ Ground structure definitions.
 
 ### `stripes`
 
-Array of stripes replacing the biome's `stoneBlock`.
+Stripes that replace the biome's `stoneBlock`.
 
+Example usage:
 ```zig
 .stripes = .{
 	.{
@@ -93,10 +94,27 @@ Array of stripes replacing the biome's `stoneBlock`.
 },
 ```
 
+### `structures`
+Structures that can generate in the biome.
+
+Example usage with an SBB structure:
+```zig
+.structures = .{
+	.{
+		.id = "cubyz:sbb",
+		.structure = "mod:sbb",
+		.placeMode = .degradable,
+		.chance = 1,
+	},
+},
+```
+
+
 ### `parentBiomes`
 
 Parent biomes this biome can generate within. `chance` defaults to `1` if omitted.
 
+Example usage:
 ```zig
 .parentBiomes = .{
 	.{
@@ -110,6 +128,7 @@ Parent biomes this biome can generate within. `chance` defaults to `1` if omitte
 
 Transition biome definitions.
 
+Example usage:
 ```zig
 .transitionBiomes = .{
 	.{
