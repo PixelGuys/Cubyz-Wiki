@@ -1,5 +1,5 @@
 ---
-icon: material/axe
+icon: wiki/branch-candy_cane
 ---
 
 <script>

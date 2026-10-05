@@ -1,5 +1,5 @@
 ---
-icon: material/alpha-i-box-outline
+icon: wiki/dead_leaf_pile
 ---
 
 # Dead Leaf Pile

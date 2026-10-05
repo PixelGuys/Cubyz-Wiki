@@ -1,5 +1,5 @@
 ---
-icon: material/alpha-i-box-outline
+icon: wiki/cactus_flower
 ---
 
 # Cactus Flower

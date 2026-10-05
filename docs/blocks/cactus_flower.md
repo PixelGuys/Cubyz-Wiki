@@ -1,5 +1,5 @@
 ---
-icon: material/sickle
+icon: wiki/cactus_flower
 ---
 
 <script>
