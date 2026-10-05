@@ -1,5 +1,5 @@
 ---
-icon: material/alpha-m-box-outline
+icon: wiki/silver_ingot
 ---
 
 # Silver Ingot

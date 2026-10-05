@@ -10,12 +10,13 @@ DATABSE_FILE = THIS_DIRECTORY / "scripts" / "assets.zon"
 
 sys.path.append(THIS_DIRECTORY.as_posix())
 
-from scripts.assetgen2 import ENV, AssetDatabase, Id, load_db_cached
+from scripts.assetgen2 import ENV, AssetDatabase, Id, load_db_cached, write_nav_icons
 
 if TYPE_CHECKING:
     from zensical.extensions.macros import MacroEnv
 
 db = load_db_cached(DATABSE_FILE)
+write_nav_icons(db)
 
 
 def define_env(env: MacroEnv):

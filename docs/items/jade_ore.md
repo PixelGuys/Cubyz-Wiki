@@ -1,5 +1,5 @@
 ---
-icon: material/alpha-m-box-outline
+icon: wiki/jade_ore
 ---
 
 # Jade Ore

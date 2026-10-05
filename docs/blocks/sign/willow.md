@@ -1,5 +1,5 @@
 ---
-icon: material/box-shadow
+icon: wiki/sign-willow
 ---
 
 <script>

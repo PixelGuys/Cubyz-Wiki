@@ -1,5 +1,5 @@
 ---
-icon: material/sickle
+icon: wiki/red_leaf_pile
 ---
 
 <script>

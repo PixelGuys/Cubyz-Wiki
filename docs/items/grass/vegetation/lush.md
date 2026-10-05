@@ -1,5 +1,5 @@
 ---
-icon: material/alpha-i-box-outline
+icon: wiki/grass-vegetation-lush
 ---
 
 # Lush

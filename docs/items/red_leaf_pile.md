@@ -1,5 +1,5 @@
 ---
-icon: material/alpha-i-box-outline
+icon: wiki/red_leaf_pile
 ---
 
 # Red Leaf Pile
