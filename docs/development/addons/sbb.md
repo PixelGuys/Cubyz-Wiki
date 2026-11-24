@@ -1,6 +1,8 @@
 # Structure Building Blocks
 
-Structure Building Blocks (or SBBs) are used to create Blueprints, which can be used to generate structures. Every SBB structure needs a `.zig.zon` file specifying its Blueprints, and its children, if it has any.
+Blueprints are snapshots of the world that capture information about the blocks and their rotations within its volume.
+
+Structure Building Block (or SBB) structures arrange individual blueprints to create larger structures. The way SBBs are pieced together is determined by the SBB Origin and SBB Child blocks within a Blueprint.
 
 ### SBB Origin Block
 
