@@ -16,5 +16,8 @@ These are the values used for procedural tool crafting.
 * `hardnessDamage: f32` - How much damage the material provides based on its hardness
 * `swingSpeed: f32` - The speed of one swing
 * `textureRoughness: f32` - A pass of roughness to the texture
-* `colors:` - Palette of 5 colors from darkest to lightest
 * `modifiers:` - [Modifiers](Modifiers)
+
+#### `colorTexture: texturePath`
+
+The palette texture used for this item when used as a procedural crafting material (see above.)
