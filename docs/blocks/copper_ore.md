@@ -1,5 +1,5 @@
 ---
-icon: material/pickaxe
+icon: wiki/copper_ore
 ---
 
 <script>

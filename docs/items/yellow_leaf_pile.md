@@ -1,5 +1,5 @@
 ---
-icon: material/alpha-i-box-outline
+icon: wiki/yellow_leaf_pile
 ---
 
 # Yellow Leaf Pile

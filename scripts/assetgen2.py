@@ -17,7 +17,16 @@ TEMPLATE_DIRECTORY = THIS_DIRECTORY / "templates"
 CUBYZ_REPO_RAW_CONTENT_BASE_URL = (
     "https://raw.githubusercontent.com/PixelGuys/Cubyz/refs/tags/0.4.1"
 )
+TEXTURE_ATTRIBUTES = ("texture", "texture_top", "texture_bottom", "texture_front", "texture_left", "texture_right")
 DOCS_FOLDER = THIS_DIRECTORY.parent / "docs"
+NAV_ICONS_FOLDER = THIS_DIRECTORY.parent / "theme" / "overrides" / ".icons" / "wiki"
+NAV_ICON_SVG = (
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
+    'viewBox="0 0 24 24" width="24" height="24">'
+    '<image href="{url}" xlink:href="{url}" x="3" y="3" width="18" height="18" '
+    'preserveAspectRatio="xMidYMid meet" image-rendering="pixelated"/>'
+    "</svg>"
+)
 
 LOADER = jinja2.FileSystemLoader([TEMPLATE_DIRECTORY.as_posix()])
 ENV = jinja2.Environment(loader=LOADER)
@@ -303,6 +312,22 @@ class Asset(AssetGenModel):
     def wiki_link(self) -> str:
         return f"/{self.path_no_extension}.html"
 
+    @property
+    def nav_icon_url(self) -> str | None:
+        """Texture used as this asset's nav icon, see scripts/gen_nav_icons.py."""
+        names = [getattr(self, attr, None) for attr in TEXTURE_ATTRIBUTES]
+        names += getattr(self, "textures", None) or []
+        for name in names:
+            if name:
+                return f"{CUBYZ_REPO_RAW_CONTENT_BASE_URL}/{self.TEXTURE_PATH}/{name}"
+        return None
+
+    @property
+    def nav_icon(self) -> str | None:
+        if self.nav_icon_url is None:
+            return None
+        return "wiki/" + self.self_id.path.replace("/", "-")
+
 
 class Item(Asset):
     ASSET_PATH: ClassVar[str] = "assets/cubyz/items"
@@ -316,6 +341,10 @@ class Item(Asset):
 
     @property
     def icon(self) -> str:
+        if self.nav_icon:
+            return self.nav_icon
+        if self.block and self.block.nav_icon:
+            return self.block.nav_icon
         return (
             "material/alpha-i-box-outline"
             if self.material is None
@@ -362,6 +391,8 @@ class Block(Asset):
 
     @property
     def icon(self) -> str:
+        if self.nav_icon:
+            return self.nav_icon
         tag_icon_pairs = (
             ("mineable", "material/pickaxe"),
             ("choppable", "material/axe"),
@@ -442,6 +473,26 @@ class AssetDatabase(AssetGenModel):
 
     def __repr__(self) -> str:
         return "AssetDatabase"
+
+
+def write_nav_icons(db: AssetDatabase) -> None:
+    """Write the SVGs behind the `icon: wiki/...` page icons, each one showing the asset's texture."""
+    icons: dict[str, str] = {}
+    # Items come last so an item's own texture wins over its block's.
+    for assets in cast("tuple[dict[Id, Asset], ...]", (db.blocks, db.items)):
+        for asset in assets.values():
+            if asset.nav_icon:
+                icons[asset.nav_icon.removeprefix("wiki/") + ".svg"] = NAV_ICON_SVG.format(url=asset.nav_icon_url)
+
+    NAV_ICONS_FOLDER.mkdir(parents=True, exist_ok=True)
+    for stale in NAV_ICONS_FOLDER.glob("*.svg"):
+        if stale.name not in icons:
+            stale.unlink()
+    # Only write changed files so `zensical serve` doesn't see edits on every rebuild.
+    for name, svg in icons.items():
+        path = NAV_ICONS_FOLDER / name
+        if not path.is_file() or path.read_text(encoding="utf-8") != svg:
+            path.write_text(svg, encoding="utf-8")
 
 
 @lru_cache(16)

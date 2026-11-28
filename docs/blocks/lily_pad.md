@@ -1,5 +1,5 @@
 ---
-icon: material/sickle
+icon: wiki/lily_pad
 ---
 
 <script>

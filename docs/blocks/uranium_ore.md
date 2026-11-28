@@ -1,5 +1,5 @@
 ---
-icon: material/pickaxe
+icon: wiki/uranium_ore
 ---
 
 <script>

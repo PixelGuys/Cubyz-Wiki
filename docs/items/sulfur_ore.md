@@ -1,5 +1,5 @@
 ---
-icon: material/alpha-m-box-outline
+icon: wiki/sulfur_ore
 ---
 
 # Sulfur Ore

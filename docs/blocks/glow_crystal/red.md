@@ -1,5 +1,5 @@
 ---
-icon: material/box-shadow
+icon: wiki/glow_crystal-red
 ---
 
 

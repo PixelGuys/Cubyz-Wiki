@@ -1,5 +1,5 @@
 ---
-icon: material/alpha-i-box-outline
+icon: wiki/cloth-dark_grey
 ---
 
 # Dark Grey

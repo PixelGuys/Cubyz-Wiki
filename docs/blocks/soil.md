@@ -1,5 +1,5 @@
 ---
-icon: material/shovel
+icon: wiki/soil
 ---
 
 !!! infobox "Soil"

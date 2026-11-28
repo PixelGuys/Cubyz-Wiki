@@ -1,5 +1,5 @@
 ---
-icon: material/alpha-i-box-outline
+icon: wiki/copper_ore
 ---
 
 # Copper Ore

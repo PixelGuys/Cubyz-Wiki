@@ -1,3 +1,25 @@
 img {
     image-rendering: pixelated;
 }
+
+.md-nav__link {
+    display: flex;
+    align-items: center;
+}
+
+.md-nav__link svg.md-icon,
+.md-nav__link > svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+}
+
+.md-nav__link > svg:not(:has(image)) {
+    width: 1rem;
+    height: 1rem;
+}
+
+.md-nav__link .md-ellipsis {
+    line-height: 1.5rem;
+}

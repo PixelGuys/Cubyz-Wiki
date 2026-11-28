@@ -1,5 +1,5 @@
 ---
-icon: material/alpha-i-box-outline
+icon: wiki/coal_ore
 ---
 
 # Coal Ore

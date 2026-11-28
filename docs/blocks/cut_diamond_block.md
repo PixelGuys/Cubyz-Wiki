@@ -1,5 +1,5 @@
 ---
-icon: material/pickaxe
+icon: wiki/cut_diamond_block
 ---
 
 

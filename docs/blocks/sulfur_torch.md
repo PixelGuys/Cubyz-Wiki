@@ -1,5 +1,5 @@
 ---
-icon: material/axe
+icon: wiki/sulfur_torch
 ---
 
 <script>
